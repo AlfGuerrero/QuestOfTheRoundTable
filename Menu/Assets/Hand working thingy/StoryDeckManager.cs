@@ -127,7 +127,7 @@ using UnityEngine.UI;
 
 	void RemoveCard(string tempKey){
 		if (storyDeck.ContainsKey(tempKey) == true) {
-			Debug.Log ("KEY: [" + tempKey + "] VALUE: [" + storyDeck [tempKey] + "] SIZE : [" + getSizeOfDeck() + "]");
+			Debug.Log ("STORY KEY: [" + tempKey + "] VALUE: [" + storyDeck [tempKey] + "] SIZE : [" + getSizeOfDeck() + "]");
 			storyCardText.text = "Story Deck: " + tempKey;
 			storyDeck [tempKey] -= 1;
 			if (storyDeck [tempKey] == 0) {
