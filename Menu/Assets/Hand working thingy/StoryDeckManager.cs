@@ -114,9 +114,29 @@ using UnityEngine;
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown ("space")) {
-			foreach (KeyValuePair<string, int> item in storyDeck) {
-				print ("" +  item.Key + " "+ item.Value);
+			
+			RandomCardPicker ();
+		}
+
+		// RANDOm search than decrement the card that has been found...
+	}
+
+	void RandomCardPicker(){
+
+		int index = 0;
+		string tempKey = "";
+		foreach (KeyValuePair<string, int> item in storyDeck) {
+			int randInt =  Random.Range (0, storyDeck.Keys.Count);
+			if (index == randInt) {
+				tempKey = item.Key;
+				break;
 			}
+			index += 1;
+		}			
+		if (tempKey != "") {
+			print ("Removing Card " + tempKey + " Size of Deck: " + storyDeck.Keys.Count);
+
+			storyDeck.Remove (tempKey);
 		}
 	}
 }
