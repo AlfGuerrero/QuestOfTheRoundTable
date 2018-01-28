@@ -77,7 +77,34 @@ using UnityEngine;
 	* AMOURS 							= 8 Total
 	*/
 	public class StoryDeckManager : MonoBehaviour {
-
+	Dictionary<string, int> storyDeckTemp = new Dictionary<string, int>()
+	{
+		/* QUESTS */
+		{"Search for the Holy Grail", 		1},
+		{"Test of the Green Knight"	, 		1},
+		{"Search for the Questing Beast",	1},
+		{"Defend the Queen's Honor",		1},
+		{"Rescue the Fair Maiden",			1},
+		{"Journey Through the Enchanted Forest",1},
+		{"Vanquish King Arthur's Enemies",	2},
+		{"Slay the Dragon",					1},
+		{"Boar Hunt",						2},
+		{"Repel the Saxor Raiders",			1},
+		/* EVENTS */
+		{"Kings Recognition",				2},
+		{"Queen's Favor",					2},
+		{"Court Called to Camelot",			2},
+		{"Pox",								1},
+		{"Plague",							1},
+		{"Chivalous Deed",					1},
+		{"Prosperity Throughout the Realm", 1},
+		{"King's Call to Arms",				1},
+		/* TOURNAMENTS */
+		{"Tournament at Camelot ", 			1},
+		{"Tournament at Orkney",			1},
+		{"Tournament at Tintagel",			1},
+		{"Tournament at York",				1}
+	};
 	Dictionary<string, int> storyDeck = new Dictionary<string, int>()
 	{
 		/* QUESTS */
@@ -106,6 +133,8 @@ using UnityEngine;
 		{"Tournament at Tintagel",			1},
 		{"Tournament at York",				1}
 	};
+	string TempCard = "";
+	int deckSize;
 	// Use this for initialization
 	void Start () {
 
@@ -113,31 +142,65 @@ using UnityEngine;
 
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown ("space")) {
-			
-			RandomCardPicker ();
+		deckSize = getSizeOfDeck ();
+
+		if (Input.GetKeyDown ("m")) {
+			Debug.Log ("Size of Deck: " + deckSize);
 		}
+
+		if (Input.GetKeyDown ("space")) {
+			if (deckSize != 0) {
+				
+				TempCard = RandomCardPicker ();
+				RemoveCard (TempCard);
+			}
+
+			if (deckSize == 0){
+				Debug.Log ("Reshuffling Deck.");
+				storyDeck = storyDeckTemp;
+			} 
+		}
+		
+
+
 
 		// RANDOm search than decrement the card that has been found...
 	}
 
-	void RandomCardPicker(){
-
+	string RandomCardPicker(){
 		int index = 0;
+		int randInt = 0;
+
 		string tempKey = "";
 		foreach (KeyValuePair<string, int> item in storyDeck) {
-			int randInt =  Random.Range (0, storyDeck.Keys.Count);
+			randInt =  Random.Range (0, storyDeck.Keys.Count ); 
 			if (index == randInt) {
 				tempKey = item.Key;
-				break;
+				return tempKey;
 			}
 			index += 1;
-		}			
-		if (tempKey != "") {
-			print ("Removing Card " + tempKey + " Size of Deck: " + storyDeck.Keys.Count);
-
-			storyDeck.Remove (tempKey);
 		}
+
+		return  RandomCardPicker();	// If no card has been found: RECURSIFY
+
+	}
+
+	void RemoveCard(string tempKey){
+		if (storyDeck.ContainsKey(tempKey) == true) {
+			Debug.Log ("Removing Card: " + tempKey + " : " + storyDeck [tempKey]);
+
+			storyDeck [tempKey] -= 1;
+			if (storyDeck [tempKey] == 0) {
+				storyDeck.Remove (tempKey);
+			}
+		} else {
+			Debug.Log ("An Invalid Card has been randomly picked." + tempKey + " Try Again...");
+		}
+	}
+
+
+	int getSizeOfDeck(){
+		return storyDeck.Keys.Count;
 	}
 }
 	
