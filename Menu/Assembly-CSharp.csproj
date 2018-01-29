@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\GameMasterScript.cs" />
+     <Compile Include="Assets\Hand working thingy\AdventureDeckManager.cs" />
      <Compile Include="Assets\Hand working thingy\CurrentStoryCard.cs" />
      <Compile Include="Assets\Hand working thingy\DeckManager.cs" />
      <Compile Include="Assets\Hand working thingy\Draggable.cs" />

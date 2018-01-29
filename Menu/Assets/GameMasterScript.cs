@@ -9,13 +9,14 @@ public class GameMasterScript : MonoBehaviour {
 
 	int numPlayers;
 	int playerPlaying;
-
+	AdventureDeckManager adm;
 	public Canvas [] Players;
 	//public List<Canvas> Players = new List<Canvas>();
 
 
 	// Use this for initialization
 	void Start () {
+		adm =  GameObject.Find ("AdventureDeck").GetComponent<AdventureDeckManager> ();
 		InitializeGame ();
 
 		numPlayers = 2;
@@ -55,5 +56,7 @@ public class GameMasterScript : MonoBehaviour {
 			Debug.Log (Players [playerPlaying-1].transform.childCount);
 			Players [playerPlaying-1].transform.GetChild (i).gameObject.SetActive (true);
 		}
+			
+		adm.DrawACard (Players[playerPlaying - 1], adm.TempCard);
 	}
 }

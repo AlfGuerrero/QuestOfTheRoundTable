@@ -79,9 +79,11 @@ using UnityEngine.UI;
 	*/
 	public class AdventureDeckManager : MonoBehaviour {
 	Dictionary<string, int> adventureDeck = new Dictionary<string, int>(){};
-	string TempCard = "";
+	public string TempCard = "";
 	int deckSize;
 	public Text adventureCardText;
+	List<GameObject> cardObjects = new List<GameObject>();
+
 	// Use this for initialization
 	void Start () {
 		adventureCardText.text = "Adventure Deck.";
@@ -180,6 +182,11 @@ using UnityEngine.UI;
 
 	int getSizeOfDeck(){
 		return adventureDeck.Keys.Count;
+	}
+
+	public void DrawACard(Canvas playerDrawing, string cardName){
+		Debug.Log ("Drawing A Card");
+		//GameObject cardThing = Instantiate (cardObjects.Find(cardName), playerDrawing.transform.GetChild(0).transform);
 	}
 
 }
