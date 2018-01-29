@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour {
 
@@ -12,6 +13,12 @@ public class PlayerManager : MonoBehaviour {
 
 	protected int 	totalBattlePoints;
 	protected int 	totalBiddingPoints;
+
+	public Text playerName;	
+	public Text playerRank;
+	public Text playerShields;
+	public Text playerBattlePoints;
+	public Text playerBiddingPoints;
 
 	// Use this for initialization
 	public PlayerManager(){
@@ -30,11 +37,19 @@ public class PlayerManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown ("space")) {
-			print ("Player: " + getPlayerID() + " Of Rank: " + getRank());
+//			print ("Player: " + getPlayerID() + " Of Rank: " + getRank());
 //			print ("Number Of Cards:" + getCardAmount());
 //			print ("Number Of Shields:" + getShieldAmount());
 //			print ("Total Battle Points:" + getBattlePoints());
 //			print ("Total Bidding Points:" + getBiddingPoints());
+
+			playerName.text 			= "Player: " 		+ getPlayerID ();
+			playerRank.text 			= "Rank: " 			+ getRank ();
+			playerShields.text			= "Shields: " 		+ getShieldAmount ();
+			playerBattlePoints.text 	= "Battle Points: "	+ getBattlePoints ();
+			playerBiddingPoints.text 	= "Bidding Points: "+ getBiddingPoints ();
+
+
 		}
 	}
 
