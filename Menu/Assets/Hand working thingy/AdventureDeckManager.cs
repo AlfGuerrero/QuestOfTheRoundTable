@@ -99,6 +99,7 @@ using UnityEngine.UI;
 
 				TempCard = RandomCardPicker ();
 				RemoveCard (TempCard);
+				createCardObject (TempCard);
 			}
 
 			if (deckSize == 0){
@@ -106,6 +107,14 @@ using UnityEngine.UI;
 				populateDeck ();
 			}
 		}
+
+	}
+
+	void createCardObject(string name){
+		GameObject hand = GameObject.FindGameObjectWithTag ("HandOne");
+		GameObject instance = Instantiate(Resources.Load(name, typeof(GameObject))) as GameObject;
+		//(Instantiate (m_Prefab, position, rotation) as GameObject).transform.parent = parentGameObject.transform;
+		instance.transform.SetParent (hand.transform, false);
 
 	}
 
@@ -129,7 +138,7 @@ using UnityEngine.UI;
 
 	void RemoveCard(string tempKey){
 		if (adventureDeck.ContainsKey(tempKey) == true) {
-			Debug.Log ("ADVENTURE KEY: [" + tempKey + "] VALUE: [" + adventureDeck [tempKey] + "] SIZE : [" + getSizeOfDeck() + "]");
+			//Debug.Log ("ADVENTURE KEY: [" + tempKey + "] VALUE: [" + adventureDeck [tempKey] + "] SIZE : [" + getSizeOfDeck() + "]");
 			adventureCardText.text = "Adventure Deck: " + tempKey;
 			adventureDeck [tempKey] -= 1;
 			if (adventureDeck [tempKey] == 0) {
@@ -139,6 +148,7 @@ using UnityEngine.UI;
 			Debug.Log ("An Invalid Card has been randomly picked." + tempKey + " Error...");
 		}
 	}
+
 
 	void populateDeck(){
 		/* QUESTS */
