@@ -47,11 +47,15 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\GameMasterScript.cs" />
+     <Compile Include="Assets\Hand working thingy\AdventureDeckManager.cs" />
+     <Compile Include="Assets\Hand working thingy\CurrentStoryCard.cs" />
      <Compile Include="Assets\Hand working thingy\DeckManager.cs" />
      <Compile Include="Assets\Hand working thingy\Draggable.cs" />
+     <Compile Include="Assets\Hand working thingy\GameController.cs" />
      <Compile Include="Assets\Hand working thingy\HandManager.cs" />
      <Compile Include="Assets\Hand working thingy\MouseOver.cs" />
-     <Compile Include="Assets\Hand working thingy\StoryCardDetails.cs" />
+     <Compile Include="Assets\Hand working thingy\PlayerManager.cs" />
+     <Compile Include="Assets\Hand working thingy\StoryDeckManager.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
