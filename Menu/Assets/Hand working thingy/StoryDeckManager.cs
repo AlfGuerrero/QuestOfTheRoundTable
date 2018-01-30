@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.TestTools;
+using NUnit.Framework;
 /*
  * RANDOM SEARCH.... 
  * =======  Cards  ======
@@ -79,20 +81,24 @@ using UnityEngine.UI;
 	*/
 	public class StoryDeckManager : MonoBehaviour {
 
-	Dictionary<string, int> storyDeck = new Dictionary<string, int>(){};
-	string TempCard = "";
-	int deckSize;
 	public Text storyCardText;
+	Dictionary<string, int> storyDeck = new Dictionary<string, int>(){};
+
+	public string TempCard = "";
+	public string tempKey = "";
+	public int deckSize;
+	public int index;
+	public int randInt;
 
 	//Quests, Events, Tournaments
 	public Sprite[] cards;
 
 	// Use this for initialization
 	void Start () {
-		storyCardText.text = "Story Deck.";
-		populateDeck ();
+		//storyCardText.text = "Story Deck.";
+		populateDeck (storyDeck);
 	}
-
+		
 	// Update is called once per frame
 	void Update () {
 		deckSize = getSizeOfDeck ();
@@ -102,24 +108,20 @@ using UnityEngine.UI;
 				
 				TempCard = RandomCardPicker ();
 				setSprite (TempCard);
-				RemoveCard (TempCard);
+				RemoveCard (storyDeck, TempCard);
 			}
 
 			if (deckSize == 0){
 				Debug.Log ("Reshuffling Deck.");
-				populateDeck ();
+				populateDeck (storyDeck);
 			} 
 		}
-
-
-
 	}
 
-	string RandomCardPicker(){
-		int index = 0;
-		int randInt = 0;
-
-		string tempKey = "";
+	public string RandomCardPicker(){
+	    tempKey = "";
+		index = 0;
+		randInt = 0;
 		foreach (KeyValuePair<string, int> item in storyDeck) {
 			randInt =  Random.Range (0, getSizeOfDeck()); 
 			if (index == randInt) {
@@ -130,53 +132,57 @@ using UnityEngine.UI;
 		}
 
 		return  RandomCardPicker();	// If no card has been found: RECURSIFY
-
 	}
 
-	void RemoveCard(string tempKey){
-		if (storyDeck.ContainsKey(tempKey) == true) {
-			Debug.Log ("STORY KEY: [" + tempKey + "] VALUE: [" + storyDeck [tempKey] + "] SIZE : [" + getSizeOfDeck() + "]");
-			storyCardText.text = "Story Deck: " + tempKey;
-			storyDeck [tempKey] -= 1;
-			if (storyDeck [tempKey] == 0) {
-				storyDeck.Remove (tempKey);
+	void RemoveCard(Dictionary <string, int> Deck, string tempKey){
+		if (Deck.ContainsKey(tempKey) == true) {
+			//Debug.Log ("STORY KEY: [" + tempKey + "] VALUE: [" + Deck [tempKey] + "] SIZE : [" + getSizeOfDeck() + "]");
+			//storyCardText.text = "Story Deck: " + tempKey;
+			Deck [tempKey] -= 1;
+			if (Deck [tempKey] == 0) {
+				Deck.Remove (tempKey);
 			}
-		} else {
-			Debug.Log ("An Invalid Card has been randomly picked." + tempKey + " Error...");
-		}
+		} 
+	}
+
+	void populateDeck(Dictionary<string, int> Deck){
+		/* QUESTS */
+		Deck.Add("Search for the Holy Grail", 		1);
+		Deck.Add("Test of the Green Knight"	, 	1);
+		Deck.Add("Search for the Questing Beast",	1);
+		Deck.Add("Defend the Queen's Honor",		1);
+		Deck.Add("Rescue the Fair Maiden",			1);
+		Deck.Add("Journey Through the Enchanted Forest",1);
+		Deck.Add("Vanquish King Arthur's Enemies",	2);
+		Deck.Add("Slay the Dragon",				1);
+		Deck.Add("Boar Hunt",						2);
+		Deck.Add("Repel the Saxon Raiders",		1);
+		/* EVENTS */
+		Deck.Add("Kings Recognition",				2);
+		Deck.Add("Queen's Favor",					2);
+		Deck.Add("Court Called to Camelot",		2);
+		Deck.Add("Pox",							1);
+		Deck.Add("Plague",							1);
+		Deck.Add("Chivalrous Deed",					1);
+		Deck.Add("Prosperity Throughout the Realm",1);
+		Deck.Add("King's Call to Arms",			1);
+		/* TOURNAMENTS */
+		Deck.Add("Tournament at Camelot", 		1);
+		Deck.Add("Tournament at Orkney",			1);
+		Deck.Add("Tournament at Tintagel",			1);
+		Deck.Add("Tournament at York",				1);	
 	}
 		
-	void populateDeck(){
-		/* QUESTS */
-		storyDeck.Add("Search for the Holy Grail", 		1);
-		storyDeck.Add("Test of the Green Knight"	, 	1);
-		storyDeck.Add("Search for the Questing Beast",	1);
-		storyDeck.Add("Defend the Queen's Honor",		1);
-		storyDeck.Add("Rescue the Fair Maiden",			1);
-		storyDeck.Add("Journey Through the Enchanted Forest",1);
-		storyDeck.Add("Vanquish King Arthur's Enemies",	2);
-		storyDeck.Add("Slay the Dragon",				1);
-		storyDeck.Add("Boar Hunt",						2);
-		storyDeck.Add("Repel the Saxon Raiders",		1);
-		/* EVENTS */
-		storyDeck.Add("Kings Recognition",				2);
-		storyDeck.Add("Queen's Favor",					2);
-		storyDeck.Add("Court Called to Camelot",		2);
-		storyDeck.Add("Pox",							1);
-		storyDeck.Add("Plague",							1);
-		storyDeck.Add("Chivalrous Deed",					1);
-		storyDeck.Add("Prosperity Throughout the Realm",1);
-		storyDeck.Add("King's Call to Arms",			1);
-		/* TOURNAMENTS */
-		storyDeck.Add("Tournament at Camelot", 		1);
-		storyDeck.Add("Tournament at Orkney",			1);
-		storyDeck.Add("Tournament at Tintagel",			1);
-		storyDeck.Add("Tournament at York",				1);	
-	}		
-
-
-	int getSizeOfDeck(){
+	public int getSizeOfDeck(){
 		return storyDeck.Keys.Count;
+	}
+
+	public int getIndex(){
+		return index;
+	}
+
+	public int getRandInt(){
+		return randInt;
 	}
 
 	void setSprite(string title){
@@ -256,5 +262,30 @@ using UnityEngine.UI;
 			break;
 		}
 	}
+
+	[Test]
+	public void populateDeckTest(){
+		Dictionary<string, int> testDeck = new Dictionary<string, int>(){};
+		populateDeck (testDeck);
+		foreach (KeyValuePair<string, int> item in testDeck) {
+			Debug.Log ("STORY: " + item.Key + " : " + item.Value );
+		}
+	}
+
+	[Test]
+	public void RemoveCardTest(){
+		string testKey = "Search for the Holy Grail";							// Make sure Card only has of 1 value. 
+		Dictionary<string, int> testDeck = new Dictionary<string, int>(){};
+		populateDeck (testDeck);
+		RemoveCard (testDeck, testKey);
+		if (testDeck.ContainsKey (testKey) == true) {
+			Assert.Fail ();
+			Debug.LogError ("An Invalid Card has been randomly picked." + testKey + " Error...");
+		} else {
+			Assert.Pass ();
+			Debug.Log ("Card successfully removed.");
+		}
+	}
+
 }
 	
