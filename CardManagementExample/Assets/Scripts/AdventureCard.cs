@@ -1,15 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using m_ally = Ally;
+
 public class AdventureCard {
-	protected static readonly string[] ADVENTURE_TYPE = {"Foe", "Ally", "Weapon", "Armour", "Test"};
+	protected static readonly string[] ADVENTURE_TYPE = {"Foe", "Ally", "Weapon", "Test"};
 	protected string name;
 	protected string type;
-	//protected int battlePoints;
-	//protected int bidPoints;
-	//protected int bonusBattlePoints;
-	//protected int bonusBidPoints;
+
 	public AdventureCard(){
 		this.type = "";
 		this.name = "";
@@ -21,8 +18,9 @@ public class AdventureCard {
 				Ally ally = new Ally(name);
 			} else if (type.Equals ("Foe")) {
 			} else if (type.Equals ("Weapon")) {
-			} else if (type.Equals ("Armour")) {
+				Weapon weapon = new Weapon(name);
 			}else if (type.Equals ("Test")) {
+				Test test = new Test(name);
 			}
 
 	}

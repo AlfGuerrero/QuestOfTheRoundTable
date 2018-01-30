@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Ally : AdventureCard {
-	protected static readonly string[] ALLY_NAME = {"Sir Gawain", "King Pellinore", "Sir Percival", "Sir Tristan", "King Arthur", "Queen Guinevere", "Merlin", "Queen Iseult", "Sir Lancelot", "Sir Galahad"};
+	protected static readonly string[] ALLY_NAME = {"Sir Gawain", "King Pellinore", "Sir Percival", "Sir Tristan", "King Arthur", "Queen Guinevere", "Merlin", "Queen Iseult", "Sir Lancelot", "Sir Galahad", "Armour"};
 	protected string name;
 	protected int battlePoints;
 	protected int bonusBattlePoints;
@@ -39,6 +39,9 @@ public class Ally : AdventureCard {
 			this.bonusBattlePoints = 25;
 		}else if (name.Equals (ALLY_NAME [9])) {
 			this.bidPoints = 15;
+		}else if (name.Equals (ALLY_NAME [10])) {
+			this.bidPoints = 1;
+			this.battlePoints = 10;
 		}
 	}
 	public string getName(){

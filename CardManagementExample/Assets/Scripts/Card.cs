@@ -4,21 +4,24 @@ using UnityEngine;
 using System.Linq;
 using System.Text;
 
-public class Card : MonoBehaviour {
-	public static readonly string[] DECKS = {"Adventure", "Story"};
-	public static readonly string[] TYPES = {"Events", "Tournaments", "Quests", "Allies", "Foes", "Tests", "Weapons"};
-	protected string deck;
-	protected string type;
-	protected Dictionary<string, string> card;
-	protected Dictionary<int, Card> countDeck;
-	protected static int counter = 0;
-	public Card(string deck, string type){
-		this.deck = deck;
-		this.type = type;
-		this.countDeck.Add (counter, new Card (deck, type));
-		counter++;
+
+public class Card {
+	protected static readonly string[] TYPE = {"Adventure", "Story"};
+	protected string type; //ex. story or adventure
+	protected string name; //ex. horse, sword, quest for camelot
+
+	public Card(){
+		this.type = "";
+		this.name = "";
 	}
-	public string getDeck(){
-		return this.deck;
+	public Card(string type, string name){
+		this.type = type;
+		this.name = name;
+	}
+	public string getType(){
+		return this.type;
+	}
+	public string getName(){
+		return this.name;
 	}
 }
