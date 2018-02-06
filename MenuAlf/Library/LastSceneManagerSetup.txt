@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Hand working thingy/Handworky.unity
+  isLoaded: 1
+  isActive: 1
