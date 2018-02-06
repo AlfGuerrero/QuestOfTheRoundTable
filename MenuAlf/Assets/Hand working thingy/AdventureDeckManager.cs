@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.TestTools;
+using NUnit.Framework;
+
 /*
  * RANDOM SEARCH....
  * =======  Cards  ======
@@ -114,7 +117,6 @@ using UnityEngine.UI;
 	public int whichPlayer(){
 		GameObject whichPlayer = GameObject.FindGameObjectWithTag("GameController");
 		GameMasterScript playerScript = whichPlayer.GetComponent<GameMasterScript>();
-
 		return playerScript.playerPlaying;
 	}
 
@@ -134,17 +136,35 @@ using UnityEngine.UI;
 		else {
 			return;
 		}
-	
 		//(Instantiate (m_Prefab, position, rotation) as GameObject).transform.parent = parentGameObject.transform;
 		// GameObject instance = Instantiate(Resources.Load("TestPrefab")) as GameObject;
-
-
 	}
 
+	[Test]
+	void testHandObjects(string name){
+	
+		GameObject hand1 = GameObject.FindGameObjectWithTag ("HandOne");
+		GameObject hand2 = GameObject.FindGameObjectWithTag ("HandTwo");
+
+		int playersHand = whichPlayer ();
+		GameObject instance = Instantiate(Resources.Load(name, typeof(GameObject))) as GameObject;
+
+		if (playersHand == 1){
+			giveCardtoHand (hand1, instance);
+			Assert.AreEqual (1, playersHand);
+
+		}
+		if (playersHand == 2) {
+			giveCardtoHand (hand2, instance);
+			Assert.AreEqual (2, playersHand);
+		} 
+		else {
+			Assert.Fail ();
+			return;
+		}
+	}
 	void giveCardtoHand(GameObject hand, GameObject card){
-
 		card.transform.SetParent (hand.transform, false);
-
 	}
 
 	string RandomCardPicker(){

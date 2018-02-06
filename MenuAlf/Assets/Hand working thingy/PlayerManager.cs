@@ -71,7 +71,7 @@ public class PlayerManager : MonoBehaviour {
 
 	// Battle Points Functions.
 	public void setBattlePoints(int BattlePoints){totalBattlePoints = totalBattlePoints + BattlePoints; }
-	int getBattlePoints(){return totalBattlePoints;}
+	public int getBattlePoints(){return totalBattlePoints;}
 
 	// Bidding Points Functions. 
 	void setBiddingPoints(int BiddingPoints){totalBiddingPoints = totalBiddingPoints + BiddingPoints; }

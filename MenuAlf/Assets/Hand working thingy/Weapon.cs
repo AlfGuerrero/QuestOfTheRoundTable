@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.TestTools;
+using NUnit.Framework;
 
 public class Weapon : MonoBehaviour {
 	protected static readonly string[] WEAPON_NAME = {"Horse(Clone)", "Sword(Clone)", "Dagger(Clone)", "Excalibur(Clone)", "Lance(Clone)", "Battle-ax(Clone)"};
@@ -13,9 +15,10 @@ public class Weapon : MonoBehaviour {
 
 	public void Start(){
 		GameObject playern = transform.parent.parent.gameObject;
-
 		PlayerManager player = playern.GetComponent<PlayerManager> ();
 		string name = this.name;
+
+
 		if (name.Equals (WEAPON_NAME [0])) {
 			player.setBattlePoints (10);
 			this.battlePoints = 10;
@@ -39,6 +42,16 @@ public class Weapon : MonoBehaviour {
 
 			this.battlePoints = 15;
 		}
+	}
+
+	[Test]
+	void testBattlePointsAdding(){
+		GameObject playern = transform.parent.parent.gameObject;
+		PlayerManager player = playern.GetComponent<PlayerManager> ();
+		string name = this.name;
+		player.setBattlePoints (5);
+		int actualBattlePoints = player.getBattlePoints();
+		Assert.AreEqual (5, actualBattlePoints);
 	}
 
 	public string getName(){
