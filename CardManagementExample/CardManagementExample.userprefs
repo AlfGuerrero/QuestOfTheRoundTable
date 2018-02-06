@@ -1,12 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AdventureCard.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Users.cs">
     <Files>
-      <File FileName="Assets\Scripts\AdventureCard.cs" Line="23" Column="29" />
-      <File FileName="Assets\Scripts\Ally.cs" Line="44" Column="27" />
-      <File FileName="Assets\Scripts\Foe.cs" Line="15" Column="2" />
-      <File FileName="Assets\Scripts\Weapon.cs" Line="32" Column="3" />
+      <File FileName="Assets\Scripts\AdventureCard.cs" Line="18" Column="32" />
+      <File FileName="Assets\Scripts\Ally.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Foe.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Weapon.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Test.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\User.cs" Line="11" Column="32" />
+      <File FileName="Assets\Scripts\Users.cs" Line="23" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
