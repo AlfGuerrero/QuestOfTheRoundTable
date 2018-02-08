@@ -85,3 +85,5 @@ C:\Users\Brandon\Documents\GitHub\QuestOfTheRoundTable\MenuAlf\Temp\bin\Debug\Un
 C:\Users\Brandon\Documents\GitHub\QuestOfTheRoundTable\MenuAlf\Temp\bin\Debug\UnityEngine.Analytics.xml
 C:\Users\Brandon\Documents\GitHub\QuestOfTheRoundTable\MenuAlf\Temp\bin\Debug\UnityEngine.HoloLens.xml
 C:\Users\Brandon\Documents\GitHub\QuestOfTheRoundTable\MenuAlf\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Brandon\Desktop\3004\BrandonQuestImplementation\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Brandon\Desktop\3004\BrandonQuestImplementation\obj\Debug\Assembly-CSharp.dll
