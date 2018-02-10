@@ -10,6 +10,7 @@ public class GameMasterScript : MonoBehaviour {
 	int numPlayers;
 	public int playerPlaying;
 	AdventureDeckManager adm;
+	QuestManager qm;
 	public Canvas [] Players;
 	//public List<Canvas> Players = new List<Canvas>();
 
@@ -50,6 +51,7 @@ public class GameMasterScript : MonoBehaviour {
 			playerPlaying++;
 		}
 
+		//qm.Setup (brann);
 		//Debug.Log (playerPlaying-1);
 
 		for (int i = 0; i < Players [playerPlaying-1].transform.childCount; i++) {

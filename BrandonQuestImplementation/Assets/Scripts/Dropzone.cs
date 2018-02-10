@@ -22,7 +22,8 @@ public class Dropzone : MonoBehaviour, IDropHandler {
 
 	public void OnDrop(PointerEventData eventData){
 		Draggable z = eventData.pointerDrag.GetComponent<Draggable> ();
-		if (z.type == "foe" && !foe) {
+		z.parentToReturnTo = this.transform;
+		/*if (z.type == "foe" && !foe) {
 			z.parentToReturnTo = this.transform;
 			foe = true;
 			strength = getFoe.strength;
@@ -37,7 +38,7 @@ public class Dropzone : MonoBehaviour, IDropHandler {
 					s.Value = true;
 				}
 			}
-		}
+		}*/
 	}
 
 	//checks to see if its elligible for a stage
@@ -47,7 +48,7 @@ public class Dropzone : MonoBehaviour, IDropHandler {
 		bool weapon = false;
 
 		Transform[] children = this.transform.GetComponentsInChildren<Transform> ();
-		foreach (Transform t in children) {
+		/*foreach (Transform t in children) {
 			if (t.type == "foe") {
 				enemy = true;
 				foe = true;
@@ -57,7 +58,7 @@ public class Dropzone : MonoBehaviour, IDropHandler {
 			} else if (t.type == "weapon") {
 				weapon = true;
 			}
-		}
+		}*/
 		if(!enemy){
 			foe = false;
 		}

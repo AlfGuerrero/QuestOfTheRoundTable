@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\AI\AI.cs" />
-     <Compile Include="Assets\GameMasterScript.cs" />
      <Compile Include="Assets\Quest\Stage.cs" />
      <Compile Include="Assets\Scripts\AdventureCard.cs" />
      <Compile Include="Assets\Scripts\AdventureDeckManager.cs" />
@@ -59,6 +58,7 @@
      <Compile Include="Assets\Scripts\Dropzone.cs" />
      <Compile Include="Assets\Scripts\Foe.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\GameMasterScript.cs" />
      <Compile Include="Assets\Scripts\HandDropzone.cs" />
      <Compile Include="Assets\Scripts\HandManager.cs" />
      <Compile Include="Assets\Scripts\MouseOver.cs" />

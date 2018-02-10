@@ -39,7 +39,7 @@ public class QuestManager : MonoBehaviour {
 	}
 
 	User biddingWar(User[] participants){
-		User winner;
+		User winner = null;
 
 		//Bid to remove cards
 		//knock out other contestants
