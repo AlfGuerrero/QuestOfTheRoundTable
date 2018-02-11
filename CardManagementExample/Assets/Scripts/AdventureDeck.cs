@@ -59,6 +59,12 @@ public class AdventureDeck<T> : MonoBehaviour {
 	public Sprite[] cards;
 	// Use this for initialization
 	void Start () {
+		GameObject temp = Instantiate(new GameObject());
+		AdventureCard<Ally> borp = new AdventureCard<Ally>("Ally","Sir Galahad");
+
+		//temp.
+
+
 		populateDeck (adventureDeck);
 		foreach (KeyValuePair<AdventureCard<T>, int> item in adventureDeck) {
 			print ((item.Key).getchildObject());
@@ -72,29 +78,29 @@ public class AdventureDeck<T> : MonoBehaviour {
 
 	void populateDeck(Dictionary<AdventureCard<T>, int> Deck){
 		/* QUESTS */
-		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 		1);
-		Deck.Add(new AdventureCard<T>("Weapon","Dagger")	, 	1);
-		Deck.Add(new AdventureCard<T>("Weapon","Dagger"),	1);
-		Deck.Add(new AdventureCard<T>("Weapon","Dagger"),		1);
-		Deck.Add(new AdventureCard<T>("Weapon","Dagger"),			1);
-		Deck.Add(new AdventureCard<T>("Weapon","Dagger"),1);
-		Deck.Add(new AdventureCard<T>("Weapon","Dagger"),	2);
-		Deck.Add(new AdventureCard<T>("Weapon","Dagger"),				1);
-		Deck.Add(new AdventureCard<T>("Weapon","Dagger"),						2);
-		Deck.Add(new AdventureCard<T>("Weapon","Dagger"),		1);
+		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 1);
+		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 1);
+		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 1);
+		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 1);
+		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 1);
+		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 1);
+		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 2);
+		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 1);
+		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 2);
+		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 1);
 		/* EVENTS */
-		Deck.Add(new AdventureCard<T>("Weapon","Dagger"),				2);
-		Deck.Add(new AdventureCard<T>("Weapon","Dagger"),					2);
-		Deck.Add(new AdventureCard<T>("Weapon","Dagger"),		2);
-		Deck.Add(new AdventureCard<T>("Weapon","Dagger"),							1);
-		Deck.Add(new AdventureCard<T>("Weapon","Dagger"),							1);
-		Deck.Add(new AdventureCard<T>("Weapon","Dagger"),					1);
-		Deck.Add(new AdventureCard<T>("Weapon","Dagger"),1);
-		Deck.Add(new AdventureCard<T>("Weapon","Dagger"),			1);
+		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 2);
+		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 2);
+		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 2);
+		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 1);
+		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 1);
+		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 1);
+		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 1);
+		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 1);
 		/* TOURNAMENTS */
-		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 		1);
-		Deck.Add(new AdventureCard<T>("Weapon","Dagger"),			1);
-		Deck.Add(new AdventureCard<T>("Weapon","Dagger"),			1);
-		Deck.Add(new AdventureCard<T>("Weapon","Dagger"),				1);	
+		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 1);
+		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 1);
+		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 1);
+		Deck.Add(new AdventureCard<T>("Weapon","Dagger"), 1);	
 	}
 }
