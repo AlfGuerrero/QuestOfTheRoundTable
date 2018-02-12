@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour {
 	//protected static readonly string[] WEAPON_NAME = {"Horse", "Sword", "Dagger", "Excalibur", "Lance", "Battle-ax"};
-	protected string name;
+	protected new string name;
 	protected int battlePoints;
 	protected string type;
 	protected WeaponScriptObj weapon;
+	protected string card;
 
 	void Start(){
-		weapon = Resources.Load<WeaponScriptObj> ("Cards/Test Of Valor");
+		weapon = Resources.Load<WeaponScriptObj> ("Weapon/"+card);
 		name = weapon.name;
 		type = "weapon";
 		battlePoints = weapon.battlePoints;
@@ -23,5 +24,8 @@ public class Weapon : MonoBehaviour {
 	}
 	public int getBattlePoints(){
 		return this.battlePoints;
+	}
+	public void setCard (string cardName){
+		card = cardName;
 	}
 }

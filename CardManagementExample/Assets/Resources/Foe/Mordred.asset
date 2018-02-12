@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Mordred
   m_EditorClassIdentifier: 
   name: Mordred
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: c758783a29e5b4749bb3ef0e293c501b, type: 3}
   battlePoints: 30
   bonusBattlePoints: 0
   mordred: 1

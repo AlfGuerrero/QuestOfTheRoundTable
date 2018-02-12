@@ -9,9 +9,10 @@ public class Foe : MonoBehaviour {
 	protected bool mordred;
 	protected string type;
 	protected FoeScriptObj foe;
+	protected string card;
 	// Use this for initialization
 	void Start(){
-		foe = Resources.Load<FoeScriptObj> ("Cards/Green_Knight");
+		foe = Resources.Load<FoeScriptObj> ("Foe/"+card);
 		name = foe.name;
 		type = "foe";
 		GetComponent<SpriteRenderer> ().sprite = foe.image;
@@ -32,5 +33,8 @@ public class Foe : MonoBehaviour {
 	}
 	public int getBonusBattlePoints(){
 		return this.bonusBattlePoints;
+	}
+	public void setCard (string cardName){
+		card = cardName;
 	}
 }

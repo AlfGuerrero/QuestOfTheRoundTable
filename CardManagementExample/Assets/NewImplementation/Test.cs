@@ -9,10 +9,13 @@ public class Test : MonoBehaviour {
 	protected int bidRequirements;
 	protected int bonusBidRequirements;
 	protected string type;
+	protected string card;
+
 	public TestScriptObj test;
 
+
 	void Start(){
-		test = Resources.Load<TestScriptObj> ("Cards/Test Of Valor");
+		test = Resources.Load<TestScriptObj> ("Test/"+card);
 		name = test.name;
 		type = "test";
 		bidRequirements = test.bidRequirements;
@@ -31,5 +34,8 @@ public class Test : MonoBehaviour {
 	}
 	public int getbonusBidRequirements(){
 		return this.bonusBidRequirements;
+	}
+	public void setCard (string cardName){
+		card = cardName;
 	}
 }

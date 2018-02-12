@@ -1,14 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NewImplementation\WeaponScriptObj.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NewImplementation\MouseOver.cs">
     <Files>
-      <File FileName="Assets\Scripts\AdventureCard.cs" Line="1" Column="1" />
-      <File FileName="Assets\NewImplementation\FoeScriptObj.cs" Line="13" Column="26" />
-      <File FileName="Assets\NewImplementation\Ally.cs" Line="25" Column="3" />
-      <File FileName="Assets\NewImplementation\Foe.cs" Line="11" Column="2" />
-      <File FileName="Assets\NewImplementation\Test.cs" Line="21" Column="3" />
-      <File FileName="Assets\NewImplementation\Weapon.cs" Line="23" Column="3" />
-      <File FileName="Assets\NewImplementation\WeaponScriptObj.cs" Line="7" Column="2" />
+      <File FileName="Assets\NewImplementation\FoeScriptObj.cs" Line="1" Column="1" />
+      <File FileName="Assets\NewImplementation\Ally.cs" Line="45" Column="36" />
+      <File FileName="Assets\NewImplementation\Foe.cs" Line="16" Column="19" />
+      <File FileName="Assets\NewImplementation\Test.cs" Line="19" Column="1" />
+      <File FileName="Assets\NewImplementation\Weapon.cs" Line="14" Column="52" />
+      <File FileName="Assets\NewImplementation\WeaponScriptObj.cs" Line="8" Column="25" />
+      <File FileName="Assets\NewImplementation\AdventureDeck.cs" Line="108" Column="17" />
+      <File FileName="Assets\NewImplementation\MouseOver.cs" Line="17" Column="88" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

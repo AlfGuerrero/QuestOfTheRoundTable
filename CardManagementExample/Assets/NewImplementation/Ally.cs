@@ -11,10 +11,13 @@ public class Ally : MonoBehaviour {
 	protected int bidPoints;
 	protected int bonusBidPoints;
 	protected bool merlin = false;
+	protected string card;
 
 	public AllyScriptObj ally;
 
 	void Start(){
+		
+		ally = Resources.Load<AllyScriptObj> ("Ally/"+card);
 		name = ally.name;
 		battlePoints = ally.battlePoints;
 		bonusBattlePoints = ally.bonusBattlePoints;
@@ -22,7 +25,6 @@ public class Ally : MonoBehaviour {
 		bonusBidPoints = ally.bonusBidPoints;
 		merlin = ally.merlin;
 		type = "ally";
-		ally = Resources.Load<AllyScriptObj> ("Cards/Sir Gawain");
 		GetComponent<SpriteRenderer> ().sprite = ally.image;
 		Debug.Log (name + " " + type + " " + battlePoints);
 	}
@@ -45,5 +47,8 @@ public class Ally : MonoBehaviour {
 	}
 	public int getBonusBidPoints(){
 		return this.bonusBidPoints;
+	}
+	public void setCard (string cardName){
+		card = cardName;
 	}
 }
