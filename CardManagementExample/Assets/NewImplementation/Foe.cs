@@ -11,7 +11,7 @@ public class Foe : MonoBehaviour {
 	protected FoeScriptObj foe;
 	// Use this for initialization
 	void Start(){
-		foe = Resources.Load<FoeScriptObj> ("Green_Knight");
+		foe = Resources.Load<FoeScriptObj> ("Cards/Green_Knight");
 		name = foe.name;
 		type = "foe";
 		GetComponent<SpriteRenderer> ().sprite = foe.image;

@@ -21,6 +21,10 @@ public class Ally : MonoBehaviour {
 		bidPoints = ally.bidPoints;
 		bonusBidPoints = ally.bonusBidPoints;
 		merlin = ally.merlin;
+		type = "ally";
+//		ally = Resources.Load<FoeScriptObj> ("Green_Knight");
+		GetComponent<SpriteRenderer> ().sprite = ally.image;
+		Debug.Log (name + " " + type + " " + battlePoints);
 	}
 
 
