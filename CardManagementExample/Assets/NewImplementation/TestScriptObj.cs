@@ -1,16 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class TestScriptObj : MonoBehaviour {
+[CreateAssetMenu(fileName = "New Test", menuName = "Cards/Test")]
+public class TestScriptObj : ScriptableObject {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+	public new string name;
+	public Sprite image;
+
+	public int bidRequirements;
+	public int bonusBidRequirements;
 }

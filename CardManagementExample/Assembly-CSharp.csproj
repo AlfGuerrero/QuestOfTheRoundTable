@@ -53,11 +53,13 @@
   <ItemGroup>
      <Compile Include="Assets\NewImplementation\Ally.cs" />
      <Compile Include="Assets\NewImplementation\AllyCreator.cs" />
-     <Compile Include="Assets\NewImplementation\AllyScriptObject.cs" />
+     <Compile Include="Assets\NewImplementation\AllyScriptObj.cs" />
      <Compile Include="Assets\NewImplementation\Foe.cs" />
      <Compile Include="Assets\NewImplementation\FoeScriptObj.cs" />
      <Compile Include="Assets\NewImplementation\Test.cs" />
      <Compile Include="Assets\NewImplementation\TestScriptObj.cs" />
+     <Compile Include="Assets\NewImplementation\Weapon.cs" />
+     <Compile Include="Assets\NewImplementation\WeaponScriptObj.cs" />
      <Compile Include="Assets\Scripts\AdventureCard.cs" />
      <Compile Include="Assets\Scripts\AdventureDeck.cs" />
      <Compile Include="Assets\Scripts\Ally.cs" />
@@ -66,7 +68,6 @@
      <Compile Include="Assets\Scripts\Test.cs" />
      <Compile Include="Assets\Scripts\User.cs" />
      <Compile Include="Assets\Scripts\Users.cs" />
-     <Compile Include="Assets\Scripts\Weapon.cs" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>C:/Users/heewo/Documents/ComputerScience/3004/QuestOfTheRoundTable/CardManagementExample/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>

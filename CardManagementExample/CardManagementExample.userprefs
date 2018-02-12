@@ -1,13 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NewImplementation\AllyScriptObject.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NewImplementation\WeaponScriptObj.cs">
     <Files>
       <File FileName="Assets\Scripts\AdventureCard.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Test.cs" Line="1" Column="1" />
-      <File FileName="Assets\NewImplementation\FoeScriptObj.cs" Line="1" Column="1" />
-      <File FileName="Assets\NewImplementation\Ally.cs" Line="4" Column="1" />
-      <File FileName="Assets\NewImplementation\Foe.cs" Line="16" Column="16" />
-      <File FileName="Assets\NewImplementation\AllyScriptObject.cs" Line="22" Column="39" />
+      <File FileName="Assets\NewImplementation\FoeScriptObj.cs" Line="13" Column="26" />
+      <File FileName="Assets\NewImplementation\Ally.cs" Line="25" Column="3" />
+      <File FileName="Assets\NewImplementation\Foe.cs" Line="11" Column="2" />
+      <File FileName="Assets\NewImplementation\Test.cs" Line="21" Column="3" />
+      <File FileName="Assets\NewImplementation\Weapon.cs" Line="23" Column="3" />
+      <File FileName="Assets\NewImplementation\WeaponScriptObj.cs" Line="7" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
