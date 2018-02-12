@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-[CreateAssetMenu(fileName = "New Foe", menuName = "Cards/Ally")]
+[CreateAssetMenu(fileName = "New Ally", menuName = "Cards/Ally")]
 public class AllyScriptObj : ScriptableObject {
 
 
