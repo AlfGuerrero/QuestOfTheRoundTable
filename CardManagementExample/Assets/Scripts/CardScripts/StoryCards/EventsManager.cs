@@ -45,14 +45,14 @@ public class EventsManager : MonoBehaviour {
 
 	// 1. King's Recoginition
 	// - This next player(s) to complete a Quest will receive 2 extra shields.
-	public void KingsRecoginition(User player, Users players){
+	public void Kings_Recoginition(User player, Users players){
 		int shields = player.getShields () + 2;
 		player.setShields (shields);
 	}
 
 	// 2. Queen's Favor
 	// - The lowest rank player(s) immediately receives 2 Adventure Cards.
-	public void QueensFavor(User player, Users players){
+	public void Queens_Favor(User player, Users players){
 		// function to find lowest rank player.
 
 		// Call Adventure Deck to pick up 2 cards.
@@ -61,7 +61,7 @@ public class EventsManager : MonoBehaviour {
 
 	// 3. Court Called to Camelot
 	// - All Allies in play must be discarded.
-	public void CourtCalledToCamelot(Users players){
+	public void Court_Called_To_Camelot(Users players){
 		// Call Hand Manager from each user to discard all cards.
 
 	}
@@ -90,7 +90,7 @@ public class EventsManager : MonoBehaviour {
 
 	// 6. Chivalrous Deed
 	// - Player(s) with both lowest rank and least amount of shields, receives 3 shields.
-	public void ChivalrousDeed(User player, Users players){
+	public void Chivalrous_Deed(User player, Users players){
 		int shields = player.getShields () + 3;
 		player.setShields (shields);
 
@@ -98,14 +98,14 @@ public class EventsManager : MonoBehaviour {
 
 	// 7. Prosperity Throughout the Realm
 	// - All players may immediately draw 2 Adventure Cards.
-	public void ProsperityThroughoutTheRealm(Users players){
+	public void Prosperity_Throughout_The_Realm(Users players){
 
 		// Call game manager. .....
 	}
 
 	// 8. King's Call to Arms
 	// - The Highest Ranked Player(s) must place 1 weapon in the discard pile. If unable to do so 2 Foe Cards must be discarded.
-	public void KingsCallToArms(User player, Users players){
+	public void Kings_Call_To_Arms(User player, Users players){
 	// function for highest rank player.
 	/*
 		User highestRankUser;

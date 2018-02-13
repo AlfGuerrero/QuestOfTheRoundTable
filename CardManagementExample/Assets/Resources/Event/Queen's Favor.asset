@@ -9,8 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: acd25bec7487a404bbe98472c9d27cd9, type: 3}
-  m_Name: Plague
+  m_Name: Queen's Favor
   m_EditorClassIdentifier: 
-  name: Plague
-  function: Plague
-  image: {fileID: 21300000, guid: e86ba30b430db4d4eb31e8356b15a883, type: 3}
+  name: Queen's Favor
+  function: Queens_Favor
+  image: {fileID: 21300000, guid: 0e580f44efd870c499c5a7e5f6c69a4b, type: 3}
