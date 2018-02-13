@@ -1,15 +1,17 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NewImplementation\MouseOver.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CardScripts\AdventureCards\Foe.cs">
     <Files>
-      <File FileName="Assets\NewImplementation\FoeScriptObj.cs" Line="1" Column="1" />
-      <File FileName="Assets\NewImplementation\Ally.cs" Line="45" Column="36" />
-      <File FileName="Assets\NewImplementation\Foe.cs" Line="16" Column="19" />
-      <File FileName="Assets\NewImplementation\Test.cs" Line="19" Column="1" />
-      <File FileName="Assets\NewImplementation\Weapon.cs" Line="14" Column="52" />
-      <File FileName="Assets\NewImplementation\WeaponScriptObj.cs" Line="8" Column="25" />
-      <File FileName="Assets\NewImplementation\AdventureDeck.cs" Line="108" Column="17" />
-      <File FileName="Assets\NewImplementation\MouseOver.cs" Line="17" Column="88" />
+      <File FileName="Assets\Scripts\CardScripts\StoryCards\StoryDeck.cs" Line="11" Column="2" />
+      <File FileName="Assets\Scripts\CardScripts\StoryCards\Quest.cs" Line="9" Column="23" />
+      <File FileName="Assets\Scripts\CardScripts\StoryCards\EventScriptObj.cs" Line="6" Column="68" />
+      <File FileName="Assets\Scripts\CardScripts\StoryCards\TournamentScriptObj.cs" Line="7" Column="49" />
+      <File FileName="Assets\Scripts\CardScripts\StoryCards\QuestScriptObj.cs" Line="12" Column="22" />
+      <File FileName="Assets\Scripts\CardScripts\StoryCards\Tournament.cs" Line="26" Column="20" />
+      <File FileName="Assets\Scripts\CardScripts\StoryCards\Event.cs" Line="9" Column="2" />
+      <File FileName="Assets\Scripts\CardScripts\AdventureCards\Foe.cs" Line="15" Column="52" />
+      <File FileName="Assets\Scripts\CardScripts\AdventureCards\FoeScriptObj.cs" Line="8" Column="2" />
+      <File FileName="Assets\Scripts\CardScripts\StoryCards\EventsManager.cs" Line="121" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

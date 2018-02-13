@@ -46,18 +46,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\NewImplementation\AdventureDeck.cs" />
-     <Compile Include="Assets\NewImplementation\Ally.cs" />
-     <Compile Include="Assets\NewImplementation\AllyScriptObj.cs" />
-     <Compile Include="Assets\NewImplementation\Foe.cs" />
-     <Compile Include="Assets\NewImplementation\FoeScriptObj.cs" />
-     <Compile Include="Assets\NewImplementation\MouseOver.cs" />
-     <Compile Include="Assets\NewImplementation\Test.cs" />
-     <Compile Include="Assets\NewImplementation\TestScriptObj.cs" />
-     <Compile Include="Assets\NewImplementation\Weapon.cs" />
-     <Compile Include="Assets\NewImplementation\WeaponScriptObj.cs" />
-     <Compile Include="Assets\Scripts\AdventureCard.cs" />
-     <Compile Include="Assets\Scripts\Card.cs" />
+     <Compile Include="Assets\Scripts\CardScripts\AdventureCards\AdventureDeck.cs" />
+     <Compile Include="Assets\Scripts\CardScripts\AdventureCards\Ally.cs" />
+     <Compile Include="Assets\Scripts\CardScripts\AdventureCards\AllyScriptObj.cs" />
+     <Compile Include="Assets\Scripts\CardScripts\AdventureCards\Foe.cs" />
+     <Compile Include="Assets\Scripts\CardScripts\AdventureCards\FoeScriptObj.cs" />
+     <Compile Include="Assets\Scripts\CardScripts\AdventureCards\Test.cs" />
+     <Compile Include="Assets\Scripts\CardScripts\AdventureCards\TestScriptObj.cs" />
+     <Compile Include="Assets\Scripts\CardScripts\AdventureCards\Weapon.cs" />
+     <Compile Include="Assets\Scripts\CardScripts\AdventureCards\WeaponScriptObj.cs" />
+     <Compile Include="Assets\Scripts\CardScripts\StoryCards\Event.cs" />
+     <Compile Include="Assets\Scripts\CardScripts\StoryCards\EventScriptObj.cs" />
+     <Compile Include="Assets\Scripts\CardScripts\StoryCards\EventsManager.cs" />
+     <Compile Include="Assets\Scripts\CardScripts\StoryCards\Quest.cs" />
+     <Compile Include="Assets\Scripts\CardScripts\StoryCards\QuestScriptObj.cs" />
+     <Compile Include="Assets\Scripts\CardScripts\StoryCards\StoryDeck.cs" />
+     <Compile Include="Assets\Scripts\CardScripts\StoryCards\Tournament.cs" />
+     <Compile Include="Assets\Scripts\CardScripts\StoryCards\TournamentScriptObj.cs" />
+     <Compile Include="Assets\Scripts\UIScripts\MouseOver.cs" />
      <Compile Include="Assets\Scripts\User.cs" />
      <Compile Include="Assets\Scripts\Users.cs" />
  <Reference Include="UnityEngine.UI">
