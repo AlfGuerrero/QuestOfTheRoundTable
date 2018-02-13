@@ -13,5 +13,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Test of Morgan Le Fey
   image: {fileID: 21300000, guid: d786ba41f38583f44b5bdf405729fb38, type: 3}
-  bidRequirements: 0
+  bidRequirements: 3
   bonusBidRequirements: 0

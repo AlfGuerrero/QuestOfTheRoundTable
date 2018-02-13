@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56a7c185553d9174a914605bd893d232, type: 3}
-  m_Name: Slay The Dragon
+  m_Name: Search for the Holy Grail
   m_EditorClassIdentifier: 
-  name: Slay The Dragon
-  bonusFoe: Dragon
-  stages: 3
+  name: Search for the Holy Grail
+  bonusFoe: All
+  stages: 5
   image: {fileID: 0}
