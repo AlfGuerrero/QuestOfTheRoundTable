@@ -7,5 +7,7 @@ public class WeaponScriptObj : ScriptableObject {
 
 	public new string name;
 	public Sprite image;
+	public int value;
 	public int battlePoints;
 }
+

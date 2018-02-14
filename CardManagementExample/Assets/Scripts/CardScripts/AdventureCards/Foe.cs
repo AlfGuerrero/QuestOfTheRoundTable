@@ -8,6 +8,7 @@ public class Foe : MonoBehaviour {
 	protected int bonusBattlePoints;
 	protected bool mordred;
 	protected string type;
+	protected int value;
 	protected FoeScriptObj foe;
 	protected string card;
 	// Use this for initialization
@@ -19,6 +20,7 @@ public class Foe : MonoBehaviour {
 		battlePoints = foe.battlePoints;
 		bonusBattlePoints = foe.bonusBattlePoints;
 		mordred = foe.mordred;
+		value = foe.value;
 
 		Debug.Log (name + " " + type + " " + battlePoints);
 	}
@@ -27,6 +29,9 @@ public class Foe : MonoBehaviour {
 	}
 	public string getType(){
 		return this.type;
+	}
+	public int getValue(){
+		return this.value;
 	}
 	public int getBattlePoints(){
 		return this.battlePoints;

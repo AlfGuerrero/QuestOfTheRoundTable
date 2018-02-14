@@ -9,7 +9,7 @@ public class TestScriptObj : ScriptableObject {
 
 	public new string name;
 	public Sprite image;
-
+	public int value;
 	public int bidRequirements;
 	public int bonusBidRequirements;
 }

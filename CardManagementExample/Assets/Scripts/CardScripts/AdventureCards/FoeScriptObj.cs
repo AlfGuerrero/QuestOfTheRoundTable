@@ -9,7 +9,7 @@ public class FoeScriptObj : ScriptableObject {
 
 	public new string name;
 	public Sprite image;
-
+	public int value;
 	public int battlePoints;
 	public int bonusBattlePoints;
 	public bool mordred;

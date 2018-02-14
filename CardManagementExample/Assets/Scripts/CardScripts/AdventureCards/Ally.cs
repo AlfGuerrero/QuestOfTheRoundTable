@@ -9,6 +9,7 @@ public class Ally : MonoBehaviour {
 	protected int battlePoints;
 	protected int bonusBattlePoints;
 	protected int bidPoints;
+	protected int value;
 	protected int bonusBidPoints;
 	protected bool merlin = false;
 	protected string card;
@@ -24,6 +25,7 @@ public class Ally : MonoBehaviour {
 		bidPoints = ally.bidPoints;
 		bonusBidPoints = ally.bonusBidPoints;
 		merlin = ally.merlin;
+		value = ally.value;
 		type = "ally";
 		GetComponent<SpriteRenderer> ().sprite = ally.image;
 		Debug.Log (name + " " + type + " " + battlePoints);
@@ -44,6 +46,9 @@ public class Ally : MonoBehaviour {
 	}
 	public int getBonusBattlePoints(){
 		return this.bonusBattlePoints;
+	}
+	public int getValue(){
+		return this.value;
 	}
 	public int getBonusBidPoints(){
 		return this.bonusBidPoints;

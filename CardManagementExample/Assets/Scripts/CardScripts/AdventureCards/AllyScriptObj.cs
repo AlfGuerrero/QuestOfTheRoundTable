@@ -14,7 +14,7 @@ public class AllyScriptObj : ScriptableObject {
 	public int bonusBidPoints;
 	public int battlePoints;
 	public int bonusBattlePoints;
-
+	public int value;
 	public bool merlin;
 
 }

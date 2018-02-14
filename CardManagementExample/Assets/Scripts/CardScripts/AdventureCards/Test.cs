@@ -10,7 +10,7 @@ public class Test : MonoBehaviour {
 	protected int bonusBidRequirements;
 	protected string type;
 	protected string card;
-
+	protected int value;
 	public TestScriptObj test;
 
 
@@ -19,6 +19,7 @@ public class Test : MonoBehaviour {
 		name = test.name;
 		type = "test";
 		bidRequirements = test.bidRequirements;
+		value = test.value;
 
 		GetComponent<SpriteRenderer> ().sprite = test.image;
 	}
@@ -31,6 +32,9 @@ public class Test : MonoBehaviour {
 	}
 	public int getbidRequirements(){
 		return this.bidRequirements;
+	}
+	public int getValue(){
+		return this.value;
 	}
 	public int getbonusBidRequirements(){
 		return this.bonusBidRequirements;

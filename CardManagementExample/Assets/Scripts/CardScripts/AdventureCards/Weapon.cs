@@ -9,11 +9,12 @@ public class Weapon : MonoBehaviour {
 	protected string type;
 	protected WeaponScriptObj weapon;
 	protected string card;
-
+	protected int value;
 	void Start(){
 		weapon = Resources.Load<WeaponScriptObj> ("Weapon/"+card);
 		name = weapon.name;
 		type = "weapon";
+		value = weapon.value;
 		battlePoints = weapon.battlePoints;
 
 		GetComponent<SpriteRenderer> ().sprite = weapon.image;
@@ -22,6 +23,9 @@ public class Weapon : MonoBehaviour {
 	public string getName(){
 		return this.name;
 	}
+	public int getValue(){
+		return this.value;
+	} 
 	public int getBattlePoints(){
 		return this.battlePoints;
 	}
