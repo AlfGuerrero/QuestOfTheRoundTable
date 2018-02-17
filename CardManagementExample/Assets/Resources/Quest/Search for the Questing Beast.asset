@@ -14,4 +14,4 @@ MonoBehaviour:
   name: Search for the Questing Beast
   bonusFoe: None
   stages: 4
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: 1939c4c113d4b497aab03cae5f701249, type: 3}

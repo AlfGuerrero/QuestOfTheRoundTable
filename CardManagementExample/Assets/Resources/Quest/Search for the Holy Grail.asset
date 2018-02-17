@@ -14,4 +14,4 @@ MonoBehaviour:
   name: Search for the Holy Grail
   bonusFoe: All
   stages: 5
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: 374bcc69f3b8c4ddd8867af077465c88, type: 3}
