@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Ally : MonoBehaviour {
 	//protected static readonly string[] ALLY_NAME = {"Sir Gawain", "King Pellinore", "Sir Percival", "Sir Tristan", "King Arthur", "Queen Guinevere", "Merlin", "Queen Iseult", "Sir Lancelot", "Sir Galahad", "Armour"};
@@ -27,7 +28,7 @@ public class Ally : MonoBehaviour {
 		merlin = ally.merlin;
 		value = ally.value;
 		type = "ally";
-		GetComponent<SpriteRenderer> ().sprite = ally.image;
+		GetComponent<Image> ().sprite = ally.image;
 		Debug.Log (name + " " + type + " " + battlePoints);
 	}
 

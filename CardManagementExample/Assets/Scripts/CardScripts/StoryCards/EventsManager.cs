@@ -53,10 +53,14 @@ public class EventsManager : MonoBehaviour {
 	// 2. Queen's Favor
 	// - The lowest rank player(s) immediately receives 2 Adventure Cards.
 	public void Queens_Favor(User player, Users players){
-		// function to find lowest rank player.
 
 		// Call Adventure Deck to pick up 2 cards.
-
+		List<GameObject> lowestRankPlayer = players.getLowestRankUser();
+		// highestRankPlayer.DiscardWeaponFunction();
+		foreach (GameObject i in lowestRankPlayer) {
+			// Call Game Manager to Draw 2 Adventure Cards.
+		}
+			
 	}
 
 	// 3. Court Called to Camelot
@@ -69,15 +73,12 @@ public class EventsManager : MonoBehaviour {
 	// 4. Pox
 	// - All players except the player drawing this card lose 1 shield.
 	public void Pox(User player, Users players){
-
-		//Function to get all User Objects in users.
-		// for (i = 0; i < players.getNumberOfUsers(); i++){
-		// 	// if players[i] != player
-		// 	// 		then  int rank = players[i].getRank() - 1;
-		// 	// 					players[i].setRank(rank);
-		// }
-
-
+		foreach (GameObject i in players.getUsers()) {
+			if(!player.Equals(i)){
+				int shields = i.GetComponent<User> ().getShields ();
+				i.GetComponent<User> ().setShields (shields -1);
+			}
+		}
 	}
 
 	// 5. Plague
@@ -99,26 +100,18 @@ public class EventsManager : MonoBehaviour {
 	// 7. Prosperity Throughout the Realm
 	// - All players may immediately draw 2 Adventure Cards.
 	public void Prosperity_Throughout_The_Realm(Users players){
+		foreach (GameObject i in players.getUsers()) {
+			// Call game manager. to pick up 2 cards.....
 
-		// Call game manager. .....
+		}
 	}
 
 	// 8. King's Call to Arms
 	// - The Highest Ranked Player(s) must place 1 weapon in the discard pile. If unable to do so 2 Foe Cards must be discarded.
 	public void Kings_Call_To_Arms(User player, Users players){
 	// function for highest rank player.
-	/*
-		User highestRankUser;
-		for (int i = 0; i < players.getNumberOfUsers(); i++){
-			player.getRank().compareTo(players[i].getRank()){
+		List<GameObject> highestRankPlayer = players.getHighestRankUser();
+		// highestRankPlayer.DiscardWeaponFunction();
 
-			}
-		}
-		/* In Event Manager Possibly.
-		public static List<User> getAllUsers(){
-			 return users;
-		}
-		*/
-	//*/
 	}
 }

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Hand working thingy/Handworky.unity
+- path: Assets/Menu/MainMenu.unity
   isLoaded: 1
   isActive: 1

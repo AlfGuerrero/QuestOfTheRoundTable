@@ -8,14 +8,21 @@ public class User : MonoBehaviour {
 	protected int shields;
 	protected int baseAttack;
 	protected string rank;
-	public GameObject user_rank_ui;
-	public GameObject hand; //canvas for their hand
-	public User(string user_name){
+	//public GameObject user_rank_ui;
+	//public GameObject hand; //canvas for their hand
+	/*public User(string user_name){
+		this.user_name = user_name;
+		this.shields = 0;
+		this.baseAttack = 5;
+		this.rank = RANK_NAME [0];
+	}*/
+	public void Initialize(string user_name){
 		this.user_name = user_name;
 		this.shields = 0;
 		this.baseAttack = 5;
 		this.rank = RANK_NAME [0];
 	}
+
 	public string getName(){
 		return this.user_name;
 	}

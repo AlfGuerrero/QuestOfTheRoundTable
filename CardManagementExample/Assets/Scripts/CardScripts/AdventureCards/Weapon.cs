@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Weapon : MonoBehaviour {
 	//protected static readonly string[] WEAPON_NAME = {"Horse", "Sword", "Dagger", "Excalibur", "Lance", "Battle-ax"};
@@ -17,7 +18,7 @@ public class Weapon : MonoBehaviour {
 		value = weapon.value;
 		battlePoints = weapon.battlePoints;
 
-		GetComponent<SpriteRenderer> ().sprite = weapon.image;
+		GetComponent<Image> ().sprite = weapon.image;
 	}
 
 	public string getName(){
