@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Test : MonoBehaviour {
 	//protected static readonly string[] TEST_NAME = {"Test of the Questing Beast", "Test of the Temptation", "Test of the Valor", "Test of the Morgen Le Fey"};
@@ -21,7 +22,7 @@ public class Test : MonoBehaviour {
 		bidRequirements = test.bidRequirements;
 		value = test.value;
 
-		GetComponent<SpriteRenderer> ().sprite = test.image;
+		GetComponent<Image> ().sprite = test.image;
 	}
 
 	public string getName(){

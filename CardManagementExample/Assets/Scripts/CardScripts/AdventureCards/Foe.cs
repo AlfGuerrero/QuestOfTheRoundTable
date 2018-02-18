@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Foe : MonoBehaviour {
 	protected new string name;
@@ -16,7 +17,7 @@ public class Foe : MonoBehaviour {
 		foe = Resources.Load<FoeScriptObj> ("Foe/"+card);
 		name = foe.name;
 		type = "foe";
-		GetComponent<SpriteRenderer> ().sprite = foe.image;
+		GetComponent<Image> ().sprite = foe.image;
 		battlePoints = foe.battlePoints;
 		bonusBattlePoints = foe.bonusBattlePoints;
 		mordred = foe.mordred;

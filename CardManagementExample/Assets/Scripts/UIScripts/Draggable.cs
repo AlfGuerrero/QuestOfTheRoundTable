@@ -9,6 +9,7 @@ public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
 	public Transform parentToReturnTo;
 
 	public void OnBeginDrag(PointerEventData eventData)    {
+		Debug.Log ("here");
 		parentToReturnTo = this.transform.parent;
 		this.transform.SetParent (this.transform.parent.parent);
 

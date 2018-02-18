@@ -14,10 +14,10 @@ public class MouseOver : MonoBehaviour {
 		//startPos = this.transform.localPosition;
 		blownUpCard = new GameObject("blownUpCard");
 		blownUpCard.AddComponent<SpriteRenderer>();
-		blownUpCard.GetComponent<SpriteRenderer> ().sprite = this.GetComponent<SpriteRenderer> ().sprite;
+		blownUpCard.GetComponent<SpriteRenderer> ().sprite = this.GetComponent<Image> ().sprite;
 
-		blownUpCard.transform.position = new Vector3 (this.transform.position.x,5f,0f);
-		blownUpCard.transform.localScale = new Vector3 (3, 3, 3);
+		blownUpCard.transform.position = new Vector3 (this.transform.position.x,this.transform.position.y + 20f,0f);
+		blownUpCard.transform.localScale = new Vector3 (6f, 6f, 6f);
 	}
 
 	public void OnMouseOver()

@@ -40,12 +40,12 @@ public class HandManager : MonoBehaviour {
 			//-15;
 			//boxCollider.offset = new Vector2(-15f,boxCollider.offset.y);
 			ResizeCardColliders(-15f);
-		} else {
+		} /*else {
 			layout.spacing = -54;
 			//-26
 			//boxCollider.offset = new Vector2(-26f,boxCollider.offset.y);
 			ResizeCardColliders(-26f);
-		}
+		}*/
 
 	}
 
