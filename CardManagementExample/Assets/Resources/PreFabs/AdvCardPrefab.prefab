@@ -22,12 +22,12 @@ GameObject:
   - component: {fileID: 114000806201668954}
   - component: {fileID: 61152987642232118}
   - component: {fileID: 225345405584467862}
-  - component: {fileID: 114083818117103422}
   - component: {fileID: 222355419009789352}
   - component: {fileID: 114326158684509482}
+  - component: {fileID: 114030476109136680}
   m_Layer: 5
   m_Name: AdvCardPrefab
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blownUpCard: {fileID: 0}
   mousingOver: 0
---- !u!114 &114083818117103422
+--- !u!114 &114030476109136680
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}

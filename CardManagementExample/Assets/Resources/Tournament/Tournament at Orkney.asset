@@ -13,4 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   image: {fileID: 21300000, guid: ba7351b98fc1c4746ac56a4d14fbea32, type: 3}
-  bonusShields: 0
+  bonusShields: 2
