@@ -78,4 +78,25 @@ public class Users: MonoBehaviour {
 	{
 		return users.GetEnumerator();
 	}*/
+	public List<GameObject> getLowestRankUser(){
+		List<GameObject> result = new List<GameObject>();
+
+		int lowAttack = 1000;
+		foreach (GameObject i in users) {
+			if (i.GetComponent<User>().getbaseAttack () < lowAttack) {
+				lowAttack = i.GetComponent<User>().getbaseAttack ();
+				result.Clear ();
+				result.Add (i);
+				continue;
+			}
+			if (i.GetComponent<User>().getbaseAttack () == lowAttack) {
+				result.Add(i);
+			}
+		}
+		foreach (GameObject i in result) {
+			Debug.Log (i.GetComponent<User> ().getName ());
+		}
+		return result;
+	}
+
 }

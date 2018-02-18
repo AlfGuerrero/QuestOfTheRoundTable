@@ -17,6 +17,7 @@ public class UserTest : MonoBehaviour {
 		foreach (GameObject i in newUsers.getUsers()) {
 			Debug.Log ("Name: " + i.GetComponent<User>().getName () + " and battle point: " + i.GetComponent<User>().getbaseAttack ());
 		}
+
 		newUsers.getHighestRankUser ();
 		/*foreach (GameObject i in newUsers.getHighestRankUser()) {
 			Debug.Log ("Name: " + i.GetComponent<User>().getName ());
