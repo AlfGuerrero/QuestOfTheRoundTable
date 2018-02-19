@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace GameController{
 public class GameManager : MonoBehaviour {
 
 	// Use this for initialization
@@ -10,7 +11,7 @@ public class GameManager : MonoBehaviour {
 	 * Ask for # of users from UI Textbox. - waits to be pressed enter. 
 	 * 
 	 * */
-	public Users gameUsers;
+	public static Users gameUsers;
 	int totalUsers; 
 	int textBoxInput = 3;						// Will be changed to rom Textbox input UI.
 	int playerTurn = 0;
@@ -65,6 +66,11 @@ public class GameManager : MonoBehaviour {
 		    AdventureDeck adventureDeck = new AdventureDeck(); 
 			adventureDeck.Draw ();
 			adventureDeck.transform.SetParent (GameObject.Find (handName).transform);
+		}
+	}
+
+		static public List<GameObject> getplayers(){
+			return gameUsers.getUsers();
 		}
 	}
 }
