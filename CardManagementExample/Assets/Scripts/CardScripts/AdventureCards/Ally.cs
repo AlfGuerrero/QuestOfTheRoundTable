@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Ally : MonoBehaviour {
+public class Ally : MonoBehaviour, Card {
 	//protected static readonly string[] ALLY_NAME = {"Sir Gawain", "King Pellinore", "Sir Percival", "Sir Tristan", "King Arthur", "Queen Guinevere", "Merlin", "Queen Iseult", "Sir Lancelot", "Sir Galahad", "Armour"};
 	protected new string name;
 	protected string type;
@@ -29,7 +29,7 @@ public class Ally : MonoBehaviour {
 		value = ally.value;
 		type = "ally";
 		GetComponent<Image> ().sprite = ally.image;
-		Debug.Log (name + " " + type + " " + battlePoints);
+		//Debug.Log (name + " " + type + " " + battlePoints);
 	}
 
 
@@ -56,5 +56,11 @@ public class Ally : MonoBehaviour {
 	}
 	public void setCard (string cardName){
 		card = cardName;
+	}
+	public int getbonusBidRequirements(){
+		return 0;
+	}
+	public int getbidRequirements(){
+		return 0;
 	}
 }

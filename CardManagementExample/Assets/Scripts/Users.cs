@@ -69,15 +69,7 @@ public class Users: MonoBehaviour {
 		}
 		return result;
 	}
-	/*public IEnumerator<GameObject> GetEnumerator()
-	{
-		return users.GetEnumerator();
-	}
 
-	IEnumerator IEnumerable.GetEnumerator()
-	{
-		return users.GetEnumerator();
-	}*/
 	public List<GameObject> getLowestRankUser(){
 		List<GameObject> result = new List<GameObject>();
 
@@ -98,5 +90,4 @@ public class Users: MonoBehaviour {
 		}
 		return result;
 	}
-
 }

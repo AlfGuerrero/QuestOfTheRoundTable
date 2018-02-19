@@ -65,4 +65,15 @@ public class User : MonoBehaviour {
 			return false;
 		}
 	}
+	public List<GameObject> getHand(){
+		List<GameObject> result = new List<GameObject>();
+		GameObject hand = GameObject.Find ("Hand");
+		int handCount = hand.transform.childCount;
+		Debug.Log (handCount);
+		for (int i = 0; i < handCount; i++) {
+			result.Add(hand.transform.GetChild (i).gameObject);
+		}
+
+		return result;
+	}
 }

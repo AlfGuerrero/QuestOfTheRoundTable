@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Test : MonoBehaviour {
+public class Test : MonoBehaviour, Card {
 	//protected static readonly string[] TEST_NAME = {"Test of the Questing Beast", "Test of the Temptation", "Test of the Valor", "Test of the Morgen Le Fey"};
 
 	protected new string name;
@@ -43,4 +43,17 @@ public class Test : MonoBehaviour {
 	public void setCard (string cardName){
 		card = cardName;
 	}
+	public int getBattlePoints(){
+		return 0;
+	}
+	public int getBidPoints(){
+		return 0;
+	}
+	public int getBonusBattlePoints(){
+		return 0;
+	}
+	public int getBonusBidPoints(){
+		return 0;
+	}
+
 }

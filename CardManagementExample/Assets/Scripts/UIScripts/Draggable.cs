@@ -29,5 +29,8 @@ public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
 		this.GetComponent<BoxCollider2D> ().enabled = true;
 		this.GetComponent<CanvasGroup> ().blocksRaycasts = true;
 	}
+	public string test(){
+		return "asadsfafsdafddfaaffa";
+	}
 
 }
