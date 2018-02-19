@@ -15,10 +15,10 @@ public class TournamentManager: GameManager {
 	void Start () {
 		foreach (GameObject currentPlayer in Players) {
 			//if the current player pressed the button
-			if (currentPlayer != ai && pressed == true) {
+			//if (currentPlayer != ai && pressed == true) {
 				//collect the cards from their hands they wish to play
 					
-			}
+			//}
 		//Debug.Log(ht.getUsers();
 		//Debug.Log(.getUsers());
 		}
