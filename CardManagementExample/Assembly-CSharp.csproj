@@ -46,7 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Ai\Ai.cs" />
+     <Compile Include="Assets\Ai\AI manager.cs" />
+     <Compile Include="Assets\Ai\Basic.cs" />
      <Compile Include="Assets\Scripts\CardScripts\AdventureCards\AdventureDeck.cs" />
      <Compile Include="Assets\Scripts\CardScripts\AdventureCards\Ally.cs" />
      <Compile Include="Assets\Scripts\CardScripts\AdventureCards\AllyScriptObj.cs" />
@@ -64,12 +65,14 @@
      <Compile Include="Assets\Scripts\CardScripts\StoryCards\StoryDeck.cs" />
      <Compile Include="Assets\Scripts\CardScripts\StoryCards\Tournament.cs" />
      <Compile Include="Assets\Scripts\CardScripts\StoryCards\TournamentScriptObj.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\PlayerManager.cs" />
      <Compile Include="Assets\Scripts\UIScripts\Draggable.cs" />
      <Compile Include="Assets\Scripts\UIScripts\HandDropzone.cs" />
      <Compile Include="Assets\Scripts\UIScripts\HandManager.cs" />
      <Compile Include="Assets\Scripts\UIScripts\MouseOver.cs" />
      <Compile Include="Assets\Scripts\User.cs" />
+     <Compile Include="Assets\Scripts\UserTest.cs" />
      <Compile Include="Assets\Scripts\Users.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
