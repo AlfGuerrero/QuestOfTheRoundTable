@@ -31,12 +31,12 @@ public class HandManager : MonoBehaviour {
 
 
 		if (handSize <= 12) {
-			layout.spacing = -100;
+			layout.spacing = -80;
 			//1;
 			//boxCollider.offset = new Vector2(1f,boxCollider.offset.y);
 			//ResizeCardColliders(f);
 		}else {
-			layout.spacing = -75;
+			layout.spacing = -60;
 			//-26
 			//boxCollider.offset = new Vector2(-26f,boxCollider.offset.y);
 			ResizeCardColliders(2f);

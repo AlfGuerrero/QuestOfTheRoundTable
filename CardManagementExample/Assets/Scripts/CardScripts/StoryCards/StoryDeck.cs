@@ -79,7 +79,8 @@ public class StoryDeck : MonoBehaviour {
 					tempCard.AddComponent<Ally> ();
 					tempCard.GetComponent<Ally> ().setCard (tempKey);
 				}*/
-
+				//tempCard.AddComponent<Ally> ();
+				//tempCard.GetComponent<Ally> ().setCard (tempKey);
 				RemoveCard (tempKey);
 				return tempCard;
 			}

@@ -45,7 +45,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 4.47, y: 26.07}
+  m_Size: {x: 1.5, y: 5}
 --- !u!114 &114000806201668954
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -119,8 +119,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 109.9, y: 87.2}
-  m_SizeDelta: {x: 18.9, y: 26.2}
+  m_AnchoredPosition: {x: -150.9, y: -33.4}
+  m_SizeDelta: {x: 3.5, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &225345405584467862
 CanvasGroup:
