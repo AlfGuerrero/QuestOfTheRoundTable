@@ -112,7 +112,7 @@ public class AdventureDeck : MonoBehaviour {
 		Deck.Add("Queen Guinevere", 1);
 		Deck.Add("Merlin", 1);
 
-		Deck.Add ("Armour", 8);
+		Deck.Add ("Amour", 8);
 	}
 
 	public GameObject Draw(){
