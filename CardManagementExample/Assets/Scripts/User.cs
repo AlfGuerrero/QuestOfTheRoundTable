@@ -8,6 +8,7 @@ public class User : MonoBehaviour {
 	protected int shields;
 	protected int baseAttack;
 	protected string rank;
+	protected bool ai;
 	//public GameObject user_rank_ui;
 	//public GameObject hand; //canvas for their hand
 	/*public User(string user_name){
@@ -16,11 +17,12 @@ public class User : MonoBehaviour {
 		this.baseAttack = 5;
 		this.rank = RANK_NAME [0];
 	}*/
-	public void Initialize(string user_name){
+	public void Initialize(string user_name,bool ai){
 		this.user_name = user_name;
 		this.shields = 0;
 		this.baseAttack = 5;
 		this.rank = RANK_NAME [0];
+		this.ai = ai;
 	}
 
 	public string getName(){
@@ -44,6 +46,9 @@ public class User : MonoBehaviour {
 	}
 	public void setBaseAttack(int baseAttack){
 		this.baseAttack = baseAttack;
+	}
+	public bool getAI(){
+		return this.ai;
 	}
 	public bool isRankUpgrade(){
 		if (this.rank == RANK_NAME [0]) {

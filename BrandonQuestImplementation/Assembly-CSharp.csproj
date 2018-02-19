@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\AI\AI.cs" />
      <Compile Include="Assets\Quest\Stage.cs" />
+     <Compile Include="Assets\Quest\Type.cs" />
      <Compile Include="Assets\Scripts\AdventureCard.cs" />
      <Compile Include="Assets\Scripts\AdventureDeckManager.cs" />
      <Compile Include="Assets\Scripts\Ally.cs" />
