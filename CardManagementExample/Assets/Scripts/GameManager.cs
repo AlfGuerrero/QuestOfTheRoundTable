@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void Awake(){
-		gameUsers = new Users(textBoxInput);
+		//gameUsers = new Users(textBoxInput);
 		totalUsers = gameUsers.getNumberOfUsers ();	// Verify. 
 		Debug.Log ("GameManager.cs :: Game has been created with " + totalUsers + " players." );
 
