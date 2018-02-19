@@ -126,19 +126,9 @@ public class AdventureDeck : MonoBehaviour {
 				tempKey = item.Key;
 				GameObject tempCard = Instantiate (adventureCardPrefab);/**DO NOT FORGET TO PARENT TO COORECT HAND, MIGHT NEED TO TAKE IN HAND OBJECTS**/
 
-				if (foes.Contains (tempKey)) {
-					tempCard.AddComponent<Foe> ();
-					tempCard.GetComponent<Foe> ().setCard (tempKey);
-				} else if (weapons.Contains (tempKey)) {
-					tempCard.AddComponent<Weapon> ();
-					tempCard.GetComponent<Weapon> ().setCard (tempKey);
-				} else if (allies.Contains (tempKey)) {
-					tempCard.AddComponent<Ally> ();
-					tempCard.GetComponent<Ally> ().setCard (tempKey);
-				} else {
-					tempCard.AddComponent<Test> ();
-					tempCard.GetComponent<Test> ().setCard (tempKey);
-				}
+				tempCard.AddComponent<AdventureCard> ();
+				tempCard.GetComponent<AdventureCard> ().setCard (tempKey);
+				
 
 				RemoveCard (tempKey);
 				return tempCard;

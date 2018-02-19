@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Foe : MonoBehaviour {
+public class Foe : MonoBehaviour, Card {
 	protected new string name;
 	protected int battlePoints;
 	protected int bonusBattlePoints;
@@ -23,7 +23,7 @@ public class Foe : MonoBehaviour {
 		mordred = foe.mordred;
 		value = foe.value;
 
-		Debug.Log (name + " " + type + " " + battlePoints);
+		//Debug.Log (name + " " + type + " " + battlePoints);
 	}
 	public string getName(){
 		return this.name;
@@ -42,5 +42,17 @@ public class Foe : MonoBehaviour {
 	}
 	public void setCard (string cardName){
 		card = cardName;
+	}
+	public int getBidPoints(){
+		return 0;
+	}
+	public int getBonusBidPoints(){
+		return 0;
+	}
+	public int getbonusBidRequirements(){
+		return 0;
+	}
+	public int getbidRequirements(){
+		return 0;
 	}
 }
