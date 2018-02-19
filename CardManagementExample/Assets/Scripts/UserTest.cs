@@ -6,7 +6,7 @@ public class UserTest : MonoBehaviour {
 	Users newUsers;
 	// Use this for initialization
 	void Start () {
-		newUsers = new Users (1);
+		newUsers = new Users (1,1);
 		foreach (GameObject i in newUsers.getUsers()) {
 			Debug.Log ("Name: " + i.GetComponent<User>().getName () + " and battle point: " + i.GetComponent<User>().getbaseAttack ());
 		}
