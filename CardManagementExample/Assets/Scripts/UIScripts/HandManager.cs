@@ -30,13 +30,18 @@ public class HandManager : MonoBehaviour {
 		int handSize = this.transform.childCount;
 
 
-		if (handSize <= 12) {
+		if (handSize <= 7) {
 			layout.spacing = -90;
 			//1;
 			//boxCollider.offset = new Vector2(1f,boxCollider.offset.y);
 			//ResizeCardColliders(f);
+		} else if (handSize <= 12) {
+			layout.spacing = -34;
+			//-15;
+			//boxCollider.offset = new Vector2(-15f,boxCollider.offset.y);
+			ResizeCardColliders(1f);
 		} else {
-			layout.spacing = -75;
+			layout.spacing = -28;
 			//-26
 			//boxCollider.offset = new Vector2(-26f,boxCollider.offset.y);
 			ResizeCardColliders(2f);
