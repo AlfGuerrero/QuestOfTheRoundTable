@@ -16,8 +16,8 @@ public class HandManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		SetCardsInList ();
-		CardDistribution ();
+		//SetCardsInList ();
+		//CardDistribution ();
 
 	}
 
@@ -39,12 +39,12 @@ public class HandManager : MonoBehaviour {
 			layout.spacing = -60;
 			//-26
 			//boxCollider.offset = new Vector2(-26f,boxCollider.offset.y);
-			ResizeCardColliders(2f);
+			//ResizeCardColliders(2f);
 		}
 
 	}
 
-	void SetCardsInList(){
+	/*void SetCardsInList(){
 		cardsInHand = GameObject.FindGameObjectsWithTag ("Card");
 	}
 
@@ -53,5 +53,5 @@ public class HandManager : MonoBehaviour {
 			BoxCollider2D col = card.GetComponent<BoxCollider2D> ();
 			col.offset = new Vector2 (offsetX, col.offset.y);
 		}
-	}
+	}*/
 }

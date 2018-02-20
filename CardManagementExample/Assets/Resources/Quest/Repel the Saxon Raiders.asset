@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56a7c185553d9174a914605bd893d232, type: 3}
-  m_Name: Journey Through the Enchanted Forest
+  m_Name: Repel the Saxon Raiders
   m_EditorClassIdentifier: 
-  name: Journey Through the Enchanted Forest
-  bonusFoe: Evil Knight
-  stages: 3
-  image: {fileID: 21300000, guid: 88a24ec73b74a486f8efef9162fd13ca, type: 3}
+  name: Repel the Saxon Raiders
+  bonusFoe: All Saxons
+  stages: 2
+  image: {fileID: 21300000, guid: 7d50034b06da943258bf639e0ee9e7ff, type: 3}

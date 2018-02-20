@@ -55,10 +55,12 @@ public class AdventureDeck : MonoBehaviour {
 	public int index;
 	public int randInt;
 	public GameObject adventureCardPrefab;
+	/*
 	List<string> foes = new List<string>(){"Thieves","Boar","Saxons","Robber Knight","Saxon Knight","Evil Knight","Black Knight","Green Knight","Giant","Dragon","Mordred"};
 	List<string> weapons = new List<string>(){"Dagger","Sword","Horse","Battle-ax","Lance","Excalibur"};
 	List<string> allies = new List<string>(){"Queen Iseult","Sir Galahad","King Arthur","Sir Lancelot","Sir Tristan","King Pellinore","Sir Percival","Sir Gawain","Queen Guinevere","Merlin","Armour"};
 	List<string> tests = new List<string>(){"Test of Valor","Test of the Questing Beast","Test of Morgan Le Fey","Test of Temptation"};
+	*/
 	//Weapons, Foes, Tests
 	//public Sprite[] cards;
 	// Use this for initialization
