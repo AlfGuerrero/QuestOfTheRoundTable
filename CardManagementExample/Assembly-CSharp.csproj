@@ -79,6 +79,7 @@
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\ManagerScripts\QuestManager.cs" />
      <Compile Include="Assets\Scripts\ManagerScripts\SubmitCards.cs" />
+     <Compile Include="Assets\Scripts\ManagerScripts\SubmitTournament.cs" />
      <Compile Include="Assets\Scripts\PlayerManager.cs" />
      <Compile Include="Assets\Scripts\UIScripts\Draggable.cs" />
      <Compile Include="Assets\Scripts\UIScripts\Dropzone.cs" />

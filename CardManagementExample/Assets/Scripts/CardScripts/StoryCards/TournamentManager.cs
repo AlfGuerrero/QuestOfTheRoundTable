@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using GameController;
 
-public class TournamentManager: GameManager {
+public class TournamentManager: MonoBehaviour {
 	
 	// Use this for initialization
 	//Users ht;
@@ -14,38 +14,20 @@ public class TournamentManager: GameManager {
 	bool CardsSubmitted = false;
 	//List<GameObject> Players= getplayers();
 	GameObject SubmissionZone;
-	/*void Start () {
-		foreach (GameObject currentPlayer in Players) {
-			//if the current player pressed the button
-			//if (currentPlayer != ai && pressed == true) {
-				//collect the cards from their hands they wish to play
-					
+
+	void Start(){
+		SubmissionZone = Resources.Load ("PreFabs/aStage") as GameObject;
+	}
+	public void beginTournament(Users Players){
+		foreach (GameObject currentPlayer in Players.getUsers()) {
+			//while (CardsSubmitted == false) {
+
+			Instantiate(SubmissionZone, currentPlayer.GetComponent<Transform>());
+				//SubmissionZone.transform.SetParent (currentPlayer.transform);
+				Debug.Log ("PLEASE LET THIS WORK");
 			//}
-		//Debug.Log(ht.getUsers();
-		//Debug.Log(.getUsers());
-		}
-	}
-	
-	// Update i called once per frame
-	void Update () {
-		//myUsers.getUsers ();
-	}*/
-
-	void beginTournament(List<GameObject> Players){
-		foreach (GameObject currentPlayer in Players) {
-			while (CardsSubmitted == false) {
-				SubmissionZone = Instantiate (Resources.Load ("PreFabs/aStage"));
-				SubmissionZone.transform.SetParent (currentPlayer.transform);
-			}
 		}
 
 	}
-
-	//Collect a list of users
-	//ask each player if they want to part-take and collect their cards
-	//do some math can see who won.
-
-	public void collectcards(){
-		//
-		}
+		
 	}
