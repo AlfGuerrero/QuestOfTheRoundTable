@@ -4,10 +4,19 @@ using UnityEngine;
 
 public class QuestManager : MonoBehaviour {
 
-	public GameObject aStage;
+	GameObject QuestStage;
+	GameObject SubmitButton;
 	int cardsPlayed = 0;
 	bool questOver = false;
+	int numStages;
 	GameObject[] stages;
+	List<List<AdventureCard>> currentQuest;
+
+	void Start(){
+		QuestStage = Resources.Load("PreFabs/QuestStage") as GameObject;
+		SubmitButton = Resources.Load("PreFabs/SubmitButton") as GameObject;
+	}
+
 	/***** There Are 3 Phases For A Quest *****/
 	//Sponsor Set Up
 	//Player Play Through
@@ -15,15 +24,19 @@ public class QuestManager : MonoBehaviour {
 
 	//Needs to take in the sponsor and the Quest in play
 	//Send that player to a setup screen
-/*
+
 	public void Setup(User sponsor){
-		string currentCard = GameObject.Find ("CurrentStoryCard").GetComponent<StoryDeckManager> ().getCurrentCard ();
-		int numStages = GameObject.Find ("CurrentStoryCard").GetComponent<StoryDeckManager> ().getStages ();
+		//string currentCard = GameObject.Find ("CurrentStoryCard").GetComponent<StoryDeckManager> ().getCurrentCard ();
+		numStages = GameObject.FindGameObjectWithTag("StoryCard").GetComponent<Quest>().getStages();
 
 		spawnStages (numStages, sponsor);
 		//while stages are not elligible for submission wait here
 		//hide stages to players
 		//let the players know how many cards are there, and if it is a test or not
+
+	}
+
+	public void addStage(List<AdventureCard> cardsForStage){
 
 	}
 
@@ -58,13 +71,14 @@ public class QuestManager : MonoBehaviour {
 
 	void spawnStages(int numStages, User sponsor){
 		for(int i = 0; i < numStages; i++){
-			stages[i] = Instantiate (aStage);//need to parent to sponsor
+			stages[i] = Instantiate (QuestStage, sponsor.GetComponent<Transform>());//need to parent to sponsor
 		}
+		Instantiate (SubmitButton, sponsor.GetComponent<Transform>());
 	}
 
 	public void increaseCardsPlayed(){
 		cardsPlayed++;
 	}
 
-*/
+
 }
