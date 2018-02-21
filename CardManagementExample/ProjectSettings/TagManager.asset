@@ -8,6 +8,8 @@ TagManager:
   - Knight
   - Rank
   - StoryCard
+  - Card
+  - Stage
   layers:
   - Default
   - TransparentFX

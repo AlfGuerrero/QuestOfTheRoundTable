@@ -11,6 +11,7 @@ public class StoryDeck : MonoBehaviour {
 	public int deckSize;
 	public int index;
 	public int randInt;
+	GameObject newCard;
 	//public GameObject storyCardPrefab;
 	List<string> events = new List<string>(){"King's Recognition","Queen's Favor","Court Called to Camelot","Pox","Plague","Chivalrous Deed",
 												"Prosperity Throughout the Realm","King's Call to Arms"};
@@ -31,8 +32,12 @@ public class StoryDeck : MonoBehaviour {
 
 	void Update(){
 		if (Input.GetKeyDown (KeyCode.Space)) {
-			GameObject newCard = Draw ();
+			if(newCard != null){
+				Destroy (newCard);
+			}
+			newCard = Draw ();
 			//newCard.transform.SetParent (GameObject.Find ("Hand").transform);
+
 		}
 	}
 
