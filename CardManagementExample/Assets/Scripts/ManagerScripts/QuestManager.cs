@@ -15,8 +15,8 @@ public class QuestManager : MonoBehaviour {
 	void Start(){
 		QuestStage = Resources.Load("PreFabs/QuestStage") as GameObject;
 		SubmitButton = Resources.Load("PreFabs/SubmitButton") as GameObject;
-
-		spawnStages (3, GameObject.Find ("Player").GetComponent<User> ());
+		//Instantiate (QuestStage);
+		//spawnStages (3, GameObject.Find ("Player").gameObject);
 	}
 
 	/***** There Are 3 Phases For A Quest *****/
@@ -27,7 +27,7 @@ public class QuestManager : MonoBehaviour {
 	//Needs to take in the sponsor and the Quest in play
 	//Send that player to a setup screen
 
-	public void Setup(User sponsor){
+	public void Setup(GameObject sponsor){
 		//string currentCard = GameObject.Find ("CurrentStoryCard").GetComponent<StoryDeckManager> ().getCurrentCard ();
 		numStages = GameObject.FindGameObjectWithTag("StoryCard").GetComponent<Quest>().getStages();
 
@@ -71,11 +71,12 @@ public class QuestManager : MonoBehaviour {
 		//return to Game Master
 	}
 
-	void spawnStages(int numStages, User sponsor){
+	void spawnStages(int numStages, GameObject sponsor){
+		stages = new GameObject[numStages];
 		for(int i = 0; i < numStages; i++){
-			stages[i] = Instantiate (QuestStage, sponsor.GetComponent<Transform>());//need to parent to sponsor
+			stages[i] = Instantiate (QuestStage, sponsor.transform);//need to parent to sponsor
 		}
-		Instantiate (SubmitButton, sponsor.GetComponent<Transform>());
+		Instantiate (SubmitButton, sponsor.transform);
 	}
 
 	public void increaseCardsPlayed(){
