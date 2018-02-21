@@ -6,14 +6,14 @@ public class UserTest : MonoBehaviour {
 	Users newUsers;
 	// Use this for initialization
 	void Start () {
-		newUsers = new Users (1,0);
+		newUsers = new Users (1,1);
 		foreach (GameObject i in newUsers.getUsers()) {
 			Debug.Log ("Name: " + i.GetComponent<User>().getName () + " and battle point: " + i.GetComponent<User>().getbaseAttack ());
 		}
 		Debug.Log(newUsers.findByUserName ("Player0").GetComponent<User>().getName());
 
 		newUsers.findByUserName ("Player0").GetComponent<User> ().getHand ();
-		GameObject.FindGameObjectWithTag ("GameController").GetComponent<TournamentManager> ().beginTournament (newUsers);
+
 	}
 	
 	// Update is called once per frame
