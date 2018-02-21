@@ -15,6 +15,8 @@ public class QuestManager : MonoBehaviour {
 	void Start(){
 		QuestStage = Resources.Load("PreFabs/QuestStage") as GameObject;
 		SubmitButton = Resources.Load("PreFabs/SubmitButton") as GameObject;
+
+		spawnStages (3, GameObject.Find ("Player").GetComponent<User> ());
 	}
 
 	/***** There Are 3 Phases For A Quest *****/

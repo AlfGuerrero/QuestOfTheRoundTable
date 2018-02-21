@@ -249,6 +249,10 @@ Prefab:
       propertyPath: m_Name
       value: QuestStage (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1081018248117268, guid: 9d14ad6fa914bda41b969390b488d2f6, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9d14ad6fa914bda41b969390b488d2f6, type: 2}
   m_IsPrefabParent: 0
@@ -441,6 +445,10 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1081018248117268, guid: 9d14ad6fa914bda41b969390b488d2f6, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9d14ad6fa914bda41b969390b488d2f6, type: 2}
   m_IsPrefabParent: 0
@@ -454,7 +462,7 @@ GameObject:
   - component: {fileID: 900336055}
   - component: {fileID: 900336054}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: QuestManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -471,7 +479,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e308081343da7c4fbea558725b4adac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  aStage: {fileID: 0}
 --- !u!4 &900336055
 Transform:
   m_ObjectHideFlags: 0
@@ -610,6 +617,10 @@ Prefab:
         type: 2}
       propertyPath: m_Spacing
       value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1081018248117268, guid: 9d14ad6fa914bda41b969390b488d2f6, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9d14ad6fa914bda41b969390b488d2f6, type: 2}
@@ -817,6 +828,10 @@ Prefab:
     - target: {fileID: 224788954217411040, guid: d8575f9f3566e6146b40ea4e56bfbee8,
         type: 2}
       propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1640335438322542, guid: d8575f9f3566e6146b40ea4e56bfbee8, type: 2}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
