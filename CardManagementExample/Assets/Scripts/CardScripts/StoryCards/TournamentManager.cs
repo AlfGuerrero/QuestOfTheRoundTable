@@ -11,10 +11,8 @@ public class TournamentManager: GameManager {
 	bool pressed=false;
 	int ai=0;
 	List<Users> Kards;
-	bool CardsSubmitted = false;
-	//List<GameObject> Players= getplayers();
-	GameObject SubmissionZone;
-	/*void Start () {
+	List<GameObject> Players= getplayers();
+	void Start () {
 		foreach (GameObject currentPlayer in Players) {
 			//if the current player pressed the button
 			//if (currentPlayer != ai && pressed == true) {
@@ -29,16 +27,6 @@ public class TournamentManager: GameManager {
 	// Update i called once per frame
 	void Update () {
 		//myUsers.getUsers ();
-	}*/
-
-	void beginTournament(List<GameObject> Players){
-		foreach (GameObject currentPlayer in Players) {
-			while (CardsSubmitted == false) {
-				SubmissionZone = Instantiate (Resources.Load ("PreFabs/aStage"));
-				SubmissionZone.transform.SetParent (currentPlayer.transform);
-			}
-		}
-
 	}
 
 	//Collect a list of users
