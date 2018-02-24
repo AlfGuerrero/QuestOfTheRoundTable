@@ -12,6 +12,7 @@ public class TournamentManager: MonoBehaviour {
 	bool pressed;
 	int ai;
 	List<Users> Kards;
+
 	bool CardsSubmitted;
 	GameObject SubmissionZone;
 	GameObject SubmitButton;
@@ -34,6 +35,24 @@ public class TournamentManager: MonoBehaviour {
 			SubmissionZone = Instantiate (SubmissionZone, currentPlayer.transform);
 			SubmitButton = Instantiate (SubmitButton, currentPlayer.transform);
 		}
+
+
+	List<GameObject> Players= getplayers();
+	void Start () {
+		foreach (GameObject currentPlayer in Players) {
+			//if the current player pressed the button
+			//if (currentPlayer != ai && pressed == true) {
+				//collect the cards from their hands they wish to play
+					
+			//}
+		//Debug.Log(ht.getUsers();
+		//Debug.Log(.getUsers());
+		}
+	}
+	
+	// Update i called once per frame
+	void Update () {
+		//myUsers.getUsers ();
 
 	}
 	public bool getCardsSubmitted(){
