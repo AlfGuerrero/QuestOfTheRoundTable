@@ -9,6 +9,7 @@ public class User : MonoBehaviour {
 	protected int baseAttack;
 	protected string rank;
 	protected bool ai;
+	protected List<AdventureCard> hand_ally;
 	//public GameObject user_rank_ui;
 	//public GameObject hand; //canvas for their hand
 	/*public User(string user_name){
@@ -23,8 +24,8 @@ public class User : MonoBehaviour {
 		this.baseAttack = 5;
 		this.rank = RANK_NAME [0];
 		this.ai = ai;
+		this.hand_ally = new List<AdventureCard> ();
 	}
-
 	public string getName(){
 		return this.user_name;
 	}
@@ -50,6 +51,17 @@ public class User : MonoBehaviour {
 	public bool getAI(){
 		return this.ai;
 	}
+	public void addAlly(AdventureCard Ally){
+		hand_ally.Add (Ally);
+	}
+	public int getAllyBattlePoints(int bonus){
+		int totalBattlePoints = 0;
+		foreach (AdventureCard i in this.hand_ally) {
+			totalBattlePoints += i.getBattlePoints ();
+		}
+		totalBattlePoints += bonus;
+		return totalBattlePoints;
+	}
 	public bool isRankUpgrade(){
 		if (this.rank == RANK_NAME [0]) {
 			if (this.shields == 5)
@@ -74,7 +86,7 @@ public class User : MonoBehaviour {
 		List<GameObject> result = new List<GameObject>();
 		GameObject hand = GameObject.Find ("Hand");
 		int handCount = hand.transform.childCount;
-		Debug.Log (handCount);
+		//Debug.Log (handCount);
 		for (int i = 0; i < handCount; i++) {
 			result.Add(hand.transform.GetChild (i).gameObject);
 		}

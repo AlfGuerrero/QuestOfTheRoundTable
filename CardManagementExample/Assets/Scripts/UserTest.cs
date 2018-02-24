@@ -6,14 +6,13 @@ public class UserTest : MonoBehaviour {
 	Users newUsers;
 	// Use this for initialization
 	void Start () {
-		newUsers = new Users (1,1);
+		newUsers = new Users (2,0);
 		foreach (GameObject i in newUsers.getUsers()) {
 			Debug.Log ("Name: " + i.GetComponent<User>().getName () + " and battle point: " + i.GetComponent<User>().getbaseAttack ());
 		}
 		Debug.Log(newUsers.findByUserName ("Player0").GetComponent<User>().getName());
 
 		newUsers.findByUserName ("Player0").GetComponent<User> ().getHand ();
-
 	}
 	
 	// Update is called once per frame
@@ -22,6 +21,15 @@ public class UserTest : MonoBehaviour {
 			foreach (GameObject i in newUsers.findByUserName ("Player0").GetComponent<User> ().getHand ()) {
 				
 			}
+		}
+		if (Input.GetKeyDown (KeyCode.A)) {
+			this.gameObject.GetComponent<TournamentManager> ().beginTournament(newUsers);
+		}
+		if (this.gameObject.GetComponent<TournamentManager> ().getCardsSubmitted () == true) {
+			this.gameObject.GetComponent<TournamentManager> ().Tournament (newUsers);
+		}
+		if (this.gameObject.GetComponent<TournamentManager> ().getTieBreaker () == true) {
+			
 		}
 	}
 }
