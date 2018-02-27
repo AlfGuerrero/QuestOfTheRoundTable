@@ -20,7 +20,7 @@ public class TournamentManager: MonoBehaviour {
 	Dictionary<string, List<AdventureCard>> u_cards = new Dictionary<string, List<AdventureCard>>(){};
 	SortedDictionary<string, int> u_battlePoints = new SortedDictionary<string, int>(){};
 	protected QuestGame.Logger	logger = new QuestGame.Logger ();
-;
+
 
 	int participants;
 	void Start(){
