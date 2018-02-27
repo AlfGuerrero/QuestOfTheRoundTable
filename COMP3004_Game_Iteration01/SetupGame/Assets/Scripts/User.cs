@@ -52,6 +52,12 @@ public class User : MonoBehaviour {
 		this.gameObject.transform.GetChild(4).GetComponent<Text>().text =  ("Rank: " + this.rank);
 		this.gameObject.transform.GetChild(5).GetComponent<Text>().text =  ("Shields: " + this.shields);
 		this.gameObject.transform.GetChild(6).GetComponent<Text>().text =  ("BattlePoints: " + this.baseAttack);
+
+		if (getCards ().Count > 12) {
+			GameObject.FindGameObjectWithTag ("Hold").transform.GetChild (0).gameObject.SetActive (true);
+		} else {
+			GameObject.FindGameObjectWithTag ("Hold").transform.GetChild (0).gameObject.SetActive (false);
+		}
 	}
 
 	public string getName(){
