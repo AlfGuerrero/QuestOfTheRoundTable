@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 15080ac218cd14f4ab4470e05dc3db20
+timeCreated: 1518446342
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - adventureCardPrefab: {fileID: 1838795611039302, guid: 280e34bf77122f247bbebcd7f5bc9113,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

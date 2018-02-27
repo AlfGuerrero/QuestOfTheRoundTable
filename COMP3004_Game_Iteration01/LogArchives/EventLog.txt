@@ -1,0 +1,1424 @@
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:13:58.4902450-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:13:58.4984890-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:13:58.5058450-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:13:58.5068000-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:13:58.5077290-05:00: Logger initialized
+2018-02-25T22:13:58.5081120-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T22:13:58.5089070-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T22:13:58.5092140-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T22:13:58.5094340-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T22:13:58.5096510-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T22:13:58.5098650-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T22:13:58.5135510-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Robber Knight
+2018-02-25T22:13:58.5164780-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dragon
+2018-02-25T22:13:58.5171610-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: King Arthur
+2018-02-25T22:13:58.5176980-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Amour
+2018-02-25T22:13:58.5182200-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Evil Knight
+2018-02-25T22:13:58.5187380-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Thieves
+2018-02-25T22:13:58.5192240-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Valor
+2018-02-25T22:13:58.5196920-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T22:13:58.5201530-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T22:13:58.5206180-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of the Questing Beast
+2018-02-25T22:13:58.5210900-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Amour
+2018-02-25T22:13:58.5215600-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T22:13:58.5218440-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-02-25T22:13:58.5222760-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Amour
+2018-02-25T22:13:58.5227560-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T22:13:58.5232240-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Merlin
+2018-02-25T22:13:58.5236810-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Excalibur
+2018-02-25T22:13:58.5241520-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Excalibur
+2018-02-25T22:13:58.5246280-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of the Questing Beast
+2018-02-25T22:13:58.5250800-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T22:13:58.5255250-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Mordred
+2018-02-25T22:13:58.5259680-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T22:13:58.5265650-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Valor
+2018-02-25T22:13:58.5271440-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Robber Knight
+2018-02-25T22:13:58.5276530-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Robber Knight
+2018-02-25T22:13:58.5344630-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-02-25T22:13:58.5351140-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Gawain
+2018-02-25T22:13:58.5356150-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T22:13:58.5360990-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Green Knight
+2018-02-25T22:13:58.5365670-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T22:13:58.5371100-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dagger
+2018-02-25T22:13:58.5376200-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxon Knight
+2018-02-25T22:13:58.5381280-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Percival
+2018-02-25T22:13:58.5386220-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Morgan Le Fey
+2018-02-25T22:13:58.5391190-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Queen Guinevere
+2018-02-25T22:13:58.5395920-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T22:13:58.5400570-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T22:13:58.5405470-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxon Knight
+2018-02-25T22:13:58.5408070-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:14:44.8993420-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:14:44.9077880-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:14:44.9149490-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:14:44.9158660-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:14:44.9167690-05:00: Logger initialized
+2018-02-25T22:14:44.9170690-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T22:14:44.9177660-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T22:14:44.9180600-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T22:14:44.9182860-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T22:14:44.9185200-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T22:14:44.9187380-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T22:14:44.9231370-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Valor
+2018-02-25T22:14:44.9262790-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Queen Guinevere
+2018-02-25T22:14:44.9269850-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Excalibur
+2018-02-25T22:14:44.9275010-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Giant
+2018-02-25T22:14:44.9280020-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T22:14:44.9285270-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T22:14:44.9290440-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Tristan
+2018-02-25T22:14:44.9295510-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Thieves
+2018-02-25T22:14:44.9300520-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T22:14:44.9305670-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dragon
+2018-02-25T22:14:44.9310740-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Excalibur
+2018-02-25T22:14:44.9317710-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Gawain
+2018-02-25T22:14:44.9322200-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-02-25T22:14:44.9328000-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dagger
+2018-02-25T22:14:44.9333720-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Merlin
+2018-02-25T22:14:44.9338940-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Thieves
+2018-02-25T22:14:44.9344210-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Green Knight
+2018-02-25T22:14:44.9349040-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dagger
+2018-02-25T22:14:44.9355830-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxon Knight
+2018-02-25T22:14:44.9362190-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T22:14:44.9369590-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Temptation
+2018-02-25T22:14:44.9376510-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T22:14:44.9382030-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: King Pellinore
+2018-02-25T22:14:44.9386760-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Mordred
+2018-02-25T22:14:44.9467410-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of the Questing Beast
+2018-02-25T22:14:44.9471550-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-02-25T22:14:44.9477360-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Percival
+2018-02-25T22:14:44.9482370-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T22:14:44.9487120-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dagger
+2018-02-25T22:14:44.9491900-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Temptation
+2018-02-25T22:14:44.9496680-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Robber Knight
+2018-02-25T22:14:44.9501320-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Evil Knight
+2018-02-25T22:14:44.9505980-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Galahad
+2018-02-25T22:14:44.9510680-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Lancelot
+2018-02-25T22:14:44.9515340-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Morgan Le Fey
+2018-02-25T22:14:44.9520030-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Valor
+2018-02-25T22:14:44.9525710-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T22:14:44.9530750-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: King Arthur
+2018-02-25T22:14:44.9533370-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-02-25T22:14:48.4125590-05:00 [INFO]: StoryDeck.cs ::  Card has been added: Tournament at Orkney
+2018-02-25T22:14:48.4137400-05:00 [TEST]: GameManager.cs :: Tournament Name: Tournament at Orkney
+2018-02-25T22:14:50.7755280-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:14:50.7759990-05:00 [TEST]: EventManager.cs :: Running Prosperity Throughout the Realm.
+2018-02-25T22:14:50.7767630-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Evil Knight
+2018-02-25T22:14:50.7770080-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T22:14:50.7775420-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T22:14:50.7777760-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T22:14:50.7783220-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Mordred
+2018-02-25T22:14:50.7785370-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-25T22:14:50.7790070-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dagger
+2018-02-25T22:14:50.7792430-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-25T22:14:50.7798110-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T22:14:50.7800580-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-25T22:14:50.7806380-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxon Knight
+2018-02-25T22:14:50.7808770-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-25T22:14:52.8229810-05:00 [TEST]: GameManager.cs :: Quest Name: Search for the Questing Beast
+2018-02-25T22:14:53.8344710-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:14:53.8354220-05:00 [TEST]: EventsManager.cs :: Running Pox.
+2018-02-25T22:14:53.8358860-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 0
+2018-02-25T22:14:53.8362580-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 0
+2018-02-25T22:14:53.8365560-05:00 [INFO]: EventsManager.cs :: Player1 number of shields: 0
+2018-02-25T22:14:53.8368310-05:00 [INFO]: EventsManager.cs :: Player1 number of shields: 0
+2018-02-25T22:14:53.8372570-05:00 [INFO]: EventsManager.cs :: Player2 number of shields: 0
+2018-02-25T22:14:53.8375580-05:00 [INFO]: EventsManager.cs :: Player2 number of shields: 0
+2018-02-25T22:14:54.6299190-05:00 [TEST]: GameManager.cs :: Quest Name: Vanquish King Arthur's Enemies
+2018-02-25T22:14:55.1612750-05:00 [TEST]: GameManager.cs :: Quest Name: Journey Through the Enchanted Forest
+2018-02-25T22:14:55.5983240-05:00 [TEST]: GameManager.cs :: Quest Name: Rescue the Fair Maiden
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:15:24.5853020-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:15:24.5944970-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:15:24.6038890-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:15:24.6051840-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:15:24.6064650-05:00: Logger initialized
+2018-02-25T22:15:24.6069360-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T22:15:24.6078160-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T22:15:24.6081460-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T22:15:24.6083950-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T22:15:24.6086310-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T22:15:24.6088660-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T22:15:24.6132890-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T22:15:24.6162280-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Robber Knight
+2018-02-25T22:15:24.6167870-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T22:15:24.6175440-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Percival
+2018-02-25T22:15:24.6180300-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Evil Knight
+2018-02-25T22:15:24.6185180-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Merlin
+2018-02-25T22:15:24.6189980-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Queen Iseult
+2018-02-25T22:15:24.6194810-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T22:15:24.6199610-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Queen Guinevere
+2018-02-25T22:15:24.6204030-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dragon
+2018-02-25T22:15:24.6208850-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T22:15:24.6214120-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Morgan Le Fey
+2018-02-25T22:15:24.6216820-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-02-25T22:15:24.6221030-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T22:15:24.6225770-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T22:15:24.6230370-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T22:15:24.6235070-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Excalibur
+2018-02-25T22:15:24.6239560-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T22:15:24.6244140-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Boar
+2018-02-25T22:15:24.6248600-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Excalibur
+2018-02-25T22:15:24.6253140-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Boar
+2018-02-25T22:15:24.6257800-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxon Knight
+2018-02-25T22:15:24.6262980-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Robber Knight
+2018-02-25T22:15:24.6268820-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Robber Knight
+2018-02-25T22:15:24.6274230-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Lancelot
+2018-02-25T22:15:24.6277600-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-02-25T22:15:24.6366330-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Temptation
+2018-02-25T22:15:24.6372020-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Robber Knight
+2018-02-25T22:15:24.6378700-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T22:15:24.6385860-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T22:15:24.6392660-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T22:15:24.6399540-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T22:15:24.6406190-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of the Questing Beast
+2018-02-25T22:15:24.6412960-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T22:15:24.6419110-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of the Questing Beast
+2018-02-25T22:15:24.6425390-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T22:15:24.6431490-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Temptation
+2018-02-25T22:15:24.6437420-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Giant
+2018-02-25T22:15:24.6440780-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-02-25T22:15:27.8148760-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:15:27.8156460-05:00 [TEST]: EventsManager.cs :: Running Pox.
+2018-02-25T22:15:27.8160080-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 0
+2018-02-25T22:15:27.8162650-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 0
+2018-02-25T22:15:27.8165200-05:00 [INFO]: EventsManager.cs :: Player1 number of shields: 0
+2018-02-25T22:15:27.8167650-05:00 [INFO]: EventsManager.cs :: Player1 number of shields: 0
+2018-02-25T22:15:27.8169710-05:00 [INFO]: EventsManager.cs :: Player2 number of shields: 0
+2018-02-25T22:15:27.8171850-05:00 [INFO]: EventsManager.cs :: Player2 number of shields: 0
+2018-02-25T22:15:28.7787900-05:00 [TEST]: GameManager.cs :: Quest Name: Vanquish King Arthur's Enemies
+2018-02-25T22:15:29.6790470-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:15:29.6797850-05:00 [TEST]: EventsManager.cs :: Event :: Running Court Called To Camelot.
+2018-02-25T22:15:29.6801790-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T22:15:29.6805490-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T22:15:29.6808090-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T22:15:29.6810330-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T22:15:29.6812490-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T22:15:29.6814620-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T22:15:31.2589700-05:00 [TEST]: GameManager.cs :: Quest Name: Search for the Holy Grail
+2018-02-25T22:15:38.8556670-05:00 [TEST]: GameManager.cs :: Quest Name: Rescue the Fair Maiden
+2018-02-25T22:15:39.4709570-05:00 [TEST]: GameManager.cs :: Quest Name: Repel the Saxon Raiders
+2018-02-25T22:15:40.0055440-05:00 [TEST]: GameManager.cs :: Quest Name: Journey Through the Enchanted Forest
+2018-02-25T22:15:40.6406630-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:15:40.6413070-05:00 [TEST]: EventManager.cs :: Running King's Call to Arms.
+2018-02-25T22:16:01.2167940-05:00 [TEST]: GameManager.cs :: Quest Name: Slay The Dragon
+2018-02-25T22:16:02.2572060-05:00 [TEST]: GameManager.cs :: Quest Name: Test of the Green Knight
+2018-02-25T22:16:03.1080530-05:00 [TEST]: GameManager.cs :: Quest Name: Defend the Queen's Honor
+2018-02-25T22:16:04.1211760-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:16:04.1219210-05:00 [TEST]: EventsManager.cs :: Running Chivalrous Deed.
+2018-02-25T22:16:04.1226740-05:00 [INFO]: EventsManager.cs ::  Player0 number of shields: 3
+2018-02-25T22:16:04.1231100-05:00 [INFO]: EventsManager.cs ::  Player1 number of shields: 3
+2018-02-25T22:16:04.1234760-05:00 [INFO]: EventsManager.cs ::  Player2 number of shields: 3
+2018-02-25T22:16:04.9598110-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:16:04.9605840-05:00 [TEST]: EventsManager.cs :: Running Plague.
+2018-02-25T22:16:04.9609480-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 3
+2018-02-25T22:16:04.9612750-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 3
+2018-02-25T22:16:05.6597900-05:00 [TEST]: GameManager.cs :: Quest Name: Boar Hunt
+2018-02-25T22:16:06.3151210-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:16:06.3156130-05:00 [TEST]: EventsManager.cs :: Event :: Running King's Recoginition.
+2018-02-25T22:16:06.9024640-05:00 [TEST]: GameManager.cs :: Quest Name: Search for the Questing Beast
+2018-02-25T22:16:07.4833840-05:00 [TEST]: GameManager.cs :: Quest Name: Boar Hunt
+2018-02-25T22:16:08.0235030-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:16:08.0243310-05:00 [TEST]: EventsManager.cs :: Event :: Running Queen's Favor.
+2018-02-25T22:16:08.0246980-05:00 [INFO]: EventsManager.cs :: Player0 Receives 2 Adventure Cards.
+2018-02-25T22:16:08.0258890-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Green Knight
+2018-02-25T22:16:08.0262390-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T22:16:08.0270760-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Mordred
+2018-02-25T22:16:08.0273950-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T22:16:08.6646750-05:00 [TEST]: GameManager.cs :: Quest Name: Vanquish King Arthur's Enemies
+2018-02-25T22:16:09.3266850-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:16:09.3273000-05:00 [TEST]: EventsManager.cs :: Event :: Running King's Recoginition.
+2018-02-25T22:16:09.9306360-05:00 [INFO]: StoryDeck.cs ::  Card has been added: Tournament at York
+2018-02-25T22:16:09.9313770-05:00 [TEST]: GameManager.cs :: Tournament Name: Tournament at York
+2018-02-25T22:16:13.7416050-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:16:13.7438990-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:16:14.4456440-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:16:14.4485710-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:16:15.2024890-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:16:15.2050760-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:16:15.2069490-05:00 [INFO]: TournamentManagr.cs :: A Winner has been made.
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:17:03.2758070-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:17:03.2838600-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:17:03.2911170-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:17:03.2920580-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:17:03.2929770-05:00: Logger initialized
+2018-02-25T22:17:03.2933340-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T22:17:03.2940740-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T22:17:03.2943740-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T22:17:03.2946140-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T22:17:03.2948590-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T22:17:03.2950970-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T22:17:03.2987520-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dagger
+2018-02-25T22:17:03.3016340-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T22:17:03.3023460-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T22:17:03.3029260-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Amour
+2018-02-25T22:17:03.3034190-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Mordred
+2018-02-25T22:17:03.3039000-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Evil Knight
+2018-02-25T22:17:03.3043810-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Green Knight
+2018-02-25T22:17:03.3052010-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Green Knight
+2018-02-25T22:17:03.3057140-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Lancelot
+2018-02-25T22:17:03.3062070-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Robber Knight
+2018-02-25T22:17:03.3066960-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Queen Guinevere
+2018-02-25T22:17:03.3072190-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Tristan
+2018-02-25T22:17:03.3074940-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-02-25T22:17:03.3079350-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Boar
+2018-02-25T22:17:03.3084320-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Percival
+2018-02-25T22:17:03.3089310-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T22:17:03.3093950-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Temptation
+2018-02-25T22:17:03.3098630-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Morgan Le Fey
+2018-02-25T22:17:03.3103320-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Boar
+2018-02-25T22:17:03.3108690-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T22:17:03.3113990-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of the Questing Beast
+2018-02-25T22:17:03.3119020-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: King Pellinore
+2018-02-25T22:17:03.3124120-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dragon
+2018-02-25T22:17:03.3129550-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxon Knight
+2018-02-25T22:17:03.3206120-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Excalibur
+2018-02-25T22:17:03.3209890-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-02-25T22:17:03.3215200-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxon Knight
+2018-02-25T22:17:03.3221990-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Giant
+2018-02-25T22:17:03.3228240-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T22:17:03.3234320-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: King Arthur
+2018-02-25T22:17:03.3240480-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Thieves
+2018-02-25T22:17:03.3246640-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T22:17:03.3252620-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Queen Iseult
+2018-02-25T22:17:03.3258570-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Morgan Le Fey
+2018-02-25T22:17:03.3264890-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Gawain
+2018-02-25T22:17:03.3271230-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T22:17:03.3277390-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T22:17:03.3283300-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T22:17:03.3286200-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-02-25T22:17:04.8215710-05:00 [TEST]: GameManager.cs :: Quest Name: Slay The Dragon
+2018-02-25T22:17:07.0030680-05:00 [TEST]: GameManager.cs :: Quest Name: Repel the Saxon Raiders
+2018-02-25T22:17:07.7252480-05:00 [TEST]: GameManager.cs :: Quest Name: Search for the Holy Grail
+2018-02-25T22:17:08.3099310-05:00 [TEST]: GameManager.cs :: Quest Name: Defend the Queen's Honor
+2018-02-25T22:17:08.9537990-05:00 [TEST]: GameManager.cs :: Quest Name: Rescue the Fair Maiden
+2018-02-25T22:17:09.5037970-05:00 [TEST]: GameManager.cs :: Quest Name: Test of the Green Knight
+2018-02-25T22:17:09.9902000-05:00 [TEST]: GameManager.cs :: Quest Name: Search for the Questing Beast
+2018-02-25T22:17:10.5263500-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:17:10.5269760-05:00 [TEST]: EventsManager.cs :: Event :: Running King's Recoginition.
+2018-02-25T22:17:11.0875870-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:17:11.0884220-05:00 [TEST]: EventsManager.cs :: Event :: Running Queen's Favor.
+2018-02-25T22:17:11.0891990-05:00 [INFO]: EventsManager.cs :: Player0 Receives 2 Adventure Cards.
+2018-02-25T22:17:11.0894960-05:00 [INFO]: EventsManager.cs :: Player1 Receives 2 Adventure Cards.
+2018-02-25T22:17:11.0897780-05:00 [INFO]: EventsManager.cs :: Player2 Receives 2 Adventure Cards.
+2018-02-25T22:17:11.0907190-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Temptation
+2018-02-25T22:17:11.0910200-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T22:17:11.0916830-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T22:17:11.0919690-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T22:17:11.0925200-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T22:17:11.0927550-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-25T22:17:11.0932880-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Thieves
+2018-02-25T22:17:11.0935290-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-25T22:17:11.0941240-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Thieves
+2018-02-25T22:17:11.0944160-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-25T22:17:11.0949740-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Galahad
+2018-02-25T22:17:11.0952150-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-25T22:17:11.6566180-05:00 [TEST]: GameManager.cs :: Quest Name: Boar Hunt
+2018-02-25T22:17:12.2099260-05:00 [TEST]: GameManager.cs :: Quest Name: Journey Through the Enchanted Forest
+2018-02-25T22:17:12.8130980-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:17:12.8136340-05:00 [TEST]: EventsManager.cs :: Event :: Running King's Recoginition.
+2018-02-25T22:17:13.4299720-05:00 [INFO]: StoryDeck.cs ::  Card has been added: Tournament at Orkney
+2018-02-25T22:17:13.4307340-05:00 [TEST]: GameManager.cs :: Tournament Name: Tournament at Orkney
+2018-02-25T22:17:16.4705500-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:17:17.4866480-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:17:18.3009660-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:17:18.3059920-05:00 [INFO]: TournamentManagr.cs :: A Winner has been made.
+2018-02-25T22:17:30.8898060-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:17:30.8905460-05:00 [TEST]: EventsManager.cs :: Running Chivalrous Deed.
+2018-02-25T22:17:30.8908480-05:00 [INFO]: EventsManager.cs ::  Player1 number of shields: 3
+2018-02-25T22:17:30.8910660-05:00 [INFO]: EventsManager.cs ::  Player2 number of shields: 3
+2018-02-25T22:17:38.6255770-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:17:38.6260720-05:00 [TEST]: EventManager.cs :: Running King's Call to Arms.
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:47:15.2958610-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:47:15.3039540-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:47:15.3111860-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:47:15.3122310-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:47:15.3136710-05:00: Logger initialized
+2018-02-25T22:47:15.3141280-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T22:47:15.3151000-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T22:47:15.3154140-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T22:47:15.3156380-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T22:47:15.3158580-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T22:47:15.3160680-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T22:47:15.3202130-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Lancelot
+2018-02-25T22:47:15.3227800-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T22:47:15.3233560-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dragon
+2018-02-25T22:47:15.3238390-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Giant
+2018-02-25T22:47:15.3242930-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Mordred
+2018-02-25T22:47:15.3247440-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Queen Guinevere
+2018-02-25T22:47:15.3251940-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Boar
+2018-02-25T22:47:15.3256270-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T22:47:15.3261080-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Robber Knight
+2018-02-25T22:47:15.3265950-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T22:47:15.3270310-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Excalibur
+2018-02-25T22:47:15.3274790-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Merlin
+2018-02-25T22:47:15.3277560-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-02-25T22:47:15.3281890-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Amour
+2018-02-25T22:47:15.3286460-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Excalibur
+2018-02-25T22:47:15.3291040-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Mordred
+2018-02-25T22:47:15.3295760-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T22:47:15.3302790-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Tristan
+2018-02-25T22:47:15.3309120-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxon Knight
+2018-02-25T22:47:15.3313710-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Percival
+2018-02-25T22:47:15.3318230-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Evil Knight
+2018-02-25T22:47:15.3322710-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: King Arthur
+2018-02-25T22:47:15.3327040-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Green Knight
+2018-02-25T22:47:15.3331570-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T22:47:15.3336810-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Evil Knight
+2018-02-25T22:47:15.3339490-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-02-25T22:47:15.3343510-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T22:47:15.3347980-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Evil Knight
+2018-02-25T22:47:15.3352420-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T22:47:15.3356900-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Robber Knight
+2018-02-25T22:47:15.3361300-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Valor
+2018-02-25T22:47:15.3365760-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T22:47:15.3370200-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dagger
+2018-02-25T22:47:15.3374650-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T22:47:15.3380810-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T22:47:15.3388750-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Temptation
+2018-02-25T22:47:15.3395970-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T22:47:15.3402690-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxon Knight
+2018-02-25T22:47:15.3406440-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-02-25T22:47:19.3155670-05:00 [INFO]: StoryDeck.cs ::  Card has been added: Tournament at Orkney
+2018-02-25T22:47:19.3167160-05:00 [TEST]: GameManager.cs :: Tournament Name: Tournament at Orkney
+2018-02-25T22:47:24.4094170-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:47:27.1550960-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:47:29.5695030-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:47:29.5735640-05:00 [INFO]: TournamentManagr.cs :: A Winner has been made.
+2018-02-25T22:47:32.7620170-05:00 [TEST]: GameManager.cs :: Quest Name: Defend the Queen's Honor
+2018-02-25T22:47:35.6736970-05:00 [TEST]: GameManager.cs :: Quest Name: Journey Through the Enchanted Forest
+2018-02-25T22:47:36.7292220-05:00 [TEST]: GameManager.cs :: Quest Name: Rescue the Fair Maiden
+2018-02-25T22:47:37.5797100-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:47:37.5806730-05:00 [TEST]: EventsManager.cs :: Event :: Running Queen's Favor.
+2018-02-25T22:47:37.5815260-05:00 [INFO]: EventsManager.cs :: Player0 Receives 2 Adventure Cards.
+2018-02-25T22:47:37.5819090-05:00 [INFO]: EventsManager.cs :: Player2 Receives 2 Adventure Cards.
+2018-02-25T22:47:37.5830400-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T22:47:37.5834270-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T22:47:37.5841320-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dagger
+2018-02-25T22:47:37.5944140-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T22:47:37.5959360-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T22:47:37.5962960-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-25T22:47:37.5970000-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T22:47:37.5973280-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-25T22:47:38.3392580-05:00 [TEST]: GameManager.cs :: Quest Name: Slay The Dragon
+2018-02-25T22:47:40.5769700-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:47:40.5778980-05:00 [TEST]: EventsManager.cs :: Event :: Running Court Called To Camelot.
+2018-02-25T22:47:40.5782950-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T22:47:40.5787170-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T22:47:40.5790280-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T22:47:40.5793370-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T22:47:40.5796430-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T22:47:40.5798820-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T22:47:41.5634350-05:00 [INFO]: StoryDeck.cs ::  Card has been added: Tournament at Camelot
+2018-02-25T22:47:41.5639060-05:00 [TEST]: GameManager.cs :: Tournament Name: Tournament at Camelot
+2018-02-25T22:47:45.9296890-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:47:49.5319660-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:47:49.5331700-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:47:52.1740750-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:47:52.1761330-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:47:54.4612210-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:47:54.4621300-05:00 [TEST]: EventsManager.cs :: Running Plague.
+2018-02-25T22:47:54.4625260-05:00 [INFO]: EventsManager.cs :: Player2 number of shields: 0
+2018-02-25T22:47:54.4629260-05:00 [INFO]: EventsManager.cs :: Player2 number of shields: 0
+2018-02-25T22:48:00.0819160-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:48:00.0829090-05:00 [TEST]: EventsManager.cs :: Running Pox.
+2018-02-25T22:48:00.0832690-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 0
+2018-02-25T22:48:00.0835470-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 0
+2018-02-25T22:48:00.0837770-05:00 [INFO]: EventsManager.cs :: Player1 number of shields: 5
+2018-02-25T22:48:00.0840050-05:00 [INFO]: EventsManager.cs :: Player1 number of shields: 5
+2018-02-25T22:48:00.0842270-05:00 [INFO]: EventsManager.cs :: Player2 number of shields: 0
+2018-02-25T22:48:00.0844420-05:00 [INFO]: EventsManager.cs :: Player2 number of shields: 0
+2018-02-25T22:48:02.7342680-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:48:02.7348310-05:00 [TEST]: EventsManager.cs :: Event :: Running King's Recoginition.
+2018-02-25T22:48:03.3186230-05:00 [TEST]: GameManager.cs :: Quest Name: Test of the Green Knight
+2018-02-25T22:48:03.8942510-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:48:03.8947500-05:00 [TEST]: EventsManager.cs :: Event :: Running Court Called To Camelot.
+2018-02-25T22:48:03.9008850-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T22:48:03.9012650-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T22:48:03.9015450-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T22:48:03.9018420-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T22:48:03.9021160-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T22:48:03.9023830-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T22:48:04.4695500-05:00 [TEST]: GameManager.cs :: Quest Name: Search for the Holy Grail
+2018-02-25T22:48:05.0016880-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:48:05.0021710-05:00 [TEST]: EventsManager.cs :: Event :: Running King's Recoginition.
+2018-02-25T22:48:05.5322710-05:00 [TEST]: GameManager.cs :: Quest Name: Repel the Saxon Raiders
+2018-02-25T22:48:06.0862490-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:48:06.0869170-05:00 [TEST]: EventManager.cs :: Running King's Call to Arms.
+2018-02-25T22:48:06.6248220-05:00 [TEST]: GameManager.cs :: Quest Name: Boar Hunt
+2018-02-25T22:48:07.1329120-05:00 [TEST]: GameManager.cs :: Quest Name: Vanquish King Arthur's Enemies
+2018-02-25T22:48:07.6171430-05:00 [TEST]: GameManager.cs :: Quest Name: Vanquish King Arthur's Enemies
+2018-02-25T22:48:08.1200780-05:00 [TEST]: GameManager.cs :: Quest Name: Search for the Questing Beast
+2018-02-25T22:48:09.7243900-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:48:09.7251850-05:00 [TEST]: EventsManager.cs :: Running Chivalrous Deed.
+2018-02-25T22:48:09.7255060-05:00 [INFO]: EventsManager.cs ::  Player0 number of shields: 0
+2018-02-25T22:48:09.7257610-05:00 [INFO]: EventsManager.cs ::  Player0 number of shields: 3
+2018-02-25T22:48:09.7259840-05:00 [INFO]: EventsManager.cs ::  Player2 number of shields: 0
+2018-02-25T22:48:09.7262000-05:00 [INFO]: EventsManager.cs ::  Player2 number of shields: 3
+2018-02-25T22:48:10.3697490-05:00 [INFO]: StoryDeck.cs ::  Card has been added: Tournament at York
+2018-02-25T22:48:10.3704290-05:00 [TEST]: GameManager.cs :: Tournament Name: Tournament at York
+2018-02-25T22:48:55.6110860-05:00 [INFO]: TournamentManagr.cs :: A card is already inside the hand, cannot add submission.
+2018-02-25T22:48:55.6129380-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:49:01.0066620-05:00 [INFO]: TournamentManagr.cs :: A card is already inside the hand, cannot add submission.
+2018-02-25T22:49:01.0080630-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:49:15.6946430-05:00 [INFO]: TournamentManagr.cs :: A card is already inside the hand, cannot add submission.
+2018-02-25T22:49:15.6964670-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:49:30.9905370-05:00 [INFO]: StoryDeck.cs ::  Card has been added: Tournament at Tintagel
+2018-02-25T22:49:30.9909900-05:00 [TEST]: GameManager.cs :: Tournament Name: Tournament at Tintagel
+2018-02-25T22:49:35.5411910-05:00 [INFO]: TournamentManagr.cs :: A card is already inside the hand, cannot add submission.
+2018-02-25T22:49:35.5433690-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:49:36.1047720-05:00 [INFO]: TournamentManagr.cs :: A card is already inside the hand, cannot add submission.
+2018-02-25T22:49:36.1065120-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:49:36.6522120-05:00 [INFO]: TournamentManagr.cs :: A card is already inside the hand, cannot add submission.
+2018-02-25T22:49:36.6539830-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:50:56.1225090-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:50:56.1307720-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:50:56.1379510-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:50:56.1388870-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:50:56.1397980-05:00: Logger initialized
+2018-02-25T22:50:56.1401410-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T22:50:56.1408510-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T22:50:56.1411330-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T22:50:56.1413510-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T22:50:56.1415630-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T22:50:56.1417740-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T22:50:56.1453780-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Temptation
+2018-02-25T22:50:56.1476360-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxon Knight
+2018-02-25T22:50:56.1484160-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Temptation
+2018-02-25T22:50:56.1489890-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Giant
+2018-02-25T22:50:56.1494690-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Queen Iseult
+2018-02-25T22:50:56.1499260-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dagger
+2018-02-25T22:50:56.1504660-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Boar
+2018-02-25T22:50:56.1509380-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Gawain
+2018-02-25T22:50:56.1513900-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Green Knight
+2018-02-25T22:50:56.1518380-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Amour
+2018-02-25T22:50:56.1522780-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T22:50:56.1527230-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Mordred
+2018-02-25T22:50:56.1529810-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-02-25T22:50:56.1534010-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T22:50:56.1538940-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Morgan Le Fey
+2018-02-25T22:50:56.1543540-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of the Questing Beast
+2018-02-25T22:50:56.1548340-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxon Knight
+2018-02-25T22:50:56.1552940-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Excalibur
+2018-02-25T22:50:56.1558500-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T22:50:56.1563520-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dragon
+2018-02-25T22:50:56.1568190-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Lancelot
+2018-02-25T22:50:56.1572760-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: King Arthur
+2018-02-25T22:50:56.1577650-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Thieves
+2018-02-25T22:50:56.1582260-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T22:50:56.1587110-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Mordred
+2018-02-25T22:50:56.1589920-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-02-25T22:50:56.1594790-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Galahad
+2018-02-25T22:50:56.1600130-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Robber Knight
+2018-02-25T22:50:56.1605050-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Giant
+2018-02-25T22:50:56.1609860-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T22:50:56.1614770-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Tristan
+2018-02-25T22:50:56.1619410-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Green Knight
+2018-02-25T22:50:56.1704010-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Mordred
+2018-02-25T22:50:56.1711670-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of the Questing Beast
+2018-02-25T22:50:56.1716960-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Queen Guinevere
+2018-02-25T22:50:56.1721880-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T22:50:56.1726680-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Thieves
+2018-02-25T22:50:56.1731490-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T22:50:56.1734280-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-02-25T22:50:58.5676980-05:00 [TEST]: GameManager.cs :: Quest Name: Defend the Queen's Honor
+2018-02-25T22:50:59.4016490-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:50:59.4021780-05:00 [TEST]: EventsManager.cs :: Event :: Running King's Recoginition.
+2018-02-25T22:51:00.1757290-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:51:00.1764780-05:00 [TEST]: EventsManager.cs :: Event :: Running Queen's Favor.
+2018-02-25T22:51:00.1771710-05:00 [INFO]: EventsManager.cs :: Player0 Receives 2 Adventure Cards.
+2018-02-25T22:51:00.1847280-05:00 [INFO]: EventsManager.cs :: Player1 Receives 2 Adventure Cards.
+2018-02-25T22:51:00.1851190-05:00 [INFO]: EventsManager.cs :: Player2 Receives 2 Adventure Cards.
+2018-02-25T22:51:00.1864810-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T22:51:00.1868130-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T22:51:00.1873730-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T22:51:00.1875670-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T22:51:00.1880010-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T22:51:00.1881820-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-25T22:51:00.1886440-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T22:51:00.1888330-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-25T22:51:00.1892740-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T22:51:00.1895160-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-25T22:51:00.1900190-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Valor
+2018-02-25T22:51:00.1902140-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-25T22:51:01.7288920-05:00 [TEST]: GameManager.cs :: Quest Name: Boar Hunt
+2018-02-25T22:51:02.5412780-05:00 [TEST]: GameManager.cs :: Quest Name: Vanquish King Arthur's Enemies
+2018-02-25T22:51:03.2633020-05:00 [INFO]: StoryDeck.cs ::  Card has been added: Tournament at York
+2018-02-25T22:51:03.2638450-05:00 [TEST]: GameManager.cs :: Tournament Name: Tournament at York
+2018-02-25T22:51:26.0764930-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:51:40.8032540-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:51:40.8057580-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:51:42.7035270-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:51:42.7059880-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:51:42.7079000-05:00 [INFO]: TournamentManagr.cs :: A Winner has been made.
+2018-02-25T22:51:49.3362310-05:00 [INFO]: StoryDeck.cs ::  Card has been added: Tournament at Orkney
+2018-02-25T22:51:49.3367930-05:00 [TEST]: GameManager.cs :: Tournament Name: Tournament at Orkney
+2018-02-25T22:51:55.9812880-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:51:55.9821180-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:52:08.9761740-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:52:08.9773400-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:52:13.9805530-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:52:13.9820600-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:53:12.0602830-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:53:12.0686310-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:53:12.0755410-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:53:12.0764270-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:53:12.0773890-05:00: Logger initialized
+2018-02-25T22:53:12.0777190-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T22:53:12.0784630-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T22:53:12.0787630-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T22:53:12.0789890-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T22:53:12.0792000-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T22:53:12.0794300-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T22:53:12.0832240-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Giant
+2018-02-25T22:53:12.0864890-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dragon
+2018-02-25T22:53:12.0872160-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T22:53:12.0877570-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T22:53:12.0882900-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T22:53:12.0888060-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T22:53:12.0893840-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Tristan
+2018-02-25T22:53:12.0899720-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Mordred
+2018-02-25T22:53:12.0905430-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Percival
+2018-02-25T22:53:12.0911180-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Temptation
+2018-02-25T22:53:12.0916410-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dagger
+2018-02-25T22:53:12.0921600-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Thieves
+2018-02-25T22:53:12.0925430-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-02-25T22:53:12.0930100-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Green Knight
+2018-02-25T22:53:12.0935690-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Gawain
+2018-02-25T22:53:12.0941130-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Giant
+2018-02-25T22:53:12.0946230-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T22:53:12.0951270-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T22:53:12.0957270-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T22:53:12.0963180-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Evil Knight
+2018-02-25T22:53:12.0968600-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Merlin
+2018-02-25T22:53:12.0975060-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T22:53:12.0980470-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T22:53:12.0985730-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Queen Guinevere
+2018-02-25T22:53:12.0990840-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T22:53:12.0994250-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-02-25T22:53:12.0999170-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dagger
+2018-02-25T22:53:12.1004540-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Green Knight
+2018-02-25T22:53:12.1009630-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Robber Knight
+2018-02-25T22:53:12.1014670-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Galahad
+2018-02-25T22:53:12.1094490-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: King Arthur
+2018-02-25T22:53:12.1100040-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Temptation
+2018-02-25T22:53:12.1104830-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Mordred
+2018-02-25T22:53:12.1109580-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dagger
+2018-02-25T22:53:12.1114540-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Evil Knight
+2018-02-25T22:53:12.1119450-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Mordred
+2018-02-25T22:53:12.1124200-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T22:53:12.1128870-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T22:53:12.1131610-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-02-25T22:53:14.8907710-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:53:14.8913240-05:00 [TEST]: EventsManager.cs :: Event :: Running King's Recoginition.
+2018-02-25T22:53:15.4812140-05:00 [TEST]: GameManager.cs :: Quest Name: Vanquish King Arthur's Enemies
+2018-02-25T22:53:16.1238830-05:00 [INFO]: StoryDeck.cs ::  Card has been added: Tournament at Camelot
+2018-02-25T22:53:16.1243640-05:00 [TEST]: GameManager.cs :: Tournament Name: Tournament at Camelot
+2018-02-25T22:53:22.4394120-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:53:23.4179780-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:53:23.4211060-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:53:30.1187210-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:53:30.1208820-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:53:30.1226490-05:00 [INFO]: TournamentManagr.cs :: A Winner has been made.
+2018-02-25T22:53:46.7749190-05:00 [TEST]: GameManager.cs :: Quest Name: Boar Hunt
+2018-02-25T22:54:15.4718110-05:00 [TEST]: GameManager.cs :: Quest Name: Journey Through the Enchanted Forest
+2018-02-25T22:54:16.3728180-05:00 [TEST]: GameManager.cs :: Quest Name: Search for the Holy Grail
+2018-02-25T22:54:16.8892680-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:54:16.8903100-05:00 [TEST]: EventsManager.cs :: Event :: Running Court Called To Camelot.
+2018-02-25T22:54:16.9052720-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T22:54:16.9059990-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T22:54:16.9063360-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T22:54:16.9066620-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T22:54:16.9070350-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T22:54:16.9073960-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T22:54:17.5316600-05:00 [TEST]: GameManager.cs :: Quest Name: Test of the Green Knight
+2018-02-25T22:54:18.0736400-05:00 [TEST]: GameManager.cs :: Quest Name: Rescue the Fair Maiden
+2018-02-25T22:54:18.5238700-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:54:18.5243210-05:00 [TEST]: EventsManager.cs :: Event :: Running Court Called To Camelot.
+2018-02-25T22:54:18.5306370-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T22:54:18.5311130-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T22:54:18.5314440-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T22:54:18.5316730-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T22:54:18.5318920-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T22:54:18.5320980-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T22:54:19.0049190-05:00 [TEST]: GameManager.cs :: Quest Name: Vanquish King Arthur's Enemies
+2018-02-25T22:54:19.5013900-05:00 [TEST]: GameManager.cs :: Quest Name: Boar Hunt
+2018-02-25T22:54:19.9823100-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:54:19.9827930-05:00 [TEST]: EventsManager.cs :: Event :: Running King's Recoginition.
+2018-02-25T22:54:20.4915990-05:00 [INFO]: StoryDeck.cs ::  Card has been added: Tournament at York
+2018-02-25T22:54:20.4920990-05:00 [TEST]: GameManager.cs :: Tournament Name: Tournament at York
+2018-02-25T22:54:38.4148140-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:54:38.4157620-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:54:39.8162800-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:54:39.8177280-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:54:41.2628500-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:54:41.2644370-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:54:41.2710400-05:00 [INFO]: TournamentManagr.cs :: A Winner has been made.
+2018-02-25T22:54:45.0715000-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:54:45.0723850-05:00 [TEST]: EventsManager.cs :: Running Pox.
+2018-02-25T22:54:45.0727250-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 0
+2018-02-25T22:54:45.0730090-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 0
+2018-02-25T22:54:45.0732540-05:00 [INFO]: EventsManager.cs :: Player1 number of shields: 9
+2018-02-25T22:54:45.0735020-05:00 [INFO]: EventsManager.cs :: Player1 number of shields: 9
+2018-02-25T22:54:45.0737400-05:00 [INFO]: EventsManager.cs :: Player2 number of shields: 0
+2018-02-25T22:54:45.0739720-05:00 [INFO]: EventsManager.cs :: Player2 number of shields: 0
+2018-02-25T22:54:46.6802560-05:00 [TEST]: GameManager.cs :: Quest Name: Repel the Saxon Raiders
+2018-02-25T22:54:47.2238680-05:00 [INFO]: StoryDeck.cs ::  Card has been added: Tournament at Tintagel
+2018-02-25T22:54:47.2245540-05:00 [TEST]: GameManager.cs :: Tournament Name: Tournament at Tintagel
+2018-02-25T22:54:57.4130590-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:54:57.4139110-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:55:00.9150820-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:55:00.9161610-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:55:02.5335230-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:55:02.5354120-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:55:02.5423370-05:00 [INFO]: TournamentManagr.cs :: A Winner has been made.
+2018-02-25T22:55:16.6709050-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:55:16.6715150-05:00 [TEST]: EventsManager.cs :: Running Plague.
+2018-02-25T22:55:16.6717730-05:00 [INFO]: EventsManager.cs :: Player2 number of shields: 4
+2018-02-25T22:55:16.6720310-05:00 [INFO]: EventsManager.cs :: Player2 number of shields: 4
+2018-02-25T22:55:17.3243400-05:00 [INFO]: StoryDeck.cs ::  Card has been added: Tournament at Orkney
+2018-02-25T22:55:17.3247750-05:00 [TEST]: GameManager.cs :: Tournament Name: Tournament at Orkney
+2018-02-25T22:55:29.8675170-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:55:29.8688850-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:55:33.7937680-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:55:33.7949390-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:55:36.3921050-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:55:36.3936050-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:55:36.3950630-05:00 [INFO]: TournamentManagr.cs :: A Winner has been made.
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:58:21.1295320-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:58:21.1390940-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:58:21.1466690-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:58:21.1476710-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T22:58:21.1485690-05:00: Logger initialized
+2018-02-25T22:58:21.1488780-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T22:58:21.1496020-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T22:58:21.1498870-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T22:58:21.1501080-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T22:58:21.1503250-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T22:58:21.1505390-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T22:58:21.1541430-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Green Knight
+2018-02-25T22:58:21.1564140-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dagger
+2018-02-25T22:58:21.1570590-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T22:58:21.1575590-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Excalibur
+2018-02-25T22:58:21.1580270-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Evil Knight
+2018-02-25T22:58:21.1584910-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T22:58:21.1589550-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T22:58:21.1594130-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Temptation
+2018-02-25T22:58:21.1598970-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Thieves
+2018-02-25T22:58:21.1603570-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Robber Knight
+2018-02-25T22:58:21.1608270-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T22:58:21.1613310-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T22:58:21.1616110-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-02-25T22:58:21.1620590-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of the Questing Beast
+2018-02-25T22:58:21.1626500-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T22:58:21.1631430-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Mordred
+2018-02-25T22:58:21.1636700-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Boar
+2018-02-25T22:58:21.1641780-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Thieves
+2018-02-25T22:58:21.1646850-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T22:58:21.1652020-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Evil Knight
+2018-02-25T22:58:21.1656600-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T22:58:21.1661300-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Boar
+2018-02-25T22:58:21.1669940-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Temptation
+2018-02-25T22:58:21.1674580-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Boar
+2018-02-25T22:58:21.1679310-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Boar
+2018-02-25T22:58:21.1682570-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-02-25T22:58:21.1687780-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Excalibur
+2018-02-25T22:58:21.1693270-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Valor
+2018-02-25T22:58:21.1698470-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T22:58:21.1703820-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T22:58:21.1709350-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Queen Guinevere
+2018-02-25T22:58:21.1792580-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T22:58:21.1800320-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of the Questing Beast
+2018-02-25T22:58:21.1805350-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Percival
+2018-02-25T22:58:21.1810180-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T22:58:21.1815030-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T22:58:21.1819580-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Lancelot
+2018-02-25T22:58:21.1824160-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T22:58:21.1826790-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-02-25T22:58:23.1480920-05:00 [TEST]: GameManager.cs :: Quest Name: Test of the Green Knight
+2018-02-25T22:58:23.6441490-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:58:23.6449540-05:00 [TEST]: EventsManager.cs :: Event :: Running Court Called To Camelot.
+2018-02-25T22:58:23.6454430-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T22:58:23.6458200-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T22:58:23.6460480-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T22:58:23.6462680-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T22:58:23.6464810-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T22:58:23.6466920-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T22:58:24.1344600-05:00 [TEST]: GameManager.cs :: Quest Name: Search for the Holy Grail
+2018-02-25T22:58:24.7411360-05:00 [TEST]: GameManager.cs :: Quest Name: Journey Through the Enchanted Forest
+2018-02-25T22:58:25.2126000-05:00 [TEST]: GameManager.cs :: Quest Name: Boar Hunt
+2018-02-25T22:58:25.6207360-05:00 [TEST]: GameManager.cs :: Quest Name: Rescue the Fair Maiden
+2018-02-25T22:58:26.1253370-05:00 [TEST]: GameManager.cs :: Quest Name: Repel the Saxon Raiders
+2018-02-25T22:58:26.5906730-05:00 [TEST]: GameManager.cs :: Quest Name: Boar Hunt
+2018-02-25T22:58:27.0555430-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:58:27.0561850-05:00 [TEST]: EventsManager.cs :: Event :: Running Queen's Favor.
+2018-02-25T22:58:27.0567860-05:00 [INFO]: EventsManager.cs :: Player0 Receives 2 Adventure Cards.
+2018-02-25T22:58:27.0571000-05:00 [INFO]: EventsManager.cs :: Player1 Receives 2 Adventure Cards.
+2018-02-25T22:58:27.0575730-05:00 [INFO]: EventsManager.cs :: Player2 Receives 2 Adventure Cards.
+2018-02-25T22:58:27.0584060-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Morgan Le Fey
+2018-02-25T22:58:27.0586860-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T22:58:27.0592450-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T22:58:27.0594730-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T22:58:27.0599590-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Morgan Le Fey
+2018-02-25T22:58:27.0601830-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-25T22:58:27.0606610-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Robber Knight
+2018-02-25T22:58:27.0608790-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-25T22:58:27.0613640-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Gawain
+2018-02-25T22:58:27.0615800-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-25T22:58:27.0620700-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Merlin
+2018-02-25T22:58:27.0623090-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-25T22:58:27.7410070-05:00 [TEST]: GameManager.cs :: Quest Name: Defend the Queen's Honor
+2018-02-25T22:58:28.2645530-05:00 [TEST]: GameManager.cs :: Quest Name: Slay The Dragon
+2018-02-25T22:58:28.7762700-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:58:28.7767540-05:00 [TEST]: EventsManager.cs :: Event :: Running King's Recoginition.
+2018-02-25T22:58:29.3020740-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:58:29.3024670-05:00 [TEST]: EventsManager.cs :: Event :: Running King's Recoginition.
+2018-02-25T22:58:29.7848780-05:00 [TEST]: GameManager.cs :: Quest Name: Vanquish King Arthur's Enemies
+2018-02-25T22:58:30.2986360-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:58:30.2990640-05:00 [TEST]: EventsManager.cs :: Event :: Running Queen's Favor.
+2018-02-25T22:58:30.2993050-05:00 [INFO]: EventsManager.cs :: Player0 Receives 2 Adventure Cards.
+2018-02-25T22:58:30.2995620-05:00 [INFO]: EventsManager.cs :: Player1 Receives 2 Adventure Cards.
+2018-02-25T22:58:30.2998130-05:00 [INFO]: EventsManager.cs :: Player2 Receives 2 Adventure Cards.
+2018-02-25T22:58:30.3003480-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Mordred
+2018-02-25T22:58:30.3005990-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T22:58:30.3090240-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T22:58:30.3095910-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T22:58:30.3104090-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Valor
+2018-02-25T22:58:30.3107080-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-25T22:58:30.3112230-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T22:58:30.3114460-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-25T22:58:30.3119290-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Thieves
+2018-02-25T22:58:30.3121490-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-25T22:58:30.3126110-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Evil Knight
+2018-02-25T22:58:30.3128310-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-25T22:58:30.8521650-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:58:30.8529470-05:00 [TEST]: EventsManager.cs :: Running Plague.
+2018-02-25T22:58:30.8532860-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 0
+2018-02-25T22:58:30.8535980-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 0
+2018-02-25T22:58:31.3788030-05:00 [TEST]: GameManager.cs :: Quest Name: Search for the Questing Beast
+2018-02-25T22:58:31.8921760-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:58:31.9073580-05:00 [TEST]: EventsManager.cs :: Running Pox.
+2018-02-25T22:58:31.9079540-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 0
+2018-02-25T22:58:31.9083300-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 0
+2018-02-25T22:58:31.9086550-05:00 [INFO]: EventsManager.cs :: Player1 number of shields: 0
+2018-02-25T22:58:31.9089730-05:00 [INFO]: EventsManager.cs :: Player1 number of shields: 0
+2018-02-25T22:58:31.9092870-05:00 [INFO]: EventsManager.cs :: Player2 number of shields: 0
+2018-02-25T22:58:31.9096000-05:00 [INFO]: EventsManager.cs :: Player2 number of shields: 0
+2018-02-25T22:58:32.3883550-05:00 [INFO]: StoryDeck.cs ::  Card has been added: Tournament at York
+2018-02-25T22:58:32.3890140-05:00 [TEST]: GameManager.cs :: Tournament Name: Tournament at York
+2018-02-25T22:58:41.0827230-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:58:41.3627470-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:58:41.6454320-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:58:41.6494740-05:00 [INFO]: TournamentManagr.cs :: A Winner has been made.
+2018-02-25T22:58:42.6042800-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T22:58:42.6049950-05:00 [TEST]: EventManager.cs :: Running Prosperity Throughout the Realm.
+2018-02-25T22:58:42.6057610-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T22:58:42.6060980-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T22:58:42.6068050-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Thieves
+2018-02-25T22:58:42.6071030-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T22:58:42.6077400-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Robber Knight
+2018-02-25T22:58:42.6080310-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-25T22:58:42.6086530-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxon Knight
+2018-02-25T22:58:42.6089480-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-25T22:58:42.6096750-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T22:58:42.6100320-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-25T22:58:42.6107450-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: King Arthur
+2018-02-25T22:58:42.6110720-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-25T22:58:43.1508810-05:00 [INFO]: StoryDeck.cs ::  Card has been added: Tournament at Orkney
+2018-02-25T22:58:43.1513880-05:00 [TEST]: GameManager.cs :: Tournament Name: Tournament at Orkney
+2018-02-25T22:58:59.0527280-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:58:59.0538660-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:59:11.0337250-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:59:11.0347970-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:59:12.9346440-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T22:59:12.9360910-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T22:59:12.9379290-05:00 [INFO]: TournamentManagr.cs :: A Winner has been made.
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:00:03.8429560-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:00:03.8511840-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:00:03.8598680-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:00:03.8610370-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:00:03.8622550-05:00: Logger initialized
+2018-02-25T23:00:03.8626770-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T23:00:03.8636530-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T23:00:03.8640430-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T23:00:03.8643420-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T23:00:03.8646220-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T23:00:03.8648650-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T23:00:03.8688060-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Mordred
+2018-02-25T23:00:03.8712330-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T23:00:03.8717720-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T23:00:03.8722350-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of the Questing Beast
+2018-02-25T23:00:03.8730010-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Percival
+2018-02-25T23:00:03.8735750-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Thieves
+2018-02-25T23:00:03.8740770-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Thieves
+2018-02-25T23:00:03.8745320-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Temptation
+2018-02-25T23:00:03.8749810-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Valor
+2018-02-25T23:00:03.8754260-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T23:00:03.8759490-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Gawain
+2018-02-25T23:00:03.8763940-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxon Knight
+2018-02-25T23:00:03.8766850-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-02-25T23:00:03.8771300-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T23:00:03.8776540-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T23:00:03.8781450-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Evil Knight
+2018-02-25T23:00:03.8786010-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Evil Knight
+2018-02-25T23:00:03.8790520-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Robber Knight
+2018-02-25T23:00:03.8794990-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of the Questing Beast
+2018-02-25T23:00:03.8799340-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T23:00:03.8803710-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T23:00:03.8808030-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T23:00:03.8812650-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T23:00:03.8817240-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: King Pellinore
+2018-02-25T23:00:03.8822890-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T23:00:03.8825800-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-02-25T23:00:03.8830130-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dragon
+2018-02-25T23:00:03.8834830-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Green Knight
+2018-02-25T23:00:03.8839420-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Mordred
+2018-02-25T23:00:03.8843830-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Mordred
+2018-02-25T23:00:03.8923130-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Galahad
+2018-02-25T23:00:03.8931160-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Morgan Le Fey
+2018-02-25T23:00:03.8938340-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dagger
+2018-02-25T23:00:03.8945220-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Excalibur
+2018-02-25T23:00:03.8952000-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T23:00:03.8958780-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Valor
+2018-02-25T23:00:03.8965500-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T23:00:03.8971910-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dagger
+2018-02-25T23:00:03.8975550-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:00:39.6649500-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:00:39.6721470-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:00:39.6807170-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:00:39.6819510-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:00:39.6831840-05:00: Logger initialized
+2018-02-25T23:00:39.6835980-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T23:00:39.6845690-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T23:00:39.6849470-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T23:00:39.6852440-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T23:00:39.6855360-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T23:00:39.6858240-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T23:00:39.6893630-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T23:00:39.6918020-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Amour
+2018-02-25T23:00:39.6923790-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T23:00:39.6931220-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Tristan
+2018-02-25T23:00:39.6935980-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Excalibur
+2018-02-25T23:00:39.6940640-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Temptation
+2018-02-25T23:00:39.6945460-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Percival
+2018-02-25T23:00:39.6950010-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Temptation
+2018-02-25T23:00:39.6955460-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxon Knight
+2018-02-25T23:00:39.6961960-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Robber Knight
+2018-02-25T23:00:39.6967340-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Morgan Le Fey
+2018-02-25T23:00:39.6972720-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Merlin
+2018-02-25T23:00:39.6975860-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-02-25T23:00:39.6980410-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Excalibur
+2018-02-25T23:00:39.6985440-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Giant
+2018-02-25T23:00:39.6990590-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T23:00:39.6995710-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T23:00:39.7000390-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Queen Guinevere
+2018-02-25T23:00:39.7005390-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Gawain
+2018-02-25T23:00:39.7010390-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Thieves
+2018-02-25T23:00:39.7015440-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of the Questing Beast
+2018-02-25T23:00:39.7020440-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T23:00:39.7026430-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Boar
+2018-02-25T23:00:39.7031380-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T23:00:39.7036020-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T23:00:39.7038790-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-02-25T23:00:39.7043160-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: King Pellinore
+2018-02-25T23:00:39.7048180-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T23:00:39.7052970-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T23:00:39.7057600-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T23:00:39.7128710-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Boar
+2018-02-25T23:00:39.7138210-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T23:00:39.7145390-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dragon
+2018-02-25T23:00:39.7152200-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: King Arthur
+2018-02-25T23:00:39.7158830-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Valor
+2018-02-25T23:00:39.7165240-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T23:00:39.7172410-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Green Knight
+2018-02-25T23:00:39.7179060-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T23:00:39.7181730-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-02-25T23:00:42.8361070-05:00 [TEST]: GameManager.cs :: Quest Name: Search for the Questing Beast
+2018-02-25T23:00:43.4146650-05:00 [TEST]: GameManager.cs :: Quest Name: Defend the Queen's Honor
+2018-02-25T23:00:43.8983270-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T23:00:43.8991420-05:00 [TEST]: EventsManager.cs :: Event :: Running Court Called To Camelot.
+2018-02-25T23:00:43.8996610-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T23:00:43.8999490-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T23:00:43.9001740-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T23:00:43.9003970-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T23:00:43.9006170-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T23:00:43.9008470-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T23:00:44.5793840-05:00 [TEST]: GameManager.cs :: Quest Name: Journey Through the Enchanted Forest
+2018-02-25T23:00:45.1146630-05:00 [TEST]: GameManager.cs :: Quest Name: Repel the Saxon Raiders
+2018-02-25T23:00:45.9989360-05:00 [INFO]: StoryDeck.cs ::  Card has been added: Tournament at Tintagel
+2018-02-25T23:00:45.9994460-05:00 [TEST]: GameManager.cs :: Tournament Name: Tournament at Tintagel
+2018-02-25T23:00:51.5035520-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T23:00:52.9338410-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T23:00:52.9364750-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T23:00:53.4679310-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T23:00:53.4701610-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T23:00:53.4718570-05:00 [INFO]: TournamentManagr.cs :: A Winner has been made.
+2018-02-25T23:00:55.4650920-05:00 [TEST]: GameManager.cs :: Quest Name: Vanquish King Arthur's Enemies
+2018-02-25T23:00:58.9531750-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T23:00:58.9542870-05:00 [TEST]: EventsManager.cs :: Running Pox.
+2018-02-25T23:00:58.9547170-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 0
+2018-02-25T23:00:58.9551040-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 0
+2018-02-25T23:00:58.9554280-05:00 [INFO]: EventsManager.cs :: Player1 number of shields: 0
+2018-02-25T23:00:58.9557580-05:00 [INFO]: EventsManager.cs :: Player1 number of shields: 0
+2018-02-25T23:00:58.9560770-05:00 [INFO]: EventsManager.cs :: Player2 number of shields: 4
+2018-02-25T23:00:58.9564170-05:00 [INFO]: EventsManager.cs :: Player2 number of shields: 4
+2018-02-25T23:00:59.5659180-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T23:00:59.5663660-05:00 [TEST]: EventsManager.cs :: Event :: Running Court Called To Camelot.
+2018-02-25T23:00:59.5666300-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T23:00:59.5668770-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T23:00:59.5671220-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T23:00:59.5673380-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T23:00:59.5676330-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T23:00:59.5678700-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T23:01:00.1825550-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T23:01:00.1831930-05:00 [TEST]: EventsManager.cs :: Event :: Running Queen's Favor.
+2018-02-25T23:01:00.1839060-05:00 [INFO]: EventsManager.cs :: Player0 Receives 2 Adventure Cards.
+2018-02-25T23:01:00.1841750-05:00 [INFO]: EventsManager.cs :: Player1 Receives 2 Adventure Cards.
+2018-02-25T23:01:00.1849930-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dagger
+2018-02-25T23:01:00.1852560-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T23:01:00.1858150-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Giant
+2018-02-25T23:01:00.1860920-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T23:01:00.1866560-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T23:01:00.1868870-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-25T23:01:00.1873870-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Green Knight
+2018-02-25T23:01:00.1876130-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-25T23:01:01.1571610-05:00 [INFO]: StoryDeck.cs ::  Card has been added: Tournament at Camelot
+2018-02-25T23:01:01.1576950-05:00 [TEST]: GameManager.cs :: Tournament Name: Tournament at Camelot
+2018-02-25T23:01:06.0458510-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T23:01:06.0468280-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T23:01:06.6716660-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T23:01:06.6728630-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T23:01:17.6143730-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T23:01:17.6157890-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T23:01:17.6174890-05:00 [INFO]: TournamentManagr.cs :: A Winner has been made.
+2018-02-25T23:01:25.1811430-05:00 [TEST]: GameManager.cs :: Quest Name: Search for the Holy Grail
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:02:11.9658280-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:02:11.9742910-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:02:11.9811430-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:02:11.9820700-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:02:11.9829930-05:00: Logger initialized
+2018-02-25T23:02:11.9833320-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T23:02:11.9840680-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T23:02:11.9843610-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T23:02:11.9845820-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T23:02:11.9848320-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T23:02:11.9850500-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T23:02:11.9886000-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Temptation
+2018-02-25T23:02:11.9909610-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T23:02:11.9915350-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Boar
+2018-02-25T23:02:11.9923090-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Percival
+2018-02-25T23:02:11.9927800-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Queen Guinevere
+2018-02-25T23:02:11.9932480-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T23:02:11.9937210-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of the Questing Beast
+2018-02-25T23:02:11.9941840-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T23:02:11.9946800-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Robber Knight
+2018-02-25T23:02:11.9951420-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T23:02:11.9956500-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Temptation
+2018-02-25T23:02:11.9961640-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T23:02:11.9964400-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-02-25T23:02:11.9968800-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T23:02:11.9973860-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T23:02:11.9979070-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Merlin
+2018-02-25T23:02:11.9983620-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Queen Iseult
+2018-02-25T23:02:11.9988250-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Green Knight
+2018-02-25T23:02:11.9992750-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T23:02:11.9997470-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxons
+2018-02-25T23:02:12.0002510-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Mordred
+2018-02-25T23:02:12.0007320-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T23:02:12.0012240-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Excalibur
+2018-02-25T23:02:12.0016930-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: King Arthur
+2018-02-25T23:02:12.0022910-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Giant
+2018-02-25T23:02:12.0026230-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-02-25T23:02:12.0031000-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dragon
+2018-02-25T23:02:12.0036200-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: King Pellinore
+2018-02-25T23:02:12.0041080-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Thieves
+2018-02-25T23:02:12.0045970-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Boar
+2018-02-25T23:02:12.0051030-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Thieves
+2018-02-25T23:02:12.0138200-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Lancelot
+2018-02-25T23:02:12.0143930-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T23:02:12.0148910-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dagger
+2018-02-25T23:02:12.0153800-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T23:02:12.0158910-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Giant
+2018-02-25T23:02:12.0163940-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T23:02:12.0168570-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Mordred
+2018-02-25T23:02:12.0171230-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-02-25T23:02:14.5546330-05:00 [INFO]: StoryDeck.cs ::  Card has been added: Tournament at York
+2018-02-25T23:02:14.5561090-05:00 [TEST]: GameManager.cs :: Tournament Name: Tournament at York
+2018-02-25T23:02:17.4815210-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T23:02:19.1293930-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T23:02:19.8217010-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T23:02:19.8268110-05:00 [INFO]: TournamentManagr.cs :: A Winner has been made.
+2018-02-25T23:02:24.3468820-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T23:02:24.3476870-05:00 [TEST]: EventsManager.cs :: Event :: Running Court Called To Camelot.
+2018-02-25T23:02:24.3479710-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T23:02:24.3482550-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T23:02:24.3484770-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T23:02:24.3487260-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T23:02:24.3489510-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T23:02:24.3491900-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T23:02:25.2126620-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T23:02:25.2131710-05:00 [TEST]: EventsManager.cs :: Event :: Running King's Recoginition.
+2018-02-25T23:02:25.7754720-05:00 [TEST]: GameManager.cs :: Quest Name: Boar Hunt
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:08:04.3345360-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:08:04.3430220-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:08:04.3481240-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:08:04.3503840-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:08:04.3524260-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:08:04.3535480-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:08:04.3544750-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:08:04.3554290-05:00: Logger initialized
+2018-02-25T23:08:04.3557560-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T23:08:04.3564940-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T23:08:04.3567830-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T23:08:04.3570120-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T23:08:04.3572310-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-25T23:08:04.3574650-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 22
+2018-02-25T23:08:04.3616490-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T23:08:04.3641070-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Evil Knight
+2018-02-25T23:08:04.3646480-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T23:08:04.3651250-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Morgan Le Fey
+2018-02-25T23:08:04.3655770-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T23:08:04.3660500-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Lance
+2018-02-25T23:08:04.3665380-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Thieves
+2018-02-25T23:08:04.3673220-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Percival
+2018-02-25T23:08:04.3678570-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dagger
+2018-02-25T23:08:04.3684430-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dagger
+2018-02-25T23:08:04.3689820-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Valor
+2018-02-25T23:08:04.3694720-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Evil Knight
+2018-02-25T23:08:04.3697560-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-02-25T23:08:04.3701950-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T23:08:04.3707190-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Galahad
+2018-02-25T23:08:04.3712030-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Boar
+2018-02-25T23:08:04.3716670-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T23:08:04.3721930-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sir Gawain
+2018-02-25T23:08:04.3727190-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Saxon Knight
+2018-02-25T23:08:04.3732550-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T23:08:04.3737790-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T23:08:04.3742870-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Thieves
+2018-02-25T23:08:04.3748260-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: King Pellinore
+2018-02-25T23:08:04.3753340-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: King Arthur
+2018-02-25T23:08:04.3837020-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dagger
+2018-02-25T23:08:04.3842960-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-02-25T23:08:04.3850070-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Battle-ax
+2018-02-25T23:08:04.3857410-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T23:08:04.3864570-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Sword
+2018-02-25T23:08:04.3871440-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T23:08:04.3878200-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Amour
+2018-02-25T23:08:04.3884420-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T23:08:04.3890720-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Horse
+2018-02-25T23:08:04.3897250-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Black Knight
+2018-02-25T23:08:04.3903630-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Dagger
+2018-02-25T23:08:04.3910120-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Boar
+2018-02-25T23:08:04.3916360-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Excalibur
+2018-02-25T23:08:04.3922690-05:00 [INFO]: AdventureDeck.cs ::  Card has been added: Test of Valor
+2018-02-25T23:08:04.3926260-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-02-25T23:08:07.0673570-05:00 [TEST]: GameManager.cs :: Quest Name: Defend the Queen's Honor
+2018-02-25T23:08:07.6537220-05:00 [TEST]: GameManager.cs :: Quest Name: Vanquish King Arthur's Enemies
+2018-02-25T23:08:08.2059510-05:00 [TEST]: GameManager.cs :: Quest Name: Test of the Green Knight
+2018-02-25T23:08:08.9277020-05:00 [INFO]: StoryDeck.cs ::  Card has been added: Tournament at Camelot
+2018-02-25T23:08:08.9282520-05:00 [TEST]: GameManager.cs :: Tournament Name: Tournament at Camelot
+2018-02-25T23:08:12.4949130-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T23:08:15.7106140-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T23:08:15.7132220-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T23:08:18.0471740-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T23:08:18.0495460-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T23:08:18.0513400-05:00 [INFO]: TournamentManagr.cs :: A Winner has been made.
+2018-02-25T23:08:25.7056640-05:00 [INFO]: User.cs :: Ranking Up 
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:10:12.2464210-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:10:12.2545810-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:10:12.2595040-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:10:12.2615550-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:10:12.2633160-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:10:12.2736410-05:00: Logger initialized
+2018-02-25T23:10:12.2780680-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T23:10:12.2786280-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 71
+2018-02-25T23:10:12.2789440-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 11
+2018-02-25T23:10:12.2791730-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T23:10:12.2795410-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 71
+2018-02-25T23:10:12.2798690-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 11
+2018-02-25T23:10:12.2879520-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-02-25T23:10:12.2915740-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-02-25T23:10:12.2946860-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-02-25T23:10:19.7742180-05:00 [TEST]: GameManager.cs :: Quest Name: Test of the Green Knight
+2018-02-25T23:10:20.3422020-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T23:10:20.3428410-05:00 [TEST]: EventManager.cs :: Running King's Call to Arms.
+2018-02-25T23:10:20.9044620-05:00 [TEST]: GameManager.cs :: Quest Name: Boar Hunt
+2018-02-25T23:10:21.4667550-05:00 [TEST]: GameManager.cs :: Quest Name: Defend the Queen's Honor
+2018-02-25T23:10:21.9665320-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T23:10:21.9673100-05:00 [TEST]: EventsManager.cs :: Event :: Running Court Called To Camelot.
+2018-02-25T23:10:21.9678480-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T23:10:21.9681740-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T23:10:21.9684190-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T23:10:21.9686540-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T23:10:21.9688740-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T23:10:21.9690900-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T23:10:22.5375800-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T23:10:22.5385310-05:00 [TEST]: EventsManager.cs :: Event :: Running Queen's Favor.
+2018-02-25T23:10:22.5395830-05:00 [INFO]: EventsManager.cs :: Player0 Receives 2 Adventure Cards.
+2018-02-25T23:10:22.5399260-05:00 [INFO]: EventsManager.cs :: Player1 Receives 2 Adventure Cards.
+2018-02-25T23:10:22.5402330-05:00 [INFO]: EventsManager.cs :: Player2 Receives 2 Adventure Cards.
+2018-02-25T23:10:22.5413960-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T23:10:22.5421540-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T23:10:22.5428260-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-25T23:10:22.5434770-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-25T23:10:22.5441010-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-25T23:10:22.5447300-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-25T23:10:23.0588110-05:00 [TEST]: GameManager.cs :: Tournament Name: Tournament at Camelot
+2018-02-25T23:10:27.2312590-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T23:10:34.4170650-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T23:10:43.8740010-05:00 [INFO]: TournamentManagr.cs :: Adding cards to tournament submission.
+2018-02-25T23:10:43.8763360-05:00 [INFO]: TournamentManagr.cs :: Tie between two players. No Winner. 
+2018-02-25T23:10:43.8782460-05:00 [INFO]: TournamentManagr.cs :: A Winner has been made.
+2018-02-25T23:10:44.8254570-05:00 [INFO]: User.cs :: Ranking Up 
+2018-02-25T23:10:52.7306770-05:00 [TEST]: GameManager.cs :: Quest Name: Search for the Holy Grail
+2018-02-25T23:11:00.1170420-05:00 [INFO]: User.cs :: Ranking Up 
+2018-02-25T23:11:08.1864230-05:00 [INFO]: User.cs :: Ranking Up 
+2018-02-25T23:11:12.2203940-05:00 [INFO]: User.cs :: Ranking Up 
+2018-02-25T23:11:13.3559250-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T23:11:13.3564130-05:00 [TEST]: EventsManager.cs :: Event :: Running Queen's Favor.
+2018-02-25T23:11:13.3566830-05:00 [INFO]: EventsManager.cs :: Player0 Receives 2 Adventure Cards.
+2018-02-25T23:11:13.3569290-05:00 [INFO]: EventsManager.cs :: Player2 Receives 2 Adventure Cards.
+2018-02-25T23:11:13.3574440-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T23:11:13.3580370-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T23:11:13.3586470-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-25T23:11:13.3592020-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-25T23:11:14.4766520-05:00 [INFO]: User.cs :: Ranking Up 
+2018-02-25T23:11:21.4566760-05:00 [TEST]: GameManager.cs :: Quest Name: Journey Through the Enchanted Forest
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:16:19.6364410-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:16:19.6463320-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:16:19.6513170-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:16:19.6531950-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:16:19.6549690-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:16:19.6634990-05:00: Logger initialized
+2018-02-25T23:16:19.6674820-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T23:16:19.6680110-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 57
+2018-02-25T23:16:19.6683260-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 10
+2018-02-25T23:16:19.6685500-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T23:16:19.6687830-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 57
+2018-02-25T23:16:19.6690100-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 10
+2018-02-25T23:16:19.6744930-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-02-25T23:16:19.6778030-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-02-25T23:16:19.6820460-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-02-25T23:16:22.0987480-05:00 [TEST]: GameManager.cs :: Quest Name: Slay The Dragon
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:16:47.3044620-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:16:47.3116990-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:16:47.3168670-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:16:47.3196240-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:16:47.3216720-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:16:47.3293330-05:00: Logger initialized
+2018-02-25T23:16:47.3337950-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T23:16:47.3342910-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 65
+2018-02-25T23:16:47.3345830-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 12
+2018-02-25T23:16:47.3348160-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T23:16:47.3350400-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 65
+2018-02-25T23:16:47.3352610-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 12
+2018-02-25T23:16:47.3429440-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-02-25T23:16:47.3467320-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-02-25T23:16:47.3502470-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-02-25T23:16:49.6541680-05:00 [TEST]: GameManager.cs :: Tournament Name: Tournament at Tintagel
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:17:36.8665930-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:17:36.8722180-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:17:36.8754250-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:17:36.8770440-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:17:36.8785620-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:17:36.8913470-05:00: Logger initialized
+2018-02-25T23:17:36.9002060-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T23:17:36.9007920-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 91
+2018-02-25T23:17:36.9011050-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 19
+2018-02-25T23:17:36.9013510-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T23:17:36.9015930-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 91
+2018-02-25T23:17:36.9018280-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 19
+2018-02-25T23:17:36.9079400-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-02-25T23:17:36.9105030-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-02-25T23:17:36.9129830-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:18:00.3371520-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:18:00.3447300-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:18:00.3496660-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:18:00.3516200-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:18:00.3531100-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:18:00.3622860-05:00: Logger initialized
+2018-02-25T23:18:00.3668150-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T23:18:00.3674760-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 79
+2018-02-25T23:18:00.3677890-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 11
+2018-02-25T23:18:00.3680150-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T23:18:00.3682320-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 79
+2018-02-25T23:18:00.3684500-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 11
+2018-02-25T23:18:00.3740700-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-02-25T23:18:00.3768160-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-02-25T23:18:00.3794540-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-02-25T23:18:01.5583210-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T23:18:01.5587920-05:00 [TEST]: EventManager.cs :: Running King's Call to Arms.
+2018-02-25T23:18:08.2184350-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T23:18:08.2191500-05:00 [TEST]: EventsManager.cs :: Running Pox.
+2018-02-25T23:18:08.2194950-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 0
+2018-02-25T23:18:08.2197650-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 0
+2018-02-25T23:18:08.2199920-05:00 [INFO]: EventsManager.cs :: Player1 number of shields: 0
+2018-02-25T23:18:08.2202130-05:00 [INFO]: EventsManager.cs :: Player1 number of shields: 0
+2018-02-25T23:18:08.2204270-05:00 [INFO]: EventsManager.cs :: Player2 number of shields: 0
+2018-02-25T23:18:08.2206420-05:00 [INFO]: EventsManager.cs :: Player2 number of shields: 0
+2018-02-25T23:18:16.6038220-05:00 [TEST]: GameManager.cs :: Tournament Name: Tournament at Camelot
+2018-02-25T23:18:18.5475870-05:00 [TEST]: GameManager.cs :: Quest Name: Journey Through the Enchanted Forest
+2018-02-25T23:18:20.1348970-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T23:18:20.1356170-05:00 [TEST]: EventsManager.cs :: Event :: Running Queen's Favor.
+2018-02-25T23:18:20.1361890-05:00 [INFO]: EventsManager.cs :: Player0 Receives 2 Adventure Cards.
+2018-02-25T23:18:20.1364390-05:00 [INFO]: EventsManager.cs :: Player1 Receives 2 Adventure Cards.
+2018-02-25T23:18:20.1366920-05:00 [INFO]: EventsManager.cs :: Player2 Receives 2 Adventure Cards.
+2018-02-25T23:18:20.1374360-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T23:18:20.1379470-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-25T23:18:20.1384220-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-25T23:18:20.1388850-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-25T23:18:20.1393580-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-25T23:18:20.1398510-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-25T23:18:22.0809910-05:00 [TEST]: GameManager.cs :: Quest Name: Boar Hunt
+2018-02-25T23:18:23.5964260-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T23:18:23.5973540-05:00 [TEST]: EventsManager.cs :: Event :: Running Court Called To Camelot.
+2018-02-25T23:18:23.5979460-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T23:18:23.5983360-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T23:18:23.5986360-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T23:18:23.5989250-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T23:18:23.5992120-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T23:18:23.5994970-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T23:18:25.1770700-05:00 [TEST]: GameManager.cs :: Quest Name: Search for the Holy Grail
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:22:37.6015400-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:22:37.6085250-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:22:37.6138870-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:22:37.6163130-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:22:37.6184520-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:22:37.6309540-05:00: Logger initialized
+2018-02-25T23:22:37.6360080-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T23:22:37.6365280-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 85
+2018-02-25T23:22:37.6368040-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 13
+2018-02-25T23:22:37.6370400-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T23:22:37.6372740-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 85
+2018-02-25T23:22:37.6374870-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 13
+2018-02-25T23:22:37.6454440-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-02-25T23:22:37.6480560-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-02-25T23:22:37.6506860-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-02-25T23:22:39.9155690-05:00 [TEST]: GameManager.cs :: Quest Name: Slay The Dragon
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:23:18.4056690-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:23:18.4167570-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:23:18.4221030-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:23:18.4241740-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:23:18.4257700-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-25T23:23:18.4350810-05:00: Logger initialized
+2018-02-25T23:23:18.4419700-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T23:23:18.4425900-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 77
+2018-02-25T23:23:18.4429100-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 18
+2018-02-25T23:23:18.4431360-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-25T23:23:18.4433830-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 77
+2018-02-25T23:23:18.4436050-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 18
+2018-02-25T23:23:18.4518660-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-02-25T23:23:18.4550520-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-02-25T23:23:18.4578390-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-02-25T23:23:19.8054170-05:00 [TEST]: GameManager.cs :: Quest Name: Search for the Holy Grail
+2018-02-25T23:23:21.9835860-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-25T23:23:21.9843960-05:00 [TEST]: EventsManager.cs :: Event :: Running Court Called To Camelot.
+2018-02-25T23:23:21.9849080-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T23:23:21.9852210-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-25T23:23:21.9854530-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T23:23:21.9856800-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-25T23:23:21.9858990-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-25T23:23:21.9861190-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
