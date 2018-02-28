@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using QuestGame;
 
 public class StoryDeck : MonoBehaviour {
 
 	//Dictionary<string, int> storyDeck = new Dictionary<string, int>(){};
 	List<string> storyDeck= new List<string>();
+	QuestGame.Logger logger = new QuestGame.Logger ();
 	//public string TempCard = "";
 	public string temp = "";
 	public int deckSize;
@@ -41,43 +43,62 @@ public class StoryDeck : MonoBehaviour {
 //		}
 
 	}
+	public void populateEventsDeck(){
+		logger.info ("StoryDeck.cs :: Populating Deck with Event Cards.");
+
+		List<string> RList1 = new List<string> {
+			"King's Recognition", "Queen's Favor"
+		};
+		List<string> RList4 = new List<string> {
+			"Prosperity Throughout the Realm", "King's Call to Arms"
+		};
+		List<string> RList3 = new List<string> {
+			"Court Called to Camelot", "Pox"
+		};
+		List<string> RList5 = new List<string> {
+			"Plague", "Chivalrous Deed"
+		};
+			
+	}
 
 	public void populateDeck(){
+		logger.info ("StoryDeck.cs :: Populating Deck with cards.");
+
 		List<string> RList1 = new List<string> {
-			"Search for the Holy Grail",
-			"Rescue the Fair Maiden",
-			"Slay The Dragon",
+//			"Search for the Holy Grail",
+//			"Rescue the Fair Maiden",
+//			"Slay The Dragon",
 			"King's Recognition",
 			"King's Call to Arms",
-			"Tournament at Camelot"
+//			"Tournament at Camelot"
 		};
 		List<string> RList2 = new List<string> {
-			"Test of the Green Knight",
+//			"Test of the Green Knight",
 			"Queen's Favor",
-			"Journey Through the Enchanted Forest",
-			"Boar Hunt",
+//			"Journey Through the Enchanted Forest",
+//			"Boar Hunt",
 			"Queen's Favor",
 			"Court Called to Camelot",
-			"Tournament at Tintagel"
+//			"Tournament at Tintagel"
 		};
 
 		List<string> RList3 = new List<string> {
-			"Defend the Queen's Honor",
-			"Tournament at York",
-			"Vanquish King Arthur's Enemies",
-			"Boar Hunt",
-			"King's Recognition",
+//			"Defend the Queen's Honor",
+//			"Tournament at York",
+//			"Vanquish King Arthur's Enemies",
+//			"Boar Hunt",
+//			"King's Recognition",
 			"Pox",
 			"Plague",
 			"Chivalrous Deed",
-			"Tournament at Orkney"
+//			"Tournament at Orkney"
 		};
 		List<string> RList4 = new List<string> {
-			"Search for the Questing Beast",
-			"Vanquish King Arthur's Enemies",
-			"Repel the Saxon Raiders",
+//			"Search for the Questing Beast",
+//			"Vanquish King Arthur's Enemies",
+//			"Repel the Saxon Raiders",
 			"Court Called to Camelot",
-			"Prosperity Throughout the Realm"
+//			"Prosperity Throughout the Realm"
 		};
 
 		int ranStart = 0;
@@ -126,6 +147,8 @@ public class StoryDeck : MonoBehaviour {
 				}
 			}
 		}
+		logger.info ("StoryDeck.cs :: StoryDeck storyDeck has been created. with sizes of " + getSizeOfDeck());
+
 	}
 
 
@@ -161,8 +184,9 @@ public class StoryDeck : MonoBehaviour {
 	
 
 	public GameObject Draw(){
-
+		logger.info ("StoryDeck.cs :: Story Deck is drawing..." );
 		if (storyDeck.Count == 0) {
+			logger.info ("StoryDeck.cs :: ." + storyDeck.Count + "Is empty.");
 			populateDeck ();
 		}
 		temp = storyDeck [0];
@@ -180,22 +204,12 @@ public class StoryDeck : MonoBehaviour {
 			tempCard.AddComponent<Tournament> ();
 			tempCard.GetComponent<Tournament> ().setCard (temp);
 		}
+		logger.info ("StoryDeck.cs :: Story Deck has drawn Card: " + temp);
+
 		return tempCard;
+
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		
 	/*
 	public void RemoveCard(string tempKey){
 		if (storyDeck.Contains (tempKey) == true) {

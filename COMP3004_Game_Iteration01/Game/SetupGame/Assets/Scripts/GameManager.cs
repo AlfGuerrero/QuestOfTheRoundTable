@@ -29,7 +29,7 @@ public class GameManager : EventsManager {
 	public QuestManager 		Quests;
 	public GameObject			StoryCard;
 	public User 				currentUser;
-	protected QuestGame.Logger	logger;
+	public QuestGame.Logger	logger;
 	public bool statsToggle = false; 
 	public bool startEvents = false;
 	public bool KingsCalltoArms = false;
@@ -49,6 +49,8 @@ public class GameManager : EventsManager {
 
 	void Start () {
 		logger = new QuestGame.Logger ();
+		logger.info ("GameManager.cs :: Initializing Game...");
+
 		gameUsers =  new Users(textBoxInput, 0);
 		totalUsers = gameUsers.getNumberOfUsers ();	
 		logger.info ("GameManager.cs :: Calling AdventureDeck...");
@@ -57,10 +59,9 @@ public class GameManager : EventsManager {
 		storyDeck.populateDeck ();
 //		storyDeck.populateEventsDeck ();
 		PickUpAdventureCards (0, 12);
-		PickUpAdventureCards (1, 12);
+		PickUpAdventureCards (1, 15);
 		PickUpAdventureCards (2, 12);
 		logger.info ("GameManager.cs :: Game has been created with " + totalUsers + " players.");
-
 		togglePlayerCanvas (playerTurn);	
 
 	}
@@ -77,7 +78,6 @@ public class GameManager : EventsManager {
 //		User cc = gameUsers.findByUserName ("Player" + userInfoTurn).GetComponent<User> ();		// Get User.
 		int numUsers = gameUsers.getUsers().Count;
 		foreach (GameObject i in gameUsers.getUsers()){
-
 
 
 			names += (i.GetComponent<User>().getName ());
@@ -108,6 +108,11 @@ public class GameManager : EventsManager {
 		PlayerStats.transform.GetChild(2).GetComponent<Text>().text =  "Shields: " + shields;
 		PlayerStats.transform.GetChild(3).GetComponent<Text>().text =  "Base Points: " 	+ battlePoint;
 		PlayerStats.transform.GetChild(4).GetComponent<Text>().text =  "Cards In Hand: "	+ cardsinHand;
+		logger.info ("GameManager.cs ::" + "Players: "+ names);
+		logger.info ("GameManager.cs ::" + "Rank: "+ ranks);
+		logger.info ("GameManager.cs ::" + "Shields: " + shields);
+		logger.info ("GameManager.cs ::" + "Base Points: "	+ battlePoint);
+		logger.info ("GameManager.cs ::" + "Cards In Hand: "+ cardsinHand);
 
 	}
 
@@ -120,6 +125,7 @@ public class GameManager : EventsManager {
 			displayUsersInfo ();
 		}
 		if (statsToggle == true && Input.GetKeyUp("tab")){
+			logger.info ("GameManager.cs :: 'tab' key has been pressed toggling Player Statistics.");
 			Destroy (PlayerStats.gameObject);
 			foreach (GameObject g in GameObject.FindGameObjectsWithTag ("SmallCard")) {
 				Destroy (g);
@@ -131,11 +137,17 @@ public class GameManager : EventsManager {
 
 		if (buttonPushed == true) {
 			Instantiate (Resources.Load ("PreFabs/MiddleScreen") as GameObject);	
+			logger.info ("Toggling Middle Screen. Please click before moving on");
+
+
 			togglePlayerCanvas (playerTurn);
 			PickupStoryCards(playerTurn);
 //			PickUpAdventureCards(playerTurn, 1);
 		    currentUser = gameUsers.findByUserName ("Player" + playerTurn).GetComponent<User> ();
 			logger.info ("GameManager.cs :: Next turn: " + currentUser.getName());
+			if (currentUser.getCards ().Count > 12) {
+				logger.info ("GameManager.cs :: " + currentUser.getName() + "Hand Count is: " + currentUser.getCards ().Count +" cards: Please Discard Cards. ");
+			}
 			handleStoryCards (currentUser);
 			playerTurn += 1;
 			if (playerTurn == totalUsers) { playerTurn = 0; }

@@ -1,0 +1,138 @@
+2018-02-27T21:37:51.8637320-05:00 [INFO]: GameManager.cs :: Initializing Game...
+2018-02-27T21:37:51.9074210-05:00 [INFO]: User.cs :: Initializing Player... Player0
+2018-02-27T21:37:51.9113670-05:00 [INFO]: User.cs :: Initializing Player... Player1
+2018-02-27T21:37:51.9142670-05:00 [INFO]: User.cs :: Initializing Player... Player2
+2018-02-27T21:37:51.9146890-05:00 [INFO]: GameManager.cs :: Calling AdventureDeck...
+2018-02-27T21:37:51.9162950-05:00 [INFO]: AdventureDeck.cs :: Populating Deck with cards.
+2018-02-27T21:37:51.9170470-05:00 [TEST]: AdventureDeck.cs :: Adventure advDeck has been created. with sizes of 77
+2018-02-27T21:37:51.9173040-05:00 [INFO]: GameManager.cs :: Calling StoryDeck...
+2018-02-27T21:37:51.9180530-05:00 [INFO]: StoryDeck.cs :: Populating Deck with cards.
+2018-02-27T21:37:51.9186080-05:00 [INFO]: StoryDeck.cs :: StoryDeck storyDeck has been created. with sizes of 14
+2018-02-27T21:37:51.9212160-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-02-27T21:37:51.9237310-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Queen Iseult
+2018-02-27T21:37:51.9243440-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-02-27T21:37:51.9249220-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-02-27T21:37:51.9254050-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Black Knight
+2018-02-27T21:37:51.9258670-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-02-27T21:37:51.9263260-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-02-27T21:37:51.9267880-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-02-27T21:37:51.9272520-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Test of Morgan Le Fey
+2018-02-27T21:37:51.9276840-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Mordred
+2018-02-27T21:37:51.9281090-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-02-27T21:37:51.9285700-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-02-27T21:37:51.9288570-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-02-27T21:37:51.9292990-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxons
+2018-02-27T21:37:51.9297620-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sir Galahad
+2018-02-27T21:37:51.9302710-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Queen Guinevere
+2018-02-27T21:37:51.9307490-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-02-27T21:37:51.9312410-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Dagger
+2018-02-27T21:37:51.9319410-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Boar
+2018-02-27T21:37:51.9324620-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Amour
+2018-02-27T21:37:51.9329870-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: King Arthur
+2018-02-27T21:37:51.9334480-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-02-27T21:37:51.9338940-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Test of Temptation
+2018-02-27T21:37:51.9344200-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Excalibur
+2018-02-27T21:37:51.9349110-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-02-27T21:37:51.9353690-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Mordred
+2018-02-27T21:37:51.9358370-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-02-27T21:37:51.9363200-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Green Knight
+2018-02-27T21:37:51.9366000-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 15 adventure cards.
+2018-02-27T21:37:51.9370340-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-02-27T21:37:51.9375040-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Black Knight
+2018-02-27T21:37:51.9380430-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Lance
+2018-02-27T21:37:51.9384940-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-02-27T21:37:51.9389420-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-02-27T21:37:51.9464680-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-02-27T21:37:51.9472200-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Lance
+2018-02-27T21:37:51.9477280-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-02-27T21:37:51.9481910-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Evil Knight
+2018-02-27T21:37:51.9486650-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Amour
+2018-02-27T21:37:51.9491910-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-02-27T21:37:51.9496530-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-02-27T21:37:51.9499140-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-02-27T21:37:51.9502020-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-27T21:37:51.9540000-05:00 [INFO]: HandManager.cs :: Initialzing HandManager.
+2018-02-27T21:37:55.4062600-05:00 [INFO]: GameManager.cs ::Players: Player0
+Player1
+Player2
+
+2018-02-27T21:37:55.4381120-05:00 [INFO]: GameManager.cs ::Rank: Squire
+Squire
+Squire
+
+2018-02-27T21:37:55.4384160-05:00 [INFO]: GameManager.cs ::Shields: 3
+3
+3
+
+2018-02-27T21:37:55.4386350-05:00 [INFO]: GameManager.cs ::Base Points: 5
+5
+5
+
+2018-02-27T21:37:55.4388470-05:00 [INFO]: GameManager.cs ::Cards In Hand: 12
+15
+12
+
+2018-02-27T21:37:55.4993130-05:00 [INFO]: GameManager.cs :: 'tab' key has been pressed toggling Player Statistics.
+2018-02-27T21:37:56.8589700-05:00 [INFO]: GameManager.cs ::Players: Player0
+Player1
+Player2
+
+2018-02-27T21:37:56.8593670-05:00 [INFO]: GameManager.cs ::Rank: Squire
+Squire
+Squire
+
+2018-02-27T21:37:56.8596020-05:00 [INFO]: GameManager.cs ::Shields: 3
+3
+3
+
+2018-02-27T21:37:56.8598220-05:00 [INFO]: GameManager.cs ::Base Points: 5
+5
+5
+
+2018-02-27T21:37:56.8600390-05:00 [INFO]: GameManager.cs ::Cards In Hand: 12
+15
+12
+
+2018-02-27T21:37:57.0073430-05:00 [INFO]: GameManager.cs :: 'tab' key has been pressed toggling Player Statistics.
+2018-02-27T21:37:57.2735560-05:00 [INFO]: GameManager.cs ::Players: Player0
+Player1
+Player2
+
+2018-02-27T21:37:57.2739740-05:00 [INFO]: GameManager.cs ::Rank: Squire
+Squire
+Squire
+
+2018-02-27T21:37:57.2742860-05:00 [INFO]: GameManager.cs ::Shields: 3
+3
+3
+
+2018-02-27T21:37:57.2745050-05:00 [INFO]: GameManager.cs ::Base Points: 5
+5
+5
+
+2018-02-27T21:37:57.2747200-05:00 [INFO]: GameManager.cs ::Cards In Hand: 12
+15
+12
+
+2018-02-27T21:37:57.3550130-05:00 [INFO]: GameManager.cs :: 'tab' key has been pressed toggling Player Statistics.
+2018-02-27T21:37:57.6373810-05:00 [INFO]: GameManager.cs ::Players: Player0
+Player1
+Player2
+
+2018-02-27T21:37:57.6377730-05:00 [INFO]: GameManager.cs ::Rank: Squire
+Squire
+Squire
+
+2018-02-27T21:37:57.6380010-05:00 [INFO]: GameManager.cs ::Shields: 3
+3
+3
+
+2018-02-27T21:37:57.6382170-05:00 [INFO]: GameManager.cs ::Base Points: 5
+5
+5
+
+2018-02-27T21:37:57.6384330-05:00 [INFO]: GameManager.cs ::Cards In Hand: 12
+15
+12
+
+2018-02-27T21:37:57.9186520-05:00 [INFO]: GameManager.cs :: 'tab' key has been pressed toggling Player Statistics.

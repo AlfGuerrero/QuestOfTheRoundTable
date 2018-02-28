@@ -2,15 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using QuestGame;
 public class HandManager : MonoBehaviour {
 
 	HorizontalLayoutGroup layout;
 
 	GameObject [] cardsInHand;
+	QuestGame.Logger logger = new QuestGame.Logger ();
 
 	// Use this for initialization
 	void Start () {
+		logger.info ("HandManager.cs :: Initialzing HandManager.");
 		layout = this.GetComponent<HorizontalLayoutGroup> ();
 	}
 	
@@ -28,9 +30,9 @@ public class HandManager : MonoBehaviour {
 	}
 
 	void CardDistribution(){
-
 		int handSize = this.transform.childCount;
 		if(handSize > 12){
+
 			Debug.Log ("YOU HAVE TOO MANY CARDS IN HAND");
 		}
 

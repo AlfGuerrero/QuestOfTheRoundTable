@@ -45,6 +45,8 @@ public class User : MonoBehaviour {
 		this.gameObject.transform.GetChild(5).GetComponent<Text>().text =  ("Shields: " + this.shields);
 		this.gameObject.transform.GetChild(6).GetComponent<Text>().text =  ("BattlePoints: " + this.baseAttack);
 		this.gameObject.transform.GetChild (1).GetComponent<Image> ().sprite = Squire;
+		logger.info ("User.cs :: Initializing Player... " + this.user_name);
+
 
 	}
 	void Update(){
@@ -66,17 +68,17 @@ public class User : MonoBehaviour {
 
 	public string getRank(){
 		if (12 > this.shields && this.shields >= 5) {
-//			logger.info ("User.cs :: Ranking Up: " + this.user_name);
+			logger.info ("User.cs :: Ranking Up: " + this.user_name);
 			this.rank ="Knight";
 			this.gameObject.transform.GetChild (1).GetComponent<Image> ().sprite = Knight;
 		}
 		else if ( 22 > this.shields && this.shields >= 12) {
-//			logger.info ("User.cs :: Ranking Up: " + this.user_name);
+			logger.info ("User.cs :: Ranking Up: " + this.user_name);
 			this.gameObject.transform.GetChild (1).GetComponent<Image> ().sprite = ChampionKnight;
 			this.rank = "Champion Knight";
 		}
 		else if (this.shields >= 22) {
-//			logger.info ("User.cs :: Ranking Up: " + this.user_name);
+			logger.info ("User.cs :: Ranking Up: " + this.user_name);
 			this.rank = "Knight Of the Round Table";
 		}	
 		this.gameObject.transform.GetChild(4).GetComponent<Text>().text =  ("Rank: " + this.rank);
@@ -97,21 +99,28 @@ public class User : MonoBehaviour {
 		this.shields = shields;
 	}
 	public void setBaseAttack(int baseAttack){
+		logger.info ("User.cs :: setBaseAttack function has been called for Player:  " + this.user_name + " Base Attack: " + this.baseAttack);
 		this.gameObject.transform.GetChild(6).GetComponent<Text>().text =  ("BattlePoints: " + this.baseAttack);
 		this.baseAttack = baseAttack;
+		logger.info ("User.cs :: setBaseAttack function has been called for Player:  " + this.user_name + " New Base Attack: " + this.baseAttack);
 	}
 	public bool getAI(){
 		return this.ai;
 	}
 	public void addAlly(AdventureCard Ally){
 		hand_ally.Add (Ally);
+		logger.info ("User.cs :: addAlly function has been called for Player:  " + this.user_name + " Adding Ally: " + Ally.getName());
+		logger.info ("User.cs :: addAlly function has been called for Player:  " + this.user_name + " Ally Battle Points: " + Ally.getBonusBattlePoints());
+
 	}
 	public int getAllyBattlePoints(int bonus){
 		int totalBattlePoints = 0;
 		foreach (AdventureCard i in this.hand_ally) {
 			totalBattlePoints += i.getBattlePoints ();
 		}
+		logger.info ("User.cs :: getAllyBattlePoints function has been called for Player:  " + this.user_name + " BattlePoints: " + totalBattlePoints);
 		totalBattlePoints += bonus;
+		logger.info ("User.cs :: getAllyBattlePoints function has been called for Player:  " + this.user_name + " New BattlePoints: " + totalBattlePoints);
 		return totalBattlePoints;
 	}
 

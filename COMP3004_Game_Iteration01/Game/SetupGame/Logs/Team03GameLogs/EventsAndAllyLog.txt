@@ -1,0 +1,543 @@
+2018-02-27T22:27:50.0674290-05:00 [INFO]: GameManager.cs :: Initializing Game...
+2018-02-27T22:27:50.1148050-05:00 [INFO]: User.cs :: Initializing Player... Player0
+2018-02-27T22:27:50.1177760-05:00 [INFO]: User.cs :: Initializing Player... Player1
+2018-02-27T22:27:50.1204040-05:00 [INFO]: User.cs :: Initializing Player... Player2
+2018-02-27T22:27:50.1208940-05:00 [INFO]: GameManager.cs :: Calling AdventureDeck...
+2018-02-27T22:27:50.1225870-05:00 [INFO]: AdventureDeck.cs :: Populating Deck with cards.
+2018-02-27T22:27:50.1238920-05:00 [TEST]: AdventureDeck.cs :: Adventure advDeck has been created. with sizes of 76
+2018-02-27T22:27:50.1242000-05:00 [INFO]: GameManager.cs :: Calling StoryDeck...
+2018-02-27T22:27:50.1248250-05:00 [INFO]: StoryDeck.cs :: Populating Deck with cards.
+2018-02-27T22:27:50.1251890-05:00 [INFO]: StoryDeck.cs :: StoryDeck storyDeck has been created. with sizes of 4
+2018-02-27T22:27:50.1282230-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Queen Guinevere
+2018-02-27T22:27:50.1317450-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-02-27T22:27:50.1322780-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-02-27T22:27:50.1327550-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Amour
+2018-02-27T22:27:50.1332250-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Black Knight
+2018-02-27T22:27:50.1336740-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-02-27T22:27:50.1341320-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-02-27T22:27:50.1346910-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Amour
+2018-02-27T22:27:50.1352000-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-02-27T22:27:50.1356800-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-02-27T22:27:50.1361380-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-02-27T22:27:50.1365940-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxons
+2018-02-27T22:27:50.1368770-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-02-27T22:27:50.1373230-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Dagger
+2018-02-27T22:27:50.1377660-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-02-27T22:27:50.1382040-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxons
+2018-02-27T22:27:50.1386370-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-02-27T22:27:50.1390660-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-02-27T22:27:50.1395010-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Dagger
+2018-02-27T22:27:50.1399690-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-02-27T22:27:50.1404360-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Lance
+2018-02-27T22:27:50.1409350-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-02-27T22:27:50.1413770-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-02-27T22:27:50.1418650-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Test of Valor
+2018-02-27T22:27:50.1423450-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-02-27T22:27:50.1428020-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-02-27T22:27:50.1432710-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-02-27T22:27:50.1437410-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sir Lancelot
+2018-02-27T22:27:50.1440080-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 15 adventure cards.
+2018-02-27T22:27:50.1444450-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Giant
+2018-02-27T22:27:50.1449960-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-02-27T22:27:50.1456920-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Green Knight
+2018-02-27T22:27:50.1461690-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-02-27T22:27:50.1466940-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Green Knight
+2018-02-27T22:27:50.1538710-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxons
+2018-02-27T22:27:50.1545490-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Merlin
+2018-02-27T22:27:50.1550470-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-02-27T22:27:50.1555250-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-02-27T22:27:50.1560420-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-02-27T22:27:50.1566070-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-02-27T22:27:50.1571450-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-02-27T22:27:50.1574320-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-02-27T22:27:50.1576590-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-27T22:27:50.1623320-05:00 [INFO]: HandManager.cs :: Initialzing HandManager.
+2018-02-27T22:27:53.4467970-05:00 [INFO]: Toggling Middle Screen. Please click before moving on
+2018-02-27T22:27:53.4480360-05:00 [INFO]: StoryDeck.cs :: Story Deck is drawing...
+2018-02-27T22:27:53.4529460-05:00 [INFO]: StoryDeck.cs :: Story Deck has drawn Card: Pox
+2018-02-27T22:27:53.4534110-05:00 [INFO]: GameManager.cs :: Next turn: Player0
+2018-02-27T22:27:53.4541290-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-27T22:27:53.4548730-05:00 [TEST]: EventsManager.cs :: Running Pox.
+2018-02-27T22:27:53.4552510-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 3
+2018-02-27T22:27:53.4555250-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 3
+2018-02-27T22:27:53.4557430-05:00 [INFO]: EventsManager.cs :: Player1 number of shields: 3
+2018-02-27T22:27:53.4562080-05:00 [INFO]: EventsManager.cs :: Player1 number of shields: 3
+2018-02-27T22:27:53.4564340-05:00 [INFO]: EventsManager.cs :: Player2 number of shields: 3
+2018-02-27T22:27:53.4566640-05:00 [INFO]: EventsManager.cs :: Player2 number of shields: 3
+2018-02-27T22:27:58.1113940-05:00 [INFO]: GameManager.cs ::Players: Player0
+Player1
+Player2
+
+2018-02-27T22:27:58.1117620-05:00 [INFO]: GameManager.cs ::Rank: Squire
+Squire
+Squire
+
+2018-02-27T22:27:58.1120670-05:00 [INFO]: GameManager.cs ::Shields: 3
+2
+2
+
+2018-02-27T22:27:58.1122850-05:00 [INFO]: GameManager.cs ::Base Points: 5
+5
+5
+
+2018-02-27T22:27:58.1125430-05:00 [INFO]: GameManager.cs ::Cards In Hand: 12
+15
+12
+
+2018-02-27T22:27:58.1686320-05:00 [INFO]: GameManager.cs :: 'tab' key has been pressed toggling Player Statistics.
+2018-02-27T22:28:00.3840040-05:00 [INFO]: Toggling Middle Screen. Please click before moving on
+2018-02-27T22:28:00.3866210-05:00 [INFO]: StoryDeck.cs :: Story Deck is drawing...
+2018-02-27T22:28:00.3895330-05:00 [INFO]: StoryDeck.cs :: Story Deck has drawn Card: Court Called to Camelot
+2018-02-27T22:28:00.3902080-05:00 [INFO]: GameManager.cs :: Next turn: Player1
+2018-02-27T22:28:00.3906940-05:00 [INFO]: GameManager.cs :: Player1Hand Count is: 15 cards: Please Discard Cards. 
+2018-02-27T22:28:00.3910490-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-27T22:28:00.3921490-05:00 [TEST]: EventsManager.cs :: Event :: Running Court Called To Camelot.
+2018-02-27T22:28:00.3928600-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-27T22:28:00.3937570-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player0 Base Attack: 5
+2018-02-27T22:28:00.3942530-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player0 New Base Attack: 5
+2018-02-27T22:28:00.4028430-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-27T22:28:00.4033100-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-27T22:28:00.4035950-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player1 Base Attack: 5
+2018-02-27T22:28:00.4040200-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player1 New Base Attack: 5
+2018-02-27T22:28:00.4044770-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-02-27T22:28:00.4048540-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-27T22:28:00.4052290-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player2 Base Attack: 5
+2018-02-27T22:28:00.4055750-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player2 New Base Attack: 5
+2018-02-27T22:28:00.4058840-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-02-27T22:28:00.4064000-05:00 [INFO]: HandManager.cs :: Initialzing HandManager.
+2018-02-27T22:28:17.9112370-05:00 [INFO]: GameManager.cs :: Initializing Game...
+2018-02-27T22:28:17.9542640-05:00 [INFO]: User.cs :: Initializing Player... Player0
+2018-02-27T22:28:17.9574230-05:00 [INFO]: User.cs :: Initializing Player... Player1
+2018-02-27T22:28:17.9602830-05:00 [INFO]: User.cs :: Initializing Player... Player2
+2018-02-27T22:28:17.9607250-05:00 [INFO]: GameManager.cs :: Calling AdventureDeck...
+2018-02-27T22:28:17.9623930-05:00 [INFO]: AdventureDeck.cs :: Populating Deck with cards.
+2018-02-27T22:28:17.9639090-05:00 [TEST]: AdventureDeck.cs :: Adventure advDeck has been created. with sizes of 80
+2018-02-27T22:28:17.9641670-05:00 [INFO]: GameManager.cs :: Calling StoryDeck...
+2018-02-27T22:28:17.9647500-05:00 [INFO]: StoryDeck.cs :: Populating Deck with cards.
+2018-02-27T22:28:17.9651540-05:00 [INFO]: StoryDeck.cs :: StoryDeck storyDeck has been created. with sizes of 6
+2018-02-27T22:28:17.9682370-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Amour
+2018-02-27T22:28:17.9721970-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Mordred
+2018-02-27T22:28:17.9727000-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-02-27T22:28:17.9731740-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Green Knight
+2018-02-27T22:28:17.9736430-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-02-27T22:28:17.9741060-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-02-27T22:28:17.9745620-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sir Galahad
+2018-02-27T22:28:17.9750070-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Dagger
+2018-02-27T22:28:17.9754530-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Amour
+2018-02-27T22:28:17.9759130-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Mordred
+2018-02-27T22:28:17.9763410-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-02-27T22:28:17.9767820-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Test of Morgan Le Fey
+2018-02-27T22:28:17.9771110-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-02-27T22:28:17.9775750-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Excalibur
+2018-02-27T22:28:17.9780510-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Evil Knight
+2018-02-27T22:28:17.9785290-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Amour
+2018-02-27T22:28:17.9789960-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: King Pellinore
+2018-02-27T22:28:17.9794510-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-02-27T22:28:17.9799020-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Queen Iseult
+2018-02-27T22:28:17.9803750-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-02-27T22:28:17.9808240-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Amour
+2018-02-27T22:28:17.9813300-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-02-27T22:28:17.9818120-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-02-27T22:28:17.9823350-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Evil Knight
+2018-02-27T22:28:17.9828040-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxons
+2018-02-27T22:28:17.9832580-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sir Gawain
+2018-02-27T22:28:17.9837210-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-02-27T22:28:17.9841600-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-02-27T22:28:17.9844320-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 15 adventure cards.
+2018-02-27T22:28:17.9848530-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-02-27T22:28:17.9853050-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-02-27T22:28:17.9857550-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-02-27T22:28:17.9861990-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-02-27T22:28:17.9867420-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Evil Knight
+2018-02-27T22:28:17.9940770-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Evil Knight
+2018-02-27T22:28:17.9947450-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-02-27T22:28:17.9952940-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Boar
+2018-02-27T22:28:17.9958000-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-02-27T22:28:17.9963370-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxons
+2018-02-27T22:28:17.9968230-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Test of Morgan Le Fey
+2018-02-27T22:28:17.9974320-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-02-27T22:28:17.9977590-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-02-27T22:28:17.9980150-05:00 [INFO]: GameManager.cs :: Game has been created with 3 players.
+2018-02-27T22:28:18.0036470-05:00 [INFO]: HandManager.cs :: Initialzing HandManager.
+2018-02-27T22:28:20.6805870-05:00 [INFO]: Toggling Middle Screen. Please click before moving on
+2018-02-27T22:28:20.6819030-05:00 [INFO]: StoryDeck.cs :: Story Deck is drawing...
+2018-02-27T22:28:20.6868920-05:00 [INFO]: StoryDeck.cs :: Story Deck has drawn Card: Queen's Favor
+2018-02-27T22:28:20.6873760-05:00 [INFO]: GameManager.cs :: Next turn: Player0
+2018-02-27T22:28:20.6881150-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-27T22:28:20.6886500-05:00 [TEST]: EventsManager.cs :: Event :: Running Queen's Favor.
+2018-02-27T22:28:20.6895140-05:00 [INFO]: EventsManager.cs :: Player0 Receives 2 Adventure Cards.
+2018-02-27T22:28:20.6898110-05:00 [INFO]: EventsManager.cs :: Player1 Receives 2 Adventure Cards.
+2018-02-27T22:28:20.6900390-05:00 [INFO]: EventsManager.cs :: Player2 Receives 2 Adventure Cards.
+2018-02-27T22:28:20.6909940-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-02-27T22:28:20.6914000-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-27T22:28:20.6920490-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-02-27T22:28:20.6922940-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-27T22:28:20.6928830-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Amour
+2018-02-27T22:28:20.6931540-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-27T22:28:20.6936900-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-02-27T22:28:20.6939460-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-27T22:28:20.6946350-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-02-27T22:28:20.6948970-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-27T22:28:20.6957870-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Lance
+2018-02-27T22:28:20.6960980-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-27T22:28:23.5787890-05:00 [INFO]: GameManager.cs ::Players: Player0
+Player1
+Player2
+
+2018-02-27T22:28:23.5792520-05:00 [INFO]: GameManager.cs ::Rank: Squire
+Squire
+Squire
+
+2018-02-27T22:28:23.5795520-05:00 [INFO]: GameManager.cs ::Shields: 3
+3
+3
+
+2018-02-27T22:28:23.5797860-05:00 [INFO]: GameManager.cs ::Base Points: 5
+5
+5
+
+2018-02-27T22:28:23.5800400-05:00 [INFO]: GameManager.cs ::Cards In Hand: 14
+17
+14
+
+2018-02-27T22:28:23.9356720-05:00 [INFO]: GameManager.cs :: 'tab' key has been pressed toggling Player Statistics.
+2018-02-27T22:28:30.5133780-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player0 Base Attack: 5
+2018-02-27T22:28:30.5138350-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player0 New Base Attack: 20
+2018-02-27T22:28:37.2141310-05:00 [INFO]: Toggling Middle Screen. Please click before moving on
+2018-02-27T22:28:37.2159460-05:00 [INFO]: StoryDeck.cs :: Story Deck is drawing...
+2018-02-27T22:28:37.2232080-05:00 [INFO]: StoryDeck.cs :: Story Deck has drawn Card: King's Recognition
+2018-02-27T22:28:37.2235890-05:00 [INFO]: GameManager.cs :: Next turn: Player1
+2018-02-27T22:28:37.2238640-05:00 [INFO]: GameManager.cs :: Player1Hand Count is: 17 cards: Please Discard Cards. 
+2018-02-27T22:28:37.2240770-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-27T22:28:37.2244520-05:00 [TEST]: EventsManager.cs :: Event :: Running King's Recoginition.
+2018-02-27T22:28:37.2247820-05:00 [INFO]: HandManager.cs :: Initialzing HandManager.
+2018-02-27T22:28:43.2648860-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player1 Base Attack: 5
+2018-02-27T22:28:43.2653030-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player1 New Base Attack: 5
+2018-02-27T22:28:50.4295030-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player1 Base Attack: 5
+2018-02-27T22:28:50.4299110-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player1 New Base Attack: 15
+2018-02-27T22:28:58.6262110-05:00 [INFO]: Toggling Middle Screen. Please click before moving on
+2018-02-27T22:28:58.6278910-05:00 [INFO]: StoryDeck.cs :: Story Deck is drawing...
+2018-02-27T22:28:58.6330380-05:00 [INFO]: StoryDeck.cs :: Story Deck has drawn Card: Queen's Favor
+2018-02-27T22:28:58.6333970-05:00 [INFO]: GameManager.cs :: Next turn: Player2
+2018-02-27T22:28:58.6336340-05:00 [INFO]: GameManager.cs :: Player2Hand Count is: 14 cards: Please Discard Cards. 
+2018-02-27T22:28:58.6338420-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-27T22:28:58.6340520-05:00 [TEST]: EventsManager.cs :: Event :: Running Queen's Favor.
+2018-02-27T22:28:58.6342620-05:00 [INFO]: EventsManager.cs :: Player0 Receives 2 Adventure Cards.
+2018-02-27T22:28:58.6344820-05:00 [INFO]: EventsManager.cs :: Player1 Receives 2 Adventure Cards.
+2018-02-27T22:28:58.6346900-05:00 [INFO]: EventsManager.cs :: Player2 Receives 2 Adventure Cards.
+2018-02-27T22:28:58.6352870-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Test of Valor
+2018-02-27T22:28:58.6355370-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-27T22:28:58.6360360-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Amour
+2018-02-27T22:28:58.6362600-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player0 Picked up adventure card.
+2018-02-27T22:28:58.6368330-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-02-27T22:28:58.6371190-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-27T22:28:58.6376260-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Giant
+2018-02-27T22:28:58.6378970-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-27T22:28:58.6385630-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Black Knight
+2018-02-27T22:28:58.6388900-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-27T22:28:58.6394360-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sir Lancelot
+2018-02-27T22:28:58.6396860-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-27T22:28:58.6400380-05:00 [INFO]: HandManager.cs :: Initialzing HandManager.
+2018-02-27T22:29:10.3930950-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player2 Base Attack: 5
+2018-02-27T22:29:10.3935140-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player2 New Base Attack: 20
+2018-02-27T22:29:11.5116110-05:00 [INFO]: Toggling Middle Screen. Please click before moving on
+2018-02-27T22:29:11.5132850-05:00 [INFO]: StoryDeck.cs :: Story Deck is drawing...
+2018-02-27T22:29:11.5155630-05:00 [INFO]: StoryDeck.cs :: Story Deck has drawn Card: Plague
+2018-02-27T22:29:11.5159100-05:00 [INFO]: GameManager.cs :: Next turn: Player0
+2018-02-27T22:29:11.5161500-05:00 [INFO]: GameManager.cs :: Player0Hand Count is: 14 cards: Please Discard Cards. 
+2018-02-27T22:29:11.5164430-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-27T22:29:11.5169930-05:00 [TEST]: EventsManager.cs :: Running Plague.
+2018-02-27T22:29:11.5172430-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 3
+2018-02-27T22:29:11.5175900-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 3
+2018-02-27T22:29:14.3620180-05:00 [INFO]: GameManager.cs ::Players: Player0
+Player1
+Player2
+
+2018-02-27T22:29:14.3624640-05:00 [INFO]: GameManager.cs ::Rank: Squire
+Squire
+Squire
+
+2018-02-27T22:29:14.3687520-05:00 [INFO]: GameManager.cs ::Shields: 1
+3
+3
+
+2018-02-27T22:29:14.3691220-05:00 [INFO]: GameManager.cs ::Base Points: 20
+15
+20
+
+2018-02-27T22:29:14.3693490-05:00 [INFO]: GameManager.cs ::Cards In Hand: 14
+14
+11
+
+2018-02-27T22:29:14.4944300-05:00 [INFO]: GameManager.cs :: 'tab' key has been pressed toggling Player Statistics.
+2018-02-27T22:29:21.9328920-05:00 [INFO]: Toggling Middle Screen. Please click before moving on
+2018-02-27T22:29:21.9346430-05:00 [INFO]: StoryDeck.cs :: Story Deck is drawing...
+2018-02-27T22:29:21.9370350-05:00 [INFO]: StoryDeck.cs :: Story Deck has drawn Card: Chivalrous Deed
+2018-02-27T22:29:21.9374180-05:00 [INFO]: GameManager.cs :: Next turn: Player1
+2018-02-27T22:29:21.9378080-05:00 [INFO]: GameManager.cs :: Player1Hand Count is: 14 cards: Please Discard Cards. 
+2018-02-27T22:29:21.9380460-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-27T22:29:21.9386220-05:00 [TEST]: EventsManager.cs :: Running Chivalrous Deed.
+2018-02-27T22:29:21.9388910-05:00 [INFO]: EventsManager.cs ::  Player0 number of shields: 1
+2018-02-27T22:29:21.9391360-05:00 [INFO]: EventsManager.cs ::  Player0 number of shields: 4
+2018-02-27T22:29:26.7631590-05:00 [INFO]: GameManager.cs ::Players: Player0
+Player1
+Player2
+
+2018-02-27T22:29:26.7635460-05:00 [INFO]: GameManager.cs ::Rank: Squire
+Squire
+Squire
+
+2018-02-27T22:29:26.7698610-05:00 [INFO]: GameManager.cs ::Shields: 4
+3
+3
+
+2018-02-27T22:29:26.7703440-05:00 [INFO]: GameManager.cs ::Base Points: 20
+15
+20
+
+2018-02-27T22:29:26.7706060-05:00 [INFO]: GameManager.cs ::Cards In Hand: 12
+14
+11
+
+2018-02-27T22:29:26.8455510-05:00 [INFO]: GameManager.cs :: 'tab' key has been pressed toggling Player Statistics.
+2018-02-27T22:29:27.3629700-05:00 [INFO]: GameManager.cs ::Players: Player0
+Player1
+Player2
+
+2018-02-27T22:29:27.3633600-05:00 [INFO]: GameManager.cs ::Rank: Squire
+Squire
+Squire
+
+2018-02-27T22:29:27.3696650-05:00 [INFO]: GameManager.cs ::Shields: 4
+3
+3
+
+2018-02-27T22:29:27.3700560-05:00 [INFO]: GameManager.cs ::Base Points: 20
+15
+20
+
+2018-02-27T22:29:27.3703940-05:00 [INFO]: GameManager.cs ::Cards In Hand: 12
+14
+11
+
+2018-02-27T22:29:27.4628150-05:00 [INFO]: GameManager.cs :: 'tab' key has been pressed toggling Player Statistics.
+2018-02-27T22:29:32.0442180-05:00 [INFO]: Toggling Middle Screen. Please click before moving on
+2018-02-27T22:29:32.0461720-05:00 [INFO]: StoryDeck.cs :: Story Deck is drawing...
+2018-02-27T22:29:32.0482730-05:00 [INFO]: StoryDeck.cs :: Story Deck has drawn Card: Court Called to Camelot
+2018-02-27T22:29:32.0486480-05:00 [INFO]: GameManager.cs :: Next turn: Player2
+2018-02-27T22:29:32.0488850-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-27T22:29:32.0495290-05:00 [TEST]: EventsManager.cs :: Event :: Running Court Called To Camelot.
+2018-02-27T22:29:32.0498790-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 20
+2018-02-27T22:29:32.0501500-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player0 Base Attack: 20
+2018-02-27T22:29:32.0503740-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player0 New Base Attack: 5
+2018-02-27T22:29:32.0506090-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 20
+2018-02-27T22:29:32.0508350-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 15
+2018-02-27T22:29:32.0510520-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player1 Base Attack: 15
+2018-02-27T22:29:32.0512780-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player1 New Base Attack: 5
+2018-02-27T22:29:32.0515870-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 15
+2018-02-27T22:29:32.0518100-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 20
+2018-02-27T22:29:32.0520260-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player2 Base Attack: 20
+2018-02-27T22:29:32.0522420-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player2 New Base Attack: 5
+2018-02-27T22:29:32.0524550-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 20
+2018-02-27T22:29:37.9311700-05:00 [INFO]: GameManager.cs ::Players: Player0
+Player1
+Player2
+
+2018-02-27T22:29:37.9315680-05:00 [INFO]: GameManager.cs ::Rank: Squire
+Squire
+Squire
+
+2018-02-27T22:29:37.9377530-05:00 [INFO]: GameManager.cs ::Shields: 4
+3
+3
+
+2018-02-27T22:29:37.9381230-05:00 [INFO]: GameManager.cs ::Base Points: 5
+5
+5
+
+2018-02-27T22:29:37.9383710-05:00 [INFO]: GameManager.cs ::Cards In Hand: 12
+12
+11
+
+2018-02-27T22:29:38.0472940-05:00 [INFO]: GameManager.cs :: 'tab' key has been pressed toggling Player Statistics.
+2018-02-27T22:29:38.3808800-05:00 [INFO]: GameManager.cs ::Players: Player0
+Player1
+Player2
+
+2018-02-27T22:29:38.3812810-05:00 [INFO]: GameManager.cs ::Rank: Squire
+Squire
+Squire
+
+2018-02-27T22:29:38.3815330-05:00 [INFO]: GameManager.cs ::Shields: 4
+3
+3
+
+2018-02-27T22:29:38.3817590-05:00 [INFO]: GameManager.cs ::Base Points: 5
+5
+5
+
+2018-02-27T22:29:38.3819680-05:00 [INFO]: GameManager.cs ::Cards In Hand: 12
+12
+11
+
+2018-02-27T22:29:38.5966990-05:00 [INFO]: GameManager.cs :: 'tab' key has been pressed toggling Player Statistics.
+2018-02-27T22:29:41.5146550-05:00 [INFO]: Toggling Middle Screen. Please click before moving on
+2018-02-27T22:29:41.5265170-05:00 [INFO]: StoryDeck.cs :: Story Deck is drawing...
+2018-02-27T22:29:41.5271180-05:00 [INFO]: StoryDeck.cs :: .0Is empty.
+2018-02-27T22:29:41.5275140-05:00 [INFO]: StoryDeck.cs :: Populating Deck with cards.
+2018-02-27T22:29:41.5278540-05:00 [INFO]: StoryDeck.cs :: StoryDeck storyDeck has been created. with sizes of 5
+2018-02-27T22:29:41.5286680-05:00 [INFO]: StoryDeck.cs :: Story Deck has drawn Card: Queen's Favor
+2018-02-27T22:29:41.5291120-05:00 [INFO]: GameManager.cs :: Next turn: Player0
+2018-02-27T22:29:41.5293850-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-27T22:29:41.5296060-05:00 [TEST]: EventsManager.cs :: Event :: Running Queen's Favor.
+2018-02-27T22:29:41.5298280-05:00 [INFO]: EventsManager.cs :: Player1 Receives 2 Adventure Cards.
+2018-02-27T22:29:41.5300390-05:00 [INFO]: EventsManager.cs :: Player2 Receives 2 Adventure Cards.
+2018-02-27T22:29:41.5305080-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-02-27T22:29:41.5307270-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-27T22:29:41.5311900-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Boar
+2018-02-27T22:29:41.5314660-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-27T22:29:41.5319450-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Mordred
+2018-02-27T22:29:41.5321600-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-27T22:29:41.5326380-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: King Arthur
+2018-02-27T22:29:41.5328530-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-27T22:29:49.9662450-05:00 [INFO]: Toggling Middle Screen. Please click before moving on
+2018-02-27T22:29:49.9679830-05:00 [INFO]: StoryDeck.cs :: Story Deck is drawing...
+2018-02-27T22:29:49.9685410-05:00 [INFO]: StoryDeck.cs :: Story Deck has drawn Card: Queen's Favor
+2018-02-27T22:29:49.9688760-05:00 [INFO]: GameManager.cs :: Next turn: Player1
+2018-02-27T22:29:49.9691530-05:00 [INFO]: GameManager.cs :: Player1Hand Count is: 14 cards: Please Discard Cards. 
+2018-02-27T22:29:49.9694580-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-27T22:29:49.9696800-05:00 [TEST]: EventsManager.cs :: Event :: Running Queen's Favor.
+2018-02-27T22:29:49.9699070-05:00 [INFO]: EventsManager.cs :: Player1 Receives 2 Adventure Cards.
+2018-02-27T22:29:49.9701140-05:00 [INFO]: EventsManager.cs :: Player2 Receives 2 Adventure Cards.
+2018-02-27T22:29:49.9706050-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-02-27T22:29:49.9708520-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-27T22:29:49.9713510-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Test of Temptation
+2018-02-27T22:29:49.9715960-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-27T22:29:49.9722170-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-02-27T22:29:49.9724640-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-27T22:29:49.9730870-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Dagger
+2018-02-27T22:29:49.9733670-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player2 Picked up adventure card.
+2018-02-27T22:30:01.5342780-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player1 Base Attack: 5
+2018-02-27T22:30:01.5346890-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player1 New Base Attack: 15
+2018-02-27T22:30:02.7843460-05:00 [INFO]: GameManager.cs ::Players: Player0
+Player1
+Player2
+
+2018-02-27T22:30:02.7847290-05:00 [INFO]: GameManager.cs ::Rank: Squire
+Squire
+Squire
+
+2018-02-27T22:30:02.7849430-05:00 [INFO]: GameManager.cs ::Shields: 4
+3
+3
+
+2018-02-27T22:30:02.7851530-05:00 [INFO]: GameManager.cs ::Base Points: 5
+15
+5
+
+2018-02-27T22:30:02.7853600-05:00 [INFO]: GameManager.cs ::Cards In Hand: 11
+11
+14
+
+2018-02-27T22:30:02.8506880-05:00 [INFO]: GameManager.cs :: 'tab' key has been pressed toggling Player Statistics.
+2018-02-27T22:30:03.6854570-05:00 [INFO]: Toggling Middle Screen. Please click before moving on
+2018-02-27T22:30:03.6876030-05:00 [INFO]: StoryDeck.cs :: Story Deck is drawing...
+2018-02-27T22:30:03.6898490-05:00 [INFO]: StoryDeck.cs :: Story Deck has drawn Card: Pox
+2018-02-27T22:30:03.6902020-05:00 [INFO]: GameManager.cs :: Next turn: Player2
+2018-02-27T22:30:03.6904390-05:00 [INFO]: GameManager.cs :: Player2Hand Count is: 14 cards: Please Discard Cards. 
+2018-02-27T22:30:03.6906520-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-27T22:30:03.6913060-05:00 [TEST]: EventsManager.cs :: Running Pox.
+2018-02-27T22:30:03.6915780-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 4
+2018-02-27T22:30:03.6918300-05:00 [INFO]: EventsManager.cs :: Player0 number of shields: 4
+2018-02-27T22:30:03.6920450-05:00 [INFO]: EventsManager.cs :: Player1 number of shields: 3
+2018-02-27T22:30:03.6922620-05:00 [INFO]: EventsManager.cs :: Player1 number of shields: 3
+2018-02-27T22:30:03.6926280-05:00 [INFO]: EventsManager.cs :: Player2 number of shields: 3
+2018-02-27T22:30:03.6928840-05:00 [INFO]: EventsManager.cs :: Player2 number of shields: 3
+2018-02-27T22:30:13.6516150-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player2 Base Attack: 5
+2018-02-27T22:30:13.6520200-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player2 New Base Attack: 15
+2018-02-27T22:30:14.8197150-05:00 [INFO]: Toggling Middle Screen. Please click before moving on
+2018-02-27T22:30:14.8325790-05:00 [INFO]: StoryDeck.cs :: Story Deck is drawing...
+2018-02-27T22:30:14.8351430-05:00 [INFO]: StoryDeck.cs :: Story Deck has drawn Card: King's Call to Arms
+2018-02-27T22:30:14.8354960-05:00 [INFO]: GameManager.cs :: Next turn: Player0
+2018-02-27T22:30:14.8357350-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-27T22:30:14.8361000-05:00 [TEST]: EventManager.cs :: Running King's Call to Arms.
+2018-02-27T22:30:19.0367680-05:00 [INFO]: Toggling Middle Screen. Please click before moving on
+2018-02-27T22:30:19.0383410-05:00 [INFO]: StoryDeck.cs :: Story Deck is drawing...
+2018-02-27T22:30:19.0388140-05:00 [INFO]: StoryDeck.cs :: Story Deck has drawn Card: Court Called to Camelot
+2018-02-27T22:30:19.0391170-05:00 [INFO]: GameManager.cs :: Next turn: Player1
+2018-02-27T22:30:19.0393920-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-27T22:30:19.0396420-05:00 [TEST]: EventsManager.cs :: Event :: Running Court Called To Camelot.
+2018-02-27T22:30:19.0398700-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-27T22:30:19.0400860-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player0 Base Attack: 5
+2018-02-27T22:30:19.0403000-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player0 New Base Attack: 5
+2018-02-27T22:30:19.0405150-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-02-27T22:30:19.0407280-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 15
+2018-02-27T22:30:19.0409580-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player1 Base Attack: 15
+2018-02-27T22:30:19.0411810-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player1 New Base Attack: 5
+2018-02-27T22:30:19.0414060-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 15
+2018-02-27T22:30:19.0416360-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 15
+2018-02-27T22:30:19.0418570-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player2 Base Attack: 15
+2018-02-27T22:30:19.0420810-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player2 New Base Attack: 5
+2018-02-27T22:30:19.0423050-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 15
+2018-02-27T22:30:21.6542690-05:00 [INFO]: GameManager.cs ::Players: Player0
+Player1
+Player2
+
+2018-02-27T22:30:21.6548970-05:00 [INFO]: GameManager.cs ::Rank: Squire
+Squire
+Squire
+
+2018-02-27T22:30:21.6553090-05:00 [INFO]: GameManager.cs ::Shields: 3
+2
+3
+
+2018-02-27T22:30:21.6557080-05:00 [INFO]: GameManager.cs ::Base Points: 5
+5
+5
+
+2018-02-27T22:30:21.6560780-05:00 [INFO]: GameManager.cs ::Cards In Hand: 11
+11
+10
+
+2018-02-27T22:30:21.7195150-05:00 [INFO]: GameManager.cs :: 'tab' key has been pressed toggling Player Statistics.
+2018-02-27T22:30:22.1214380-05:00 [INFO]: GameManager.cs ::Players: Player0
+Player1
+Player2
+
+2018-02-27T22:30:22.1218420-05:00 [INFO]: GameManager.cs ::Rank: Squire
+Squire
+Squire
+
+2018-02-27T22:30:22.1220880-05:00 [INFO]: GameManager.cs ::Shields: 3
+2
+3
+
+2018-02-27T22:30:22.1223220-05:00 [INFO]: GameManager.cs ::Base Points: 5
+5
+5
+
+2018-02-27T22:30:22.1225520-05:00 [INFO]: GameManager.cs ::Cards In Hand: 11
+11
+10
+
+2018-02-27T22:30:22.2207680-05:00 [INFO]: GameManager.cs :: 'tab' key has been pressed toggling Player Statistics.
+2018-02-27T22:30:24.4228520-05:00 [INFO]: Toggling Middle Screen. Please click before moving on
+2018-02-27T22:30:24.4247900-05:00 [INFO]: StoryDeck.cs :: Story Deck is drawing...
+2018-02-27T22:30:24.4294740-05:00 [INFO]: StoryDeck.cs :: .0Is empty.
+2018-02-27T22:30:24.4299860-05:00 [INFO]: StoryDeck.cs :: Populating Deck with cards.
+2018-02-27T22:30:24.4303800-05:00 [INFO]: StoryDeck.cs :: StoryDeck storyDeck has been created. with sizes of 3
+2018-02-27T22:30:24.4310120-05:00 [INFO]: StoryDeck.cs :: Story Deck has drawn Card: King's Recognition
+2018-02-27T22:30:24.4314140-05:00 [INFO]: GameManager.cs :: Next turn: Player2
+2018-02-27T22:30:24.4317190-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-27T22:30:24.4320570-05:00 [TEST]: EventsManager.cs :: Event :: Running King's Recoginition.
+2018-02-27T22:30:35.6397510-05:00 [INFO]: Toggling Middle Screen. Please click before moving on
+2018-02-27T22:30:35.6413950-05:00 [INFO]: StoryDeck.cs :: Story Deck is drawing...
+2018-02-27T22:30:35.6418600-05:00 [INFO]: StoryDeck.cs :: Story Deck has drawn Card: Queen's Favor
+2018-02-27T22:30:35.6421550-05:00 [INFO]: GameManager.cs :: Next turn: Player0
+2018-02-27T22:30:35.6423960-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-02-27T22:30:35.6426240-05:00 [TEST]: EventsManager.cs :: Event :: Running Queen's Favor.
+2018-02-27T22:30:35.6428410-05:00 [INFO]: EventsManager.cs :: Player1 Receives 2 Adventure Cards.
+2018-02-27T22:30:35.6432580-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-02-27T22:30:35.6434750-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.
+2018-02-27T22:30:35.6439180-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-02-27T22:30:35.6441340-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player1 Picked up adventure card.

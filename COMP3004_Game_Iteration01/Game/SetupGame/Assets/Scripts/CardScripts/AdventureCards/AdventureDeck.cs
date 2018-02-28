@@ -75,6 +75,7 @@ public class AdventureDeck : MonoBehaviour {
 	}
 
 	void Update(){
+		
 	}
 
 	public void populateDeck(){
@@ -199,7 +200,7 @@ public class AdventureDeck : MonoBehaviour {
 		adventureDeck.Add("Black Knight", 3);
 		*/
 	}
-		logger.info ("AdventureDeck.cs.cs :: Adventure advDeck has been created. with sizes of " + getSizeOfDeck());
+		logger.test ("AdventureDeck.cs :: Adventure advDeck has been created. with sizes of " + getSizeOfDeck());
 	}
 
 	public GameObject Draw(){
@@ -215,7 +216,7 @@ public class AdventureDeck : MonoBehaviour {
 		tempCard.AddComponent<AdventureCard> ();
 		tempCard.GetComponent<AdventureCard> ().setCard (tempKey);
 //		RemoveCard (tempKey);
-		logger.info ("AdventureDeck.cs.cs :: Adventure Deck has drawn: " + tempKey);
+		logger.info ("AdventureDeck.cs :: Adventure Deck has drawn Card: " + tempKey);
 
 		return tempCard;
 

@@ -3,7 +3,12 @@ using System.IO;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/* Logger provided by: 
+ * Lachlan Campbell Student Carleton University (COMP3004)
+ * C#Logger for Unity
+ * Provided by Tuesday, 13 February 2018, 11:43 AM
+ * Written in C#
+*/
 namespace QuestGame {
 	public class Logger : MonoBehaviour{
 
@@ -45,8 +50,8 @@ namespace QuestGame {
 		}
 	
 		private void init() {
-			printToFile("-------------------- INITIALIZE LOGGER ---------------------\n");
-			printToFile(generateTimestamp() + ": Logger initialized\n");
+//			printToFile("-------------------- INITIALIZE LOGGER ---------------------\n");
+//			printToFile(generateTimestamp() + ": Logger initialized\n");
 		}
 
 		private void printToFile(string n) {
