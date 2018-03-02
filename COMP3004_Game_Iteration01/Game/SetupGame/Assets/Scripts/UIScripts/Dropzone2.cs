@@ -10,13 +10,13 @@ public class Dropzone2 : MonoBehaviour, IDropHandler  {
 		AdventureCard z = eventData.pointerDrag.GetComponent<AdventureCard> ();
 		if(z.getType() == "Ally"){
 			player.setBaseAttack (player.getbaseAttack() + z.getBattlePoints ());
-			//player.setBids(player.getBaseBids() + z.getBids)
+			//player.setBids(player.getBaseBids() + z.getBids);
 //			Debug.Log(");
-			//player.addAlly(z);
+			player.addAlly(z);
 			z.gameObject.SetActive(false);
 
 
-			Destroy(z.gameObject);
+			//Destroy(z.gameObject);
 		}
 	}
 

@@ -49,7 +49,7 @@ public class GameManager : EventsManager {
 	bool temp = true;
 	int sponsorturn;
 	public bool[] passed;
-//
+	public bool KingsRecognition = false;
 //	GameObject SubmissionZone;
 //	GameObject SubmitButton;
 
@@ -258,7 +258,13 @@ public class GameManager : EventsManager {
 							if (passed [j] == true) {
 								Debug.Log ("Player: " + j + " is a winner");
 								User temp = gameUsers.findByUserName ("Player" + j).GetComponent<User> ();
-								temp.setShields (temp.getShields () + StoryCard.GetComponent<Quest> ().getStages ());
+									if(KingsRecognition){
+										temp.setShields (temp.getShields () + StoryCard.GetComponent<Quest> ().getStages () +2);
+										KingsRecognition = false;
+									}else{
+										temp.setShields (temp.getShields () + StoryCard.GetComponent<Quest> ().getStages ());
+									}
+								
 								passed [j] = false;
 							}
 						}

@@ -2944,3 +2944,281 @@ Squire
 2018-03-01T23:51:11.4991070-05:00 [INFO]: GameManager.cs :: Next turn: Player1
 2018-03-01T23:51:11.4994050-05:00 [TEST]: GameManager.cs :: Quest Name: Boar Hunt
 2018-03-01T23:51:11.4996790-05:00 [TEST]: GameManager.cs :: Calling QuestManager... 
+2018-03-02T00:06:47.3587435-05:00 [INFO]: GameManager.cs :: Initializing Game...
+2018-03-02T00:06:47.4164046-05:00 [INFO]: User.cs :: Initializing Player... Player0
+2018-03-02T00:06:47.4289405-05:00 [INFO]: User.cs :: Initializing Player... Player1
+2018-03-02T00:06:47.4515030-05:00 [INFO]: User.cs :: Initializing Player... Player2
+2018-03-02T00:06:47.4675480-05:00 [INFO]: User.cs :: Initializing Player... Player3
+2018-03-02T00:06:47.4790793-05:00 [INFO]: GameManager.cs :: Calling AdventureDeck...
+2018-03-02T00:06:47.4946233-05:00 [INFO]: AdventureDeck.cs :: Populating Deck with cards.
+2018-03-02T00:06:47.4971304-05:00 [TEST]: AdventureDeck.cs :: Adventure advDeck has been created. with sizes of 78
+2018-03-02T00:06:47.5086622-05:00 [INFO]: GameManager.cs :: Calling StoryDeck...
+2018-03-02T00:06:47.5201948-05:00 [INFO]: StoryDeck.cs :: Populating Deck with cards.
+2018-03-02T00:06:47.5232021-05:00 [INFO]: StoryDeck.cs :: StoryDeck storyDeck has been created. with sizes of 14
+2018-03-02T00:06:47.5282184-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:06:47.5432592-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:06:47.5552924-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-03-02T00:06:47.5683315-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T00:06:47.5803651-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T00:06:47.5933998-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Mordred
+2018-03-02T00:06:47.6069369-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-03-02T00:06:47.6204756-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Evil Knight
+2018-03-02T00:06:47.6330098-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-03-02T00:06:47.6480528-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Amour
+2018-03-02T00:06:47.6625935-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T00:06:47.6756312-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Merlin
+2018-03-02T00:06:47.6876614-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-03-02T00:06:47.7001973-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-03-02T00:06:47.7137356-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-03-02T00:06:47.7262801-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:06:47.7378033-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:06:47.7508376-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Evil Knight
+2018-03-02T00:06:47.7648774-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Test of Temptation
+2018-03-02T00:06:47.7774303-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sir Percival
+2018-03-02T00:06:47.7894473-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Amour
+2018-03-02T00:06:47.8014805-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Evil Knight
+2018-03-02T00:06:47.8140168-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Amour
+2018-03-02T00:06:47.8271764-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Giant
+2018-03-02T00:06:47.8395870-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-03-02T00:06:47.8516207-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-03-02T00:06:47.8646546-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Excalibur
+2018-03-02T00:06:47.8771900-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Test of Morgan Le Fey
+2018-03-02T00:06:47.8902265-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Mordred
+2018-03-02T00:06:47.9012573-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T00:06:47.9163785-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-03-02T00:06:47.9293363-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sir Gawain
+2018-03-02T00:06:47.9418718-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxons
+2018-03-02T00:06:47.9534061-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-03-02T00:06:47.9649387-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxons
+2018-03-02T00:06:47.9784732-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T00:06:47.9915101-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Queen Iseult
+2018-03-02T00:06:48.0035441-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sir Galahad
+2018-03-02T00:06:48.0150772-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-03-02T00:06:48.0281137-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Queen Guinevere
+2018-03-02T00:06:48.0406500-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:06:48.0516761-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Test of Temptation
+2018-03-02T00:06:48.0647121-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T00:06:48.0772450-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-03-02T00:06:48.0892790-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Dagger
+2018-03-02T00:06:48.1014302-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Mordred
+2018-03-02T00:06:48.1144680-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Black Knight
+2018-03-02T00:06:48.1268837-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-03-02T00:06:48.1384177-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Black Knight
+2018-03-02T00:06:48.1514554-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-03-02T00:06:48.1634869-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Excalibur
+2018-03-02T00:06:48.1755209-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 12 adventure cards.
+2018-03-02T00:06:48.1865496-05:00 [INFO]: GameManager.cs :: Game has been created with 4 players.
+2018-03-02T00:06:48.2041027-05:00 [INFO]: HandManager.cs :: Initialzing HandManager.
+2018-03-02T00:07:02.9043585-05:00 [INFO]: GameManager.cs :: Initializing Game...
+2018-03-02T00:07:02.9499829-05:00 [INFO]: User.cs :: Initializing Player... Player0
+2018-03-02T00:07:02.9770579-05:00 [INFO]: User.cs :: Initializing Player... Player1
+2018-03-02T00:07:02.9931037-05:00 [INFO]: User.cs :: Initializing Player... Player2
+2018-03-02T00:07:03.0086460-05:00 [INFO]: User.cs :: Initializing Player... Player3
+2018-03-02T00:07:03.0196767-05:00 [INFO]: GameManager.cs :: Calling AdventureDeck...
+2018-03-02T00:07:03.0342183-05:00 [INFO]: AdventureDeck.cs :: Populating Deck with cards.
+2018-03-02T00:07:03.0467551-05:00 [TEST]: AdventureDeck.cs :: Adventure advDeck has been created. with sizes of 70
+2018-03-02T00:07:03.0579030-05:00 [INFO]: GameManager.cs :: Calling StoryDeck...
+2018-03-02T00:07:03.0698186-05:00 [INFO]: StoryDeck.cs :: Populating Deck with cards.
+2018-03-02T00:07:03.0818505-05:00 [INFO]: StoryDeck.cs :: StoryDeck storyDeck has been created. with sizes of 12
+2018-03-02T00:07:03.0958894-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Black Knight
+2018-03-02T00:07:03.1109324-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-03-02T00:07:03.1240894-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Test of Morgan Le Fey
+2018-03-02T00:07:03.1360033-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-03-02T00:07:03.1480361-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-03-02T00:07:03.1610738-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxons
+2018-03-02T00:07:03.1726048-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxons
+2018-03-02T00:07:03.1846405-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:07:03.1966737-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:07:03.2092070-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Lance
+2018-03-02T00:07:03.2232455-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:07:03.2362824-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Dagger
+2018-03-02T00:07:03.2488161-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-03-02T00:07:03.2598478-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Queen Guinevere
+2018-03-02T00:07:03.2728847-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Excalibur
+2018-03-02T00:07:03.2844164-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Amour
+2018-03-02T00:07:03.2964501-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:07:03.3079835-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T00:07:03.3205186-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-03-02T00:07:03.3370646-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Amour
+2018-03-02T00:07:03.3536092-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-03-02T00:07:03.3646404-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:07:03.3776765-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxons
+2018-03-02T00:07:03.3887068-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sir Galahad
+2018-03-02T00:07:03.4142792-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Boar
+2018-03-02T00:07:03.4253087-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-03-02T00:07:03.4358402-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T00:07:03.4473741-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-03-02T00:07:03.4614096-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:07:03.4739442-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: King Pellinore
+2018-03-02T00:07:03.4844735-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-03-02T00:07:03.4960062-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-03-02T00:07:03.5080402-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Mordred
+2018-03-02T00:07:03.5200751-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Green Knight
+2018-03-02T00:07:03.5321096-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Dagger
+2018-03-02T00:07:03.5441420-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Black Knight
+2018-03-02T00:07:03.5571776-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Lance
+2018-03-02T00:07:03.5697126-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-03-02T00:07:03.5807425-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-03-02T00:07:03.5922743-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-03-02T00:07:03.6038074-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Boar
+2018-03-02T00:07:03.6153400-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Test of Temptation
+2018-03-02T00:07:03.6268735-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-03-02T00:07:03.6384040-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Evil Knight
+2018-03-02T00:07:03.6499370-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Evil Knight
+2018-03-02T00:07:03.6609674-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T00:07:03.6725000-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Amour
+2018-03-02T00:07:03.6845341-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T00:07:03.6965703-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-03-02T00:07:03.7081003-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-03-02T00:07:03.7191298-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Green Knight
+2018-03-02T00:07:03.7306603-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 12 adventure cards.
+2018-03-02T00:07:03.7411910-05:00 [INFO]: GameManager.cs :: Game has been created with 4 players.
+2018-03-02T00:07:03.7572351-05:00 [INFO]: HandManager.cs :: Initialzing HandManager.
+2018-03-02T00:07:09.0688957-05:00 [INFO]: Toggling Middle Screen. Please click before moving on
+2018-03-02T00:07:09.0834360-05:00 [INFO]: StoryDeck.cs :: Story Deck is drawing...
+2018-03-02T00:07:09.1014879-05:00 [INFO]: StoryDeck.cs :: Story Deck has drawn Card: Defend the Queen's Honor
+2018-03-02T00:07:09.1140208-05:00 [INFO]: GameManager.cs :: Next turn: Player0
+2018-03-02T00:07:09.1280657-05:00 [TEST]: GameManager.cs :: Quest Name: Defend the Queen's Honor
+2018-03-02T00:07:09.1385942-05:00 [TEST]: GameManager.cs :: Calling QuestManager... 
+2018-03-02T00:10:13.9980439-05:00 [INFO]: GameManager.cs :: Initializing Game...
+2018-03-02T00:10:14.0547012-05:00 [INFO]: User.cs :: Initializing Player... Player0
+2018-03-02T00:10:14.0812760-05:00 [INFO]: User.cs :: Initializing Player... Player1
+2018-03-02T00:10:14.0983251-05:00 [INFO]: User.cs :: Initializing Player... Player2
+2018-03-02T00:10:14.1128637-05:00 [INFO]: User.cs :: Initializing Player... Player3
+2018-03-02T00:10:14.1249007-05:00 [INFO]: GameManager.cs :: Calling AdventureDeck...
+2018-03-02T00:10:14.1374332-05:00 [INFO]: AdventureDeck.cs :: Populating Deck with cards.
+2018-03-02T00:10:14.1509719-05:00 [TEST]: AdventureDeck.cs :: Adventure advDeck has been created. with sizes of 57
+2018-03-02T00:10:14.1609982-05:00 [INFO]: GameManager.cs :: Calling StoryDeck...
+2018-03-02T00:10:14.1720290-05:00 [INFO]: StoryDeck.cs :: Populating Deck with cards.
+2018-03-02T00:10:14.1835616-05:00 [INFO]: StoryDeck.cs :: StoryDeck storyDeck has been created. with sizes of 15
+2018-03-02T00:10:14.1965968-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxons
+2018-03-02T00:10:14.2106395-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:10:14.2232882-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Test of Temptation
+2018-03-02T00:10:14.2353287-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Dagger
+2018-03-02T00:10:14.2467433-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:10:14.2578921-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-03-02T00:10:14.2699236-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Boar
+2018-03-02T00:10:14.2798297-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-03-02T00:10:14.2923639-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sir Gawain
+2018-03-02T00:10:14.3054012-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Green Knight
+2018-03-02T00:10:14.3189395-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:10:14.3309723-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Giant
+2018-03-02T00:10:14.3420027-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-03-02T00:10:14.3535349-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxons
+2018-03-02T00:10:14.3665735-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Lance
+2018-03-02T00:10:14.3771032-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Green Knight
+2018-03-02T00:10:14.3881319-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Dragon
+2018-03-02T00:10:14.3996654-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T00:10:14.4106979-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T00:10:14.4227281-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-03-02T00:10:14.4347626-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-03-02T00:10:14.4467949-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:10:14.4573247-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-03-02T00:10:14.4683559-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:10:14.4934251-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxons
+2018-03-02T00:10:14.5054596-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-03-02T00:10:14.5159886-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: King Arthur
+2018-03-02T00:10:14.5265213-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sir Lancelot
+2018-03-02T00:10:14.5370481-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T00:10:14.5475771-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Giant
+2018-03-02T00:10:14.5581064-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:10:14.5686362-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Lance
+2018-03-02T00:10:14.5791665-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Black Knight
+2018-03-02T00:10:14.5911988-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Amour
+2018-03-02T00:10:14.6032333-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-03-02T00:10:14.6152665-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Amour
+2018-03-02T00:10:14.6262973-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Dagger
+2018-03-02T00:10:14.6373298-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:10:14.6483584-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-03-02T00:10:14.6598915-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Test of Temptation
+2018-03-02T00:10:14.6714249-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxons
+2018-03-02T00:10:14.6829567-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-03-02T00:10:14.6949886-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Boar
+2018-03-02T00:10:14.7070253-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-03-02T00:10:14.7210620-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-03-02T00:10:14.7340989-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-03-02T00:10:14.7456289-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:10:14.7581653-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Merlin
+2018-03-02T00:10:14.7701997-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Evil Knight
+2018-03-02T00:10:14.7817311-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Lance
+2018-03-02T00:10:14.7937660-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:10:14.8042932-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 12 adventure cards.
+2018-03-02T00:10:14.8143207-05:00 [INFO]: GameManager.cs :: Game has been created with 4 players.
+2018-03-02T00:10:14.8293629-05:00 [INFO]: HandManager.cs :: Initialzing HandManager.
+2018-03-02T00:10:16.3870042-05:00 [INFO]: Toggling Middle Screen. Please click before moving on
+2018-03-02T00:10:16.4005460-05:00 [INFO]: StoryDeck.cs :: Story Deck is drawing...
+2018-03-02T00:10:16.4195960-05:00 [INFO]: StoryDeck.cs :: Story Deck has drawn Card: Journey Through the Enchanted Forest
+2018-03-02T00:10:16.4331339-05:00 [INFO]: GameManager.cs :: Next turn: Player0
+2018-03-02T00:10:16.4471736-05:00 [TEST]: GameManager.cs :: Quest Name: Journey Through the Enchanted Forest
+2018-03-02T00:10:16.4602097-05:00 [TEST]: GameManager.cs :: Calling QuestManager... 
+2018-03-02T00:11:13.0065052-05:00 [INFO]: GameManager.cs :: Initializing Game...
+2018-03-02T00:11:13.0586506-05:00 [INFO]: User.cs :: Initializing Player... Player0
+2018-03-02T00:11:13.0822164-05:00 [INFO]: User.cs :: Initializing Player... Player1
+2018-03-02T00:11:13.0992634-05:00 [INFO]: User.cs :: Initializing Player... Player2
+2018-03-02T00:11:13.1138050-05:00 [INFO]: User.cs :: Initializing Player... Player3
+2018-03-02T00:11:13.1248362-05:00 [INFO]: GameManager.cs :: Calling AdventureDeck...
+2018-03-02T00:11:13.1383736-05:00 [INFO]: AdventureDeck.cs :: Populating Deck with cards.
+2018-03-02T00:11:13.1489030-05:00 [TEST]: AdventureDeck.cs :: Adventure advDeck has been created. with sizes of 67
+2018-03-02T00:11:13.1594319-05:00 [INFO]: GameManager.cs :: Calling StoryDeck...
+2018-03-02T00:11:13.1714656-05:00 [INFO]: StoryDeck.cs :: Populating Deck with cards.
+2018-03-02T00:11:13.1829990-05:00 [INFO]: StoryDeck.cs :: StoryDeck storyDeck has been created. with sizes of 9
+2018-03-02T00:11:13.1955337-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Boar
+2018-03-02T00:11:13.2090698-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-03-02T00:11:13.2201019-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-03-02T00:11:13.2311327-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Test of Valor
+2018-03-02T00:11:13.2431650-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:11:13.2557001-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:11:13.2682351-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T00:11:13.2782631-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Queen Iseult
+2018-03-02T00:11:13.2892977-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Boar
+2018-03-02T00:11:13.3028326-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-03-02T00:11:13.3148662-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-03-02T00:11:13.3253981-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Amour
+2018-03-02T00:11:13.3349217-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-03-02T00:11:13.3469549-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-03-02T00:11:13.3574876-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Queen Guinevere
+2018-03-02T00:11:13.3680174-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sir Percival
+2018-03-02T00:11:13.3785459-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: King Pellinore
+2018-03-02T00:11:13.3890719-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Mordred
+2018-03-02T00:11:13.4001052-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-03-02T00:11:13.4111373-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:11:13.4226691-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Test of Morgan Le Fey
+2018-03-02T00:11:13.4341992-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Mordred
+2018-03-02T00:11:13.4452317-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-03-02T00:11:13.4562616-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-03-02T00:11:13.4793256-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T00:11:13.4898532-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-03-02T00:11:13.5003843-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T00:11:13.5119178-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-03-02T00:11:13.5254527-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-03-02T00:11:13.5369891-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sir Gawain
+2018-03-02T00:11:13.5480157-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-03-02T00:11:13.5590469-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Merlin
+2018-03-02T00:11:13.5695775-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T00:11:13.5801065-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T00:11:13.5906367-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Dagger
+2018-03-02T00:11:13.6011648-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Mordred
+2018-03-02T00:11:13.6126965-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Evil Knight
+2018-03-02T00:11:13.6237282-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxons
+2018-03-02T00:11:13.6337557-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-03-02T00:11:13.6447869-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Mordred
+2018-03-02T00:11:13.6553150-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sir Galahad
+2018-03-02T00:11:13.6678543-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-03-02T00:11:13.6793869-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Dagger
+2018-03-02T00:11:13.6899129-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Lance
+2018-03-02T00:11:13.7009454-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxons
+2018-03-02T00:11:13.7124755-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-03-02T00:11:13.7240085-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-03-02T00:11:13.7375447-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-03-02T00:11:13.7485780-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-03-02T00:11:13.7596075-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Green Knight
+2018-03-02T00:11:13.7716399-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Evil Knight
+2018-03-02T00:11:13.7821697-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 12 adventure cards.
+2018-03-02T00:11:13.7927961-05:00 [INFO]: GameManager.cs :: Game has been created with 4 players.
+2018-03-02T00:11:13.8087436-05:00 [INFO]: HandManager.cs :: Initialzing HandManager.
+2018-03-02T00:11:17.8414055-05:00 [INFO]: Toggling Middle Screen. Please click before moving on
+2018-03-02T00:11:17.8534323-05:00 [INFO]: StoryDeck.cs :: Story Deck is drawing...
+2018-03-02T00:11:17.8684774-05:00 [INFO]: StoryDeck.cs :: Story Deck has drawn Card: Rescue the Fair Maiden
+2018-03-02T00:11:17.8785036-05:00 [INFO]: GameManager.cs :: Next turn: Player0
+2018-03-02T00:11:17.8905373-05:00 [TEST]: GameManager.cs :: Quest Name: Rescue the Fair Maiden
+2018-03-02T00:11:17.9010692-05:00 [TEST]: GameManager.cs :: Calling QuestManager... 

@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 223530286593664666}
   - component: {fileID: 114995578030080676}
   - component: {fileID: 114214519507968460}
+  - component: {fileID: 114418705470497554}
   m_Layer: 5
   m_Name: MiddleScreen
   m_TagString: Untagged
@@ -91,7 +92,7 @@ GameObject:
   - component: {fileID: 222522895053365356}
   - component: {fileID: 114235586164446962}
   - component: {fileID: 114443935717971322}
-  - component: {fileID: 114671987737591366}
+  - component: {fileID: 114421074891592410}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -202,6 +203,28 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: ARE YOU THE NEXT PLAYER?
+--- !u!114 &114418705470497554
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1192082715368870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64428d7dd1a154e4cb1a089ba2686f15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114421074891592410
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1981743026513596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64428d7dd1a154e4cb1a089ba2686f15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114443935717971322
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -241,7 +264,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114671987737591366}
+      - m_Target: {fileID: 114421074891592410}
         m_MethodName: clickerino
         m_Mode: 1
         m_Arguments:
@@ -287,17 +310,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Yes
---- !u!114 &114671987737591366
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1981743026513596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 079e3d4577a024b9cac5d1363ee3fb2b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114995578030080676
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -350,7 +362,7 @@ Canvas:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1192082715368870}
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 2
   m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 44.09
@@ -359,7 +371,6 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
