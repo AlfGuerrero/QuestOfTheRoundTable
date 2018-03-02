@@ -9,14 +9,14 @@ public class GameManager : EventsManager {
 
 	// Use this for initialization
 	// Order of Gameplay...
-	/* 
-	 * Ask for # of users from UI Textbox. - waits to be pressed enter. 
-	 * 
+	/*
+	 * Ask for # of users from UI Textbox. - waits to be pressed enter.
+	 *
 	 * */
 	static Users gameUsers;
-	int totalUsers; 
-	int textBoxInput = 3;						// Will be changed to rom Textbox input UI.
-	int playerTurn = 0;
+	int totalUsers;
+	int textBoxInput = 4;						// Will be changed to rom Textbox input UI.
+	public int playerTurn = 0;
 	int userInfoTurn = 0;
 //	bool isWinner = false;
 	int startTournament = 0;
@@ -24,48 +24,73 @@ public class GameManager : EventsManager {
 	int starts;
 	public AdventureDeck 		advDeck;
 	public StoryDeck 			storyDeck;
-	public TournamentManager 	Tournaments;	
-	public EventsManager 		Events; 
+	public TournamentManager 	Tournaments;
+	public EventsManager 		Events;
 	public QuestManager 		Quests;
 	public GameObject			StoryCard;
 	public User 				currentUser;
 	public QuestGame.Logger	logger;
-	public bool statsToggle = false; 
+	public bool statsToggle = false;
 	public bool startEvents = false;
 	public bool KingsCalltoArms = false;
 
+	public bool questInProgress = false;
+	public bool questInPlay = false;
+	public bool questPlaying = false;
+	public bool allDead = false;
+	public int playersPlaying = 0;
+	string storyCardToDraw = "Boar Hunt";
+	public int stageInt = 0;
+	int counter = 0;
+	//	GameObject SubmissionZone;
+	//	GameObject SubmitButton;
+	public bool keepPlaying = true;
+	public bool temp2 = false;
+	bool temp = true;
+	int sponsorturn;
+	public bool[] passed;
 //
 //	GameObject SubmissionZone;
 //	GameObject SubmitButton;
 
 	GameObject PlayerStats;
-//	public Text playerName;	
+//	public Text playerName;
 //	public Text playerRank;
 //	public Text playerShields;
 //	public Text playerBattlePoints;
 //	public Text playerCardsInHand;
 
-	bool buttonPushed = false; 
+	bool buttonPushed = false;
+	bool doThisOnce = true;
+	bool doThisOnceMore = true;
 
 	void Start () {
 		logger = new QuestGame.Logger ();
 		logger.info ("GameManager.cs :: Initializing Game...");
 
 		gameUsers =  new Users(textBoxInput, 0);
-		totalUsers = gameUsers.getNumberOfUsers ();	
+		totalUsers = gameUsers.getNumberOfUsers ();
 		logger.info ("GameManager.cs :: Calling AdventureDeck...");
 		advDeck.populateDeck();
 		logger.info ("GameManager.cs :: Calling StoryDeck...");
 		storyDeck.populateDeck ();
-//		storyDeck.populateEventsDeck ();
-		PickUpAdventureCards (0, 12);
-		PickUpAdventureCards (1, 15);
-		PickUpAdventureCards (2, 12);
+		passed = new bool[4] {false,false,false,false};
+
+////		storyDeck.populateEventsDeck ();
+//		PickUpAdventureCards (0, 12);
+//		PickUpAdventureCards (1, 15);
+//		PickUpAdventureCards (2, 12);
+//		PickUpAdventureCards (3, 12);
+
+		for (int i = 0; i < textBoxInput; i++) {
+			PickUpAdventureCards (i, 12);
+		}
+
 		logger.info ("GameManager.cs :: Game has been created with " + totalUsers + " players.");
-		togglePlayerCanvas (playerTurn);	
+		togglePlayerCanvas (playerTurn);
 
 	}
-		
+
 	void displayUsersInfo(){
 
 		string names = "";
@@ -102,7 +127,7 @@ public class GameManager : EventsManager {
 //			battlePoints.Add (i.GetComponent<User>().getbaseAttack ());
 //			cardsinHand.Add (i.GetComponent<User>().getHand().transform.childCount);
 		}
-			
+
 		PlayerStats.transform.GetChild(0).GetComponent<Text>().text =  "Player: " + names;
 		PlayerStats.transform.GetChild(1).GetComponent<Text>().text =  "Rank: " + ranks;
 		PlayerStats.transform.GetChild(2).GetComponent<Text>().text =  "Shields: " + shields;
@@ -117,7 +142,7 @@ public class GameManager : EventsManager {
 	}
 
 	void Update () {
-
+		Debug.Log ("PlayerTurn: " + playerTurn);
 		if (Input.GetKeyDown("tab")){
 			statsToggle = true;
 			PlayerStats = Resources.Load ("PreFabs/Stats") as GameObject;
@@ -132,11 +157,175 @@ public class GameManager : EventsManager {
 			}
 			statsToggle = false;
 		}
+		if(GameObject.Find ("Button (1)") != null){
 
-		GameObject.Find ("Button (1)").GetComponent<Button>().onClick.AddListener(delegate {buttonToggle();});		
+		GameObject.Find ("Button (1)").GetComponent<Button>().onClick.AddListener(delegate {buttonToggle();});
 
+	}
+
+	/* BRANDONS QUEST STUFF START */
+	if(questInPlay){
+		if (counter < 4) {
+			if (Input.GetKeyDown (KeyCode.UpArrow)) {
+				Debug.Log (playerTurn + "Sponsoring");
+				Quests.Setup (gameUsers.findByUserName ("Player" + playerTurn).gameObject);
+				passed [playerTurn] = false;
+				sponsorturn = playerTurn;
+				//questInProgress = true;
+				questInPlay = false;
+				counter = 0;
+			} else if (Input.GetKeyDown (KeyCode.DownArrow)) {
+				Debug.Log (playerTurn + "Not Sponsoring");
+				playerTurn++;
+				if(playerTurn > 3){
+					playerTurn = 0;
+				}
+				togglePlayerCanvas (playerTurn);
+				counter++;
+			}
+		} else {
+			Debug.Log("no one sponsored so continue to next story card");
+			questInProgress = false;
+			questInPlay = false;
+			questPlaying = false;
+			playerTurn++;
+			counter = 0;
+			if(playerTurn > 3){
+				playerTurn = 0;
+			}
+		}
+
+	}
+	if(questInProgress){
+		//Debug.Log (counter);
+		if (counter < 3) {
+			if (Input.GetKeyDown (KeyCode.UpArrow)) {
+				Debug.Log (playerTurn + "Joining");
+				passed [playerTurn] = true;
+				PickUpAdventureCards (playerTurn,1);
+				playerTurn++;
+				if(playerTurn > 3){
+					playerTurn = 0;
+				}
+				togglePlayerCanvas (playerTurn);
+				counter++;
+			} else if (Input.GetKeyDown (KeyCode.DownArrow)) {
+				Debug.Log (playerTurn + "Not Joining");
+				passed [playerTurn] = false;
+				playerTurn++;
+				if(playerTurn > 3){
+					playerTurn = 0;
+				}
+				togglePlayerCanvas (playerTurn);
+				counter++;
+			}
+		} else {
+			Debug.Log ("Starting runthrouhg of stages");
+			questInProgress = false;
+			questPlaying = true;
+			keepPlaying = true;
+			counter = 0;
+			for(int j = 0; j < passed.Length; j++){
+				//Debug.Log ("PT: " + j + " bool: " + passed[j]);
+				if(passed[j] == true){
+					playersPlaying++;
+				}
+			}
+			//start at first player to join, add necessary subzone and subbutton for stage
+		}
+	}
+
+	if (questPlaying) {
+
+		if(keepPlaying){
+
+			if (counter < 4) {
+				Debug.Log ("Counter = "+counter);
+				Debug.Log ("Player turn passed: " + playerTurn+ " passed = " + passed [playerTurn]);
+
+				if (passed [playerTurn] == true) {//then playthrough with that player
+					if (stageInt != 6) {//then quest not over yet
+						togglePlayerCanvas (playerTurn);
+						currentUser = gameUsers.findByUserName ("Player" + playerTurn).GetComponent<User> ();
+						Quests.Playthrough (currentUser.gameObject, stageInt);
+						counter++;
+
+					} else {//the quest is done
+						Debug.Log ("THE QUEST IS DONE NINJA!!");
+						Debug.Log ("Sponsor is drawing cards");
+						PickUpAdventureCards (sponsorturn,6);
+						for(int j = 0; j < passed.Length; j++){
+							if (passed [j] == true) {
+								Debug.Log ("Player: " + j + " is a winner");
+								User temp = gameUsers.findByUserName ("Player" + j).GetComponent<User> ();
+								temp.setShields (temp.getShields () + StoryCard.GetComponent<Quest> ().getStages ());
+								passed [j] = false;
+							}
+						}
+						playerTurn = sponsorturn+1;
+						if (playerTurn > 3) {
+							playerTurn = 0;
+						}
+						questPlaying = false;
+
+
+					}
+					if(questPlaying){
+						playerTurn++;
+						if (playerTurn > 3) {
+							playerTurn = 0;
+						}
+					}
+				} else if (!allDead) {//they didnt pass and need to be incremented;
+					playerTurn++;
+					if (playerTurn > 3) {
+						playerTurn = 0;
+					}
+					counter++;
+				} else {
+					Debug.Log ("Everyone died before the end of the quest");
+					questPlaying = false;
+					Debug.Log ("Sponsor is drawing cards");
+					PickUpAdventureCards (sponsorturn,6);
+					playerTurn = sponsorturn+1;
+					if (playerTurn > 3) {
+						playerTurn = 0;
+					}
+					//give sponsor cards;
+				}
+				playersPlaying = 0;
+				for(int j = 0; j < passed.Length; j++){
+					if(passed[j] == true){
+						playersPlaying++;
+					}
+				}
+				if(playersPlaying < 1){
+					allDead = true;
+				}
+			} else {
+				if(playersPlaying > 0){
+
+					counter = 0;
+					stageInt++;
+					Debug.Log ("Increasing the stage to: "+stageInt);
+					for(int m = 0; m < passed.Length; m++) {
+						if(passed[m] == true){
+							Debug.Log ("Player: " + m + " is drawing a card");
+							PickUpAdventureCards (m,1);
+						}
+					}
+					if(stageInt > StoryCard.GetComponent<Quest>().getStages()-1){
+						stageInt = 6;
+						Debug.Log ("dont do this");
+					}
+				}
+			}
+		}
+
+	}
+	/* BRANDONS QUEST STUFF END */
 		if (buttonPushed == true) {
-			Instantiate (Resources.Load ("PreFabs/MiddleScreen") as GameObject);	
+			Instantiate (Resources.Load ("PreFabs/MiddleScreen") as GameObject);
 			logger.info ("Toggling Middle Screen. Please click before moving on");
 
 
@@ -149,9 +338,18 @@ public class GameManager : EventsManager {
 				logger.info ("GameManager.cs :: " + currentUser.getName() + "Hand Count is: " + currentUser.getCards ().Count +" cards: Please Discard Cards. ");
 			}
 			handleStoryCards (currentUser);
-			playerTurn += 1;
-			if (playerTurn == totalUsers) { playerTurn = 0; }
+			playerTurn ++;
+			if (playerTurn > 3 ) { playerTurn = 0; }
 			buttonPushed = false;
+
+			/*QUEST START */
+			if (doThisOnce) {
+				playerTurn--;
+				doThisOnce = false;
+			}
+			/*QUEST END */
+
+
 		}
 
 		if (Tournaments.getCardsSubmitted () == true) {
@@ -182,7 +380,7 @@ public class GameManager : EventsManager {
 			logger.trace ("GameManager.cs :: Calling EventManager...");
 			Event evnt = StoryCard.GetComponent<Event> ();
 			if (evnt.getName() == "King's Recognition") {
-				Events.Kings_Recoginition (currentUser, gameUsers);	
+				Events.Kings_Recoginition (currentUser, gameUsers);
 			}
 			else if (evnt.getName() == "Queen's Favor") {
 				PickUpAdventureCardsTest(Events.Queens_Favor (gameUsers), 2);
@@ -209,8 +407,11 @@ public class GameManager : EventsManager {
 
 		else if (StoryCard.GetComponent<Quest> () != null ){
 			Quest quest = StoryCard.GetComponent<Quest> ();
+			questInPlay = true;
+			stageInt = 0;
 			logger.test ("GameManager.cs :: Quest Name: " + quest.getName());
 			logger.test ("GameManager.cs :: Calling QuestManager... ");
+
 
 		}
 
@@ -239,7 +440,7 @@ public class GameManager : EventsManager {
 			}
 		}
 	}
-		
+
 	public List<GameObject> getAllUsers(){
 		return gameUsers.getUsers();
 	}
@@ -291,7 +492,7 @@ public class GameManager : EventsManager {
 		1. AI Tournament Passed(CurrentAIPlayer, List of Users, Shields in Tourny)
 		2. Sponsor Quest (AIPlayer, List of Users, Quest Card)\
 		3. NextBid (AIPlayer, Bid Amount, Big Round)
-		4. Discard (AIPlayer, Amount to Discard) 
+		4. Discard (AIPlayer, Amount to Discard)
 	*/
 
 }

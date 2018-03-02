@@ -29093,3 +29093,430 @@
 2018-02-27T11:36:08.0605050-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 31 cards
 2018-02-27T11:36:08.0700298-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 41 cards
 2018-02-27T11:36:08.0785522-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 51 cards
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:15:47.0376220-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:15:47.0622590-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:16:07.2633330-05:00: Logger initialized
+2018-02-27T16:16:07.2674990-05:00 [INFO]: GameManager.cs :: Game has been created with 4 players.
+2018-02-27T16:16:07.2683880-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-27T16:16:07.2687260-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 0
+2018-02-27T16:16:07.2692430-05:00 [INFO]: GameManager.cs :: Game has been created with 4 players.
+2018-02-27T16:16:07.2694990-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-27T16:16:07.2697430-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 0
+2018-02-27T16:16:07.2748370-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: Saxons
+2018-02-27T16:16:07.2755290-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: Boar
+2018-02-27T16:16:07.2760870-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: Dagger
+2018-02-27T16:16:07.2765870-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: Sword
+2018-02-27T16:16:07.2770610-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: Sword
+2018-02-27T16:16:07.2834960-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: Horse
+2018-02-27T16:16:07.2840430-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: Excalibur
+2018-02-27T16:16:07.2845040-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: Amour
+2018-02-27T16:16:07.2849690-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: Battle-ax
+2018-02-27T16:16:07.2855320-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: Lance
+2018-02-27T16:16:07.2860660-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: Thieves
+2018-02-27T16:16:07.2880100-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 01 cards
+2018-02-27T16:16:07.2885370-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 11 cards
+2018-02-27T16:16:07.2891190-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 21 cards
+2018-02-27T16:16:07.2899800-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 31 cards
+2018-02-27T16:16:07.2906120-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 41 cards
+2018-02-27T16:16:07.2911230-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 51 cards
+2018-02-27T16:16:07.2915850-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 61 cards
+2018-02-27T16:16:07.2920670-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 71 cards
+2018-02-27T16:16:07.2925520-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 01 cards
+2018-02-27T16:16:07.2930660-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 11 cards
+2018-02-27T16:16:07.2935490-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 21 cards
+2018-02-27T16:16:07.2941670-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 31 cards
+2018-02-27T16:16:07.2949980-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 41 cards
+2018-02-27T16:16:07.2975150-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 51 cards
+2018-02-27T16:16:07.2985380-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 61 cards
+2018-02-27T16:16:07.2990810-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 71 cards
+2018-02-27T16:16:07.2995410-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 81 cards
+2018-02-27T16:16:07.2999820-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 91 cards
+2018-02-27T16:16:07.3004320-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 101 cards
+2018-02-27T16:16:07.3008870-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 01 cards
+2018-02-27T16:16:07.3013260-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 11 cards
+2018-02-27T16:16:07.3017730-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 21 cards
+2018-02-27T16:16:07.3022090-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 31 cards
+2018-02-27T16:16:07.3026450-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 41 cards
+2018-02-27T16:16:07.3030850-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 51 cards
+2018-02-27T16:16:07.3035250-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 61 cards
+2018-02-27T16:16:07.3039540-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 71 cards
+2018-02-27T16:16:07.3240650-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 81 cards
+2018-02-27T16:16:07.3247770-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 01 cards
+2018-02-27T16:16:07.3253670-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 11 cards
+2018-02-27T16:16:07.3258410-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 21 cards
+2018-02-27T16:16:07.3263110-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 31 cards
+2018-02-27T16:16:07.3268970-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 41 cards
+2018-02-27T16:16:07.3273890-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 51 cards
+2018-02-27T16:16:07.3278470-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 61 cards
+2018-02-27T16:16:07.3282890-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 71 cards
+2018-02-27T16:16:07.3287370-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 81 cards
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:16:07.3344580-05:00: Logger initialized
+2018-02-27T16:16:17.3862330-05:00 [INFO]: GameManager.cs :: StoryCards :: Player 0 Picks up: CurrentStoryCard(Clone) (UnityEngine.GameObject)
+2018-02-27T16:16:17.3873520-05:00 [TEST]: GameManager.cs :: Quest Name: Boar Hunt
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:16:24.4714570-05:00: Logger initialized
+2018-02-27T16:16:54.0578530-05:00 [INFO]: SubmitCards.cs :: Checking the current submission of cards for a quest
+2018-02-27T16:16:54.0783150-05:00 [INFO]: SubmitCards.cs :: Checking if stage 0 is eligible for submission
+2018-02-27T16:16:54.0990300-05:00 [INFO]: SubmitCards.cs :: There is a Saxons card
+2018-02-27T16:16:54.0994680-05:00 [INFO]: SubmitCards.cs :: Adding the card Saxons to the current stage
+2018-02-27T16:16:54.0997640-05:00 [INFO]: SubmitCards.cs :: Adding the current stage to the quest
+2018-02-27T16:16:54.1001250-05:00 [INFO]: SubmitCards.cs :: Checking if stage 1 is eligible for submission
+2018-02-27T16:16:54.1013570-05:00 [INFO]: SubmitCards.cs :: There is a Boar card
+2018-02-27T16:16:54.1016510-05:00 [INFO]: SubmitCards.cs :: Adding the card Boar to the current stage
+2018-02-27T16:16:54.1029040-05:00 [INFO]: SubmitCards.cs :: There is a Dagger card
+2018-02-27T16:16:54.1033720-05:00 [INFO]: SubmitCards.cs :: Adding the card Dagger to the current stage
+2018-02-27T16:16:54.1044220-05:00 [INFO]: SubmitCards.cs :: There is a Sword card
+2018-02-27T16:16:54.1047010-05:00 [INFO]: SubmitCards.cs :: Adding the card Sword to the current stage
+2018-02-27T16:16:54.1168310-05:00 [INFO]: SubmitCards.cs :: Adding the current stage to the quest
+2018-02-27T16:16:54.1173840-05:00 [INFO]: SubmitCards.cs :: Calculating battle points for the current stage
+2018-02-27T16:16:54.1180170-05:00 [INFO]: SubmitCards.cs :: the 'Foe' 'Saxons' does not match the bonus foe of the 'Quest'. Using the lower of the two battle points
+2018-02-27T16:16:54.1190900-05:00 [INFO]: SubmitCards.cs :: Calculating battle points for the current stage
+2018-02-27T16:16:54.1193180-05:00 [INFO]: SubmitCards.cs :: the 'Foe' name and bonus foe of the 'Quest' match. Using the higher of the two battle points
+2018-02-27T16:16:54.1196000-05:00 [INFO]: SubmitCards.cs :: Calculating battle points for the current stage
+2018-02-27T16:16:54.1198230-05:00 [INFO]: SubmitCards.cs :: Calculating battle points for the current stage
+2018-02-27T16:18:04.5496110-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 01 cards
+2018-02-27T16:18:06.4566960-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 01 cards
+2018-02-27T16:18:07.8498360-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 01 cards
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:18:07.9033770-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:18:07.9056350-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:18:40.6788040-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:19:24.6838960-05:00: Logger initialized
+2018-02-27T16:19:40.1115590-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 01 cards
+2018-02-27T16:19:40.1124370-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 01 cards
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:19:40.1687070-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:20:17.2705440-05:00: Logger initialized
+2018-02-27T16:20:34.3042590-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 01 cards
+2018-02-27T16:20:34.3545490-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 01 cards
+2018-02-27T16:20:34.3551330-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 11 cards
+2018-02-27T16:20:34.3555850-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 21 cards
+2018-02-27T16:20:34.3560270-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 31 cards
+2018-02-27T16:20:34.3565290-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 41 cards
+2018-02-27T16:20:34.3569760-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 51 cards
+2018-02-27T16:21:00.7737290-05:00 [INFO]: GameManager.cs :: StoryCards :: Player 1 Picks up: CurrentStoryCard(Clone) (UnityEngine.GameObject)
+2018-02-27T16:21:00.7743010-05:00 [TEST]: GameManager.cs :: Running Prosperity Throughout the Realm.
+2018-02-27T16:21:00.7753830-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 01 cards
+2018-02-27T16:21:00.7760000-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 11 cards
+2018-02-27T16:21:00.7766640-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 01 cards
+2018-02-27T16:21:00.7772420-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 11 cards
+2018-02-27T16:21:00.7778360-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 01 cards
+2018-02-27T16:21:00.7785610-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 11 cards
+2018-02-27T16:21:00.7791070-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 01 cards
+2018-02-27T16:21:00.7965590-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 11 cards
+2018-02-27T16:21:31.5440490-05:00 [INFO]: GameManager.cs :: StoryCards :: Player 2 Picks up: CurrentStoryCard(Clone) (UnityEngine.GameObject)
+2018-02-27T16:21:31.5444450-05:00 [INFO]: GameManager.cs :: Player 2 number of shields. 2
+2018-02-27T16:21:31.5505940-05:00 [TEST]: GameManager.cs :: Running Chivalrous Deed.
+2018-02-27T16:21:31.5514990-05:00 [INFO]: GameManager.cs :: Player 2 number of shields. 2
+2018-02-27T16:22:04.5502500-05:00 [INFO]: GameManager.cs :: StoryCards :: Player 3 Picks up: CurrentStoryCard(Clone) (UnityEngine.GameObject)
+2018-02-27T16:22:04.5506560-05:00 [TEST]: GameManager.cs :: Quest Name: Slay The Dragon
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:22:26.4251530-05:00: Logger initialized
+2018-02-27T16:22:26.4290960-05:00 [INFO]: GameManager.cs :: Game has been created with 4 players.
+2018-02-27T16:22:26.4298180-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-27T16:22:26.4301200-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 0
+2018-02-27T16:22:26.4303520-05:00 [INFO]: GameManager.cs :: Game has been created with 4 players.
+2018-02-27T16:22:26.4305740-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-27T16:22:26.4308100-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 0
+2018-02-27T16:22:26.4348480-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: Saxons
+2018-02-27T16:22:26.4354300-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: Boar
+2018-02-27T16:22:26.4359280-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: Dagger
+2018-02-27T16:22:26.4365060-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: Sword
+2018-02-27T16:22:26.4369710-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: Sword
+2018-02-27T16:22:26.4374220-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: Horse
+2018-02-27T16:22:26.4378630-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: Excalibur
+2018-02-27T16:22:26.4383060-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: Amour
+2018-02-27T16:22:26.4387460-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: Battle-ax
+2018-02-27T16:22:26.4391850-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: Lance
+2018-02-27T16:22:26.4396210-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: Thieves
+2018-02-27T16:22:26.4412560-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 01 cards
+2018-02-27T16:22:26.4417210-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 11 cards
+2018-02-27T16:22:26.4421520-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 21 cards
+2018-02-27T16:22:26.4426550-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 31 cards
+2018-02-27T16:22:26.4430850-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 41 cards
+2018-02-27T16:22:26.4435620-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 51 cards
+2018-02-27T16:22:26.4440670-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 61 cards
+2018-02-27T16:22:26.4445100-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 71 cards
+2018-02-27T16:22:26.4452250-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 01 cards
+2018-02-27T16:22:26.4456600-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 11 cards
+2018-02-27T16:22:26.4462800-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 21 cards
+2018-02-27T16:22:26.4467650-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 31 cards
+2018-02-27T16:22:26.4472240-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 41 cards
+2018-02-27T16:22:26.4476490-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 51 cards
+2018-02-27T16:22:26.4480900-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 61 cards
+2018-02-27T16:22:26.4485180-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 71 cards
+2018-02-27T16:22:26.4489410-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 81 cards
+2018-02-27T16:22:26.4493670-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 91 cards
+2018-02-27T16:22:26.4497930-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 101 cards
+2018-02-27T16:22:26.4502320-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 01 cards
+2018-02-27T16:22:26.4506560-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 11 cards
+2018-02-27T16:22:26.4510730-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 21 cards
+2018-02-27T16:22:26.4514920-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 31 cards
+2018-02-27T16:22:26.4519140-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 41 cards
+2018-02-27T16:22:26.4523560-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 51 cards
+2018-02-27T16:22:26.4527850-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 61 cards
+2018-02-27T16:22:26.4532110-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 71 cards
+2018-02-27T16:22:26.4536290-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 81 cards
+2018-02-27T16:22:26.4540410-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 01 cards
+2018-02-27T16:22:26.4544450-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 11 cards
+2018-02-27T16:22:26.4548470-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 21 cards
+2018-02-27T16:22:26.4552560-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 31 cards
+2018-02-27T16:22:26.4556840-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 41 cards
+2018-02-27T16:22:26.4561940-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 51 cards
+2018-02-27T16:22:26.4568380-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 61 cards
+2018-02-27T16:22:26.4574910-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 71 cards
+2018-02-27T16:22:26.4581300-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 81 cards
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:22:26.4648420-05:00: Logger initialized
+2018-02-27T16:22:29.1167050-05:00 [INFO]: GameManager.cs :: StoryCards :: Player 0 Picks up: CurrentStoryCard(Clone) (UnityEngine.GameObject)
+2018-02-27T16:22:29.1178790-05:00 [TEST]: GameManager.cs :: Quest Name: Boar Hunt
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:22:37.7200990-05:00: Logger initialized
+2018-02-27T16:22:56.4828700-05:00 [INFO]: SubmitCards.cs :: Checking the current submission of cards for a quest
+2018-02-27T16:22:56.4835130-05:00 [INFO]: SubmitCards.cs :: Checking if stage 0 is eligible for submission
+2018-02-27T16:22:56.4910610-05:00 [INFO]: SubmitCards.cs :: There is a Excalibur card
+2018-02-27T16:22:56.4917370-05:00 [INFO]: SubmitCards.cs :: Adding the card Excalibur to the current stage
+2018-02-27T16:22:56.4921360-05:00 [WARN]: SubmitCards.cs :: This stage does not contain a 'Foe' or 'Test' card. This submission is not elligible
+2018-02-27T16:23:05.3947020-05:00 [INFO]: SubmitCards.cs :: Checking the current submission of cards for a quest
+2018-02-27T16:23:05.3953780-05:00 [INFO]: SubmitCards.cs :: Checking if stage 0 is eligible for submission
+2018-02-27T16:23:05.4016990-05:00 [WARN]: SubmitCards.cs :: This stage does not contain a 'Foe' or 'Test' card. This submission is not elligible
+2018-02-27T16:23:11.9831250-05:00 [INFO]: SubmitCards.cs :: Checking the current submission of cards for a quest
+2018-02-27T16:23:11.9835800-05:00 [INFO]: SubmitCards.cs :: Checking if stage 0 is eligible for submission
+2018-02-27T16:23:11.9908330-05:00 [INFO]: SubmitCards.cs :: This stage contains an 'Ally'. This submission is not eligible
+2018-02-27T16:23:12.2052080-05:00 [INFO]: SubmitCards.cs :: Checking the current submission of cards for a quest
+2018-02-27T16:23:12.2056560-05:00 [INFO]: SubmitCards.cs :: Checking if stage 0 is eligible for submission
+2018-02-27T16:23:12.2066830-05:00 [INFO]: SubmitCards.cs :: This stage contains an 'Ally'. This submission is not eligible
+2018-02-27T16:23:19.2540500-05:00 [INFO]: SubmitCards.cs :: Checking the current submission of cards for a quest
+2018-02-27T16:23:19.2545210-05:00 [INFO]: SubmitCards.cs :: Checking if stage 0 is eligible for submission
+2018-02-27T16:23:19.2618480-05:00 [INFO]: SubmitCards.cs :: There is a Test of Valor card
+2018-02-27T16:23:19.2621820-05:00 [INFO]: SubmitCards.cs :: Adding the card Test of Valor to the current stage
+2018-02-27T16:23:19.2624170-05:00 [INFO]: SubmitCards.cs :: Adding the current stage to the quest
+2018-02-27T16:23:19.2626930-05:00 [INFO]: SubmitCards.cs :: Checking if stage 1 is eligible for submission
+2018-02-27T16:23:19.2637020-05:00 [INFO]: SubmitCards.cs :: There is a Dragon card
+2018-02-27T16:23:19.2639170-05:00 [INFO]: SubmitCards.cs :: Adding the card Dragon to the current stage
+2018-02-27T16:23:19.2651240-05:00 [WARN]: SubmitCards.cs :: There are multiple 'Foe' cards in this stage. This submission is not eligible
+2018-02-27T16:23:31.2593590-05:00 [INFO]: SubmitCards.cs :: Checking the current submission of cards for a quest
+2018-02-27T16:23:31.2599230-05:00 [INFO]: SubmitCards.cs :: Checking if stage 0 is eligible for submission
+2018-02-27T16:23:31.2675010-05:00 [INFO]: SubmitCards.cs :: There is a Mordred card
+2018-02-27T16:23:31.2679020-05:00 [INFO]: SubmitCards.cs :: Adding the card Mordred to the current stage
+2018-02-27T16:23:31.2681880-05:00 [INFO]: SubmitCards.cs :: Adding the current stage to the quest
+2018-02-27T16:23:31.2684730-05:00 [INFO]: SubmitCards.cs :: Checking if stage 1 is eligible for submission
+2018-02-27T16:23:31.2697150-05:00 [INFO]: SubmitCards.cs :: There is a Dragon card
+2018-02-27T16:23:31.2700090-05:00 [INFO]: SubmitCards.cs :: Adding the card Dragon to the current stage
+2018-02-27T16:23:31.2704900-05:00 [INFO]: SubmitCards.cs :: Adding the current stage to the quest
+2018-02-27T16:23:31.2708380-05:00 [INFO]: SubmitCards.cs :: Calculating battle points for the current stage
+2018-02-27T16:23:31.2715410-05:00 [INFO]: SubmitCards.cs :: the 'Foe' 'Mordred' does not match the bonus foe of the 'Quest'. Using the lower of the two battle points
+2018-02-27T16:23:31.2728260-05:00 [INFO]: SubmitCards.cs :: Calculating battle points for the current stage
+2018-02-27T16:23:31.2731300-05:00 [INFO]: SubmitCards.cs :: the 'Foe' 'Dragon' does not match the bonus foe of the 'Quest'. Using the lower of the two battle points
+2018-02-27T16:23:40.3645460-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 01 cards
+2018-02-27T16:23:40.9067820-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 01 cards
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:23:40.9635080-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:23:40.9656740-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:24:01.0188830-05:00: Logger initialized
+2018-02-27T16:24:15.0810740-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 01 cards
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:24:15.1355780-05:00: Logger initialized
+2018-02-27T16:24:51.5718770-05:00 [INFO]: GameManager.cs :: StoryCards :: Player 1 Picks up: CurrentStoryCard(Clone) (UnityEngine.GameObject)
+2018-02-27T16:24:51.5723340-05:00 [TEST]: GameManager.cs :: Running Prosperity Throughout the Realm.
+2018-02-27T16:24:51.5732480-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 01 cards
+2018-02-27T16:24:51.5737100-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 11 cards
+2018-02-27T16:24:51.5741490-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 01 cards
+2018-02-27T16:24:51.5745930-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 11 cards
+2018-02-27T16:24:51.5750330-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 01 cards
+2018-02-27T16:24:51.5754670-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 11 cards
+2018-02-27T16:24:51.5759320-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 01 cards
+2018-02-27T16:24:51.5763780-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 11 cards
+2018-02-27T16:25:39.5121200-05:00 [INFO]: GameManager.cs :: StoryCards :: Player 2 Picks up: CurrentStoryCard(Clone) (UnityEngine.GameObject)
+2018-02-27T16:25:39.5125330-05:00 [INFO]: GameManager.cs :: Player 2 number of shields. 0
+2018-02-27T16:25:39.5127960-05:00 [TEST]: GameManager.cs :: Running Chivalrous Deed.
+2018-02-27T16:25:39.5137100-05:00 [INFO]: GameManager.cs :: Player 2 number of shields. 3
+2018-02-27T16:25:51.6652860-05:00 [INFO]: GameManager.cs :: StoryCards :: Player 3 Picks up: CurrentStoryCard(Clone) (UnityEngine.GameObject)
+2018-02-27T16:25:51.6657780-05:00 [TEST]: GameManager.cs :: Quest Name: Slay The Dragon
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:26:17.9205280-05:00: Logger initialized
+2018-02-27T16:26:17.9243100-05:00 [INFO]: GameManager.cs :: Game has been created with 4 players.
+2018-02-27T16:26:17.9250420-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-27T16:26:17.9253370-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 0
+2018-02-27T16:26:17.9255580-05:00 [INFO]: GameManager.cs :: Game has been created with 4 players.
+2018-02-27T16:26:17.9257790-05:00 [INFO]: GameManager.cs :: Adventure advDeck has been created. with sizes of 32
+2018-02-27T16:26:17.9259980-05:00 [INFO]: GameManager.cs :: Story storyDeck has been created. with sizes of 0
+2018-02-27T16:26:17.9299630-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: Saxons
+2018-02-27T16:26:17.9304640-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: Boar
+2018-02-27T16:26:17.9309950-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: Dagger
+2018-02-27T16:26:17.9314460-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: Sword
+2018-02-27T16:26:17.9318710-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: Sword
+2018-02-27T16:26:17.9322970-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: Horse
+2018-02-27T16:26:17.9327150-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: Excalibur
+2018-02-27T16:26:17.9331320-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: Amour
+2018-02-27T16:26:17.9335500-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: Battle-ax
+2018-02-27T16:26:17.9340590-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: Lance
+2018-02-27T16:26:17.9345050-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: Thieves
+2018-02-27T16:26:17.9362080-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 01 cards
+2018-02-27T16:26:17.9369250-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 11 cards
+2018-02-27T16:26:17.9373930-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 21 cards
+2018-02-27T16:26:17.9379450-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 31 cards
+2018-02-27T16:26:17.9384200-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 41 cards
+2018-02-27T16:26:17.9388580-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 51 cards
+2018-02-27T16:26:17.9392930-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 61 cards
+2018-02-27T16:26:17.9397190-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 71 cards
+2018-02-27T16:26:17.9401560-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 01 cards
+2018-02-27T16:26:17.9405850-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 11 cards
+2018-02-27T16:26:17.9410110-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 21 cards
+2018-02-27T16:26:17.9417980-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 31 cards
+2018-02-27T16:26:17.9423120-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 41 cards
+2018-02-27T16:26:17.9427890-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 51 cards
+2018-02-27T16:26:17.9432250-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 61 cards
+2018-02-27T16:26:17.9436480-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 71 cards
+2018-02-27T16:26:17.9440810-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 81 cards
+2018-02-27T16:26:17.9445040-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 91 cards
+2018-02-27T16:26:17.9449670-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 101 cards
+2018-02-27T16:26:17.9454500-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 01 cards
+2018-02-27T16:26:17.9458900-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 11 cards
+2018-02-27T16:26:17.9463260-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 21 cards
+2018-02-27T16:26:17.9467620-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 31 cards
+2018-02-27T16:26:17.9471800-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 41 cards
+2018-02-27T16:26:17.9476230-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 51 cards
+2018-02-27T16:26:17.9481340-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 61 cards
+2018-02-27T16:26:17.9485870-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 71 cards
+2018-02-27T16:26:17.9490030-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 81 cards
+2018-02-27T16:26:17.9494260-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 01 cards
+2018-02-27T16:26:17.9498400-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 11 cards
+2018-02-27T16:26:17.9502440-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 21 cards
+2018-02-27T16:26:17.9506580-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 31 cards
+2018-02-27T16:26:17.9510670-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 41 cards
+2018-02-27T16:26:17.9514730-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 51 cards
+2018-02-27T16:26:17.9518850-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 61 cards
+2018-02-27T16:26:17.9523440-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 71 cards
+2018-02-27T16:26:17.9527590-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 81 cards
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:26:17.9576980-05:00: Logger initialized
+2018-02-27T16:26:20.5408390-05:00 [INFO]: GameManager.cs :: StoryCards :: Player 0 Picks up: CurrentStoryCard(Clone) (UnityEngine.GameObject)
+2018-02-27T16:26:20.5420440-05:00 [TEST]: GameManager.cs :: Quest Name: Boar Hunt
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:26:20.9217860-05:00: Logger initialized
+2018-02-27T16:26:24.6532880-05:00 [INFO]: SubmitCards.cs :: Checking the current submission of cards for a quest
+2018-02-27T16:26:24.6538250-05:00 [INFO]: SubmitCards.cs :: Checking if stage 0 is eligible for submission
+2018-02-27T16:26:24.6550050-05:00 [INFO]: SubmitCards.cs :: There is a Saxons card
+2018-02-27T16:26:24.6552730-05:00 [INFO]: SubmitCards.cs :: Adding the card Saxons to the current stage
+2018-02-27T16:26:24.6554890-05:00 [INFO]: SubmitCards.cs :: Adding the current stage to the quest
+2018-02-27T16:26:24.6557360-05:00 [INFO]: SubmitCards.cs :: Checking if stage 1 is eligible for submission
+2018-02-27T16:26:24.6568550-05:00 [INFO]: SubmitCards.cs :: There is a Boar card
+2018-02-27T16:26:24.6570870-05:00 [INFO]: SubmitCards.cs :: Adding the card Boar to the current stage
+2018-02-27T16:26:24.6573250-05:00 [INFO]: SubmitCards.cs :: Adding the current stage to the quest
+2018-02-27T16:26:24.6576060-05:00 [INFO]: SubmitCards.cs :: Calculating battle points for the current stage
+2018-02-27T16:26:24.6582030-05:00 [INFO]: SubmitCards.cs :: the 'Foe' 'Saxons' does not match the bonus foe of the 'Quest'. Using the lower of the two battle points
+2018-02-27T16:26:24.6592310-05:00 [INFO]: SubmitCards.cs :: Calculating battle points for the current stage
+2018-02-27T16:26:24.6594600-05:00 [INFO]: SubmitCards.cs :: the 'Foe' name and bonus foe of the 'Quest' match. Using the higher of the two battle points
+2018-02-27T16:26:26.5171560-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 01 cards
+2018-02-27T16:26:26.7689870-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 01 cards
+2018-02-27T16:26:27.0678310-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 01 cards
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:26:27.1078210-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:26:27.1103300-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:26:29.0407090-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:26:30.0127230-05:00: Logger initialized
+2018-02-27T16:26:30.8367070-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 01 cards
+2018-02-27T16:26:30.8375470-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 11 cards
+2018-02-27T16:26:30.8438840-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 21 cards
+2018-02-27T16:26:30.8445680-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 31 cards
+2018-02-27T16:26:30.8451640-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 41 cards
+2018-02-27T16:26:30.8457450-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 51 cards
+2018-02-27T16:26:53.6073650-05:00 [INFO]: GameManager.cs :: StoryCards :: Player 1 Picks up: CurrentStoryCard(Clone) (UnityEngine.GameObject)
+2018-02-27T16:26:53.6146220-05:00 [TEST]: GameManager.cs :: Running Prosperity Throughout the Realm.
+2018-02-27T16:26:53.6160420-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 01 cards
+2018-02-27T16:26:53.6397700-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 11 cards
+2018-02-27T16:26:53.6403690-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 01 cards
+2018-02-27T16:26:53.6408660-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 11 cards
+2018-02-27T16:26:53.6647550-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 01 cards
+2018-02-27T16:26:53.6655680-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 11 cards
+2018-02-27T16:26:53.6662270-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 01 cards
+2018-02-27T16:26:53.6668660-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player Player(Clone) (UnityEngine.GameObject) Picked up: 11 cards
+2018-02-27T16:26:54.3707300-05:00 [INFO]: GameManager.cs :: StoryCards :: Player 2 Picks up: CurrentStoryCard(Clone) (UnityEngine.GameObject)
+2018-02-27T16:26:54.3711380-05:00 [INFO]: GameManager.cs :: Player 2 number of shields. 0
+2018-02-27T16:26:54.3773600-05:00 [TEST]: GameManager.cs :: Running Chivalrous Deed.
+2018-02-27T16:26:54.3785500-05:00 [INFO]: GameManager.cs :: Player 2 number of shields. 3
+2018-02-27T16:26:58.3232540-05:00 [INFO]: GameManager.cs :: StoryCards :: Player 3 Picks up: CurrentStoryCard(Clone) (UnityEngine.GameObject)
+2018-02-27T16:26:58.3236370-05:00 [TEST]: GameManager.cs :: Quest Name: Slay The Dragon
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:27:00.3910730-05:00: Logger initialized
+2018-02-27T16:27:27.7579000-05:00 [INFO]: SubmitCards.cs :: Checking the current submission of cards for a quest
+2018-02-27T16:27:27.7584730-05:00 [INFO]: SubmitCards.cs :: Checking if stage 0 is eligible for submission
+2018-02-27T16:27:27.7662220-05:00 [INFO]: SubmitCards.cs :: There is a Thieves card
+2018-02-27T16:27:27.7666580-05:00 [INFO]: SubmitCards.cs :: Adding the card Thieves to the current stage
+2018-02-27T16:27:27.7671600-05:00 [INFO]: SubmitCards.cs :: Adding the current stage to the quest
+2018-02-27T16:27:27.7675550-05:00 [INFO]: SubmitCards.cs :: Checking if stage 1 is eligible for submission
+2018-02-27T16:27:27.7690180-05:00 [INFO]: SubmitCards.cs :: There is a Black Knight card
+2018-02-27T16:27:27.7694060-05:00 [INFO]: SubmitCards.cs :: Adding the card Black Knight to the current stage
+2018-02-27T16:27:27.7697140-05:00 [INFO]: SubmitCards.cs :: Adding the current stage to the quest
+2018-02-27T16:27:27.7700230-05:00 [INFO]: SubmitCards.cs :: Checking if stage 2 is eligible for submission
+2018-02-27T16:27:27.7713980-05:00 [INFO]: SubmitCards.cs :: There is a Saxon Knight card
+2018-02-27T16:27:27.7717130-05:00 [INFO]: SubmitCards.cs :: Adding the card Saxon Knight to the current stage
+2018-02-27T16:27:27.7720110-05:00 [INFO]: SubmitCards.cs :: Adding the current stage to the quest
+2018-02-27T16:27:27.7722890-05:00 [INFO]: SubmitCards.cs :: Calculating battle points for the current stage
+2018-02-27T16:27:27.7725660-05:00 [INFO]: SubmitCards.cs :: the 'Foe' 'Thieves' does not match the bonus foe of the 'Quest'. Using the lower of the two battle points
+2018-02-27T16:27:27.7737870-05:00 [INFO]: SubmitCards.cs :: Calculating battle points for the current stage
+2018-02-27T16:27:27.7740730-05:00 [INFO]: SubmitCards.cs :: the 'Foe' 'Black Knight' does not match the bonus foe of the 'Quest'. Using the lower of the two battle points
+2018-02-27T16:27:27.7752890-05:00 [INFO]: SubmitCards.cs :: Calculating battle points for the current stage
+2018-02-27T16:27:27.7755730-05:00 [INFO]: SubmitCards.cs :: the 'Foe' 'Saxon Knight' does not match the bonus foe of the 'Quest'. Using the lower of the two battle points
+2018-02-27T16:27:35.1922190-05:00 [INFO]: SubmitCards.cs :: Checking the current submission of cards for a quest
+2018-02-27T16:27:35.1927100-05:00 [INFO]: SubmitCards.cs :: Checking if stage 0 is eligible for submission
+2018-02-27T16:27:35.1940560-05:00 [INFO]: SubmitCards.cs :: There is a Thieves card
+2018-02-27T16:27:35.1943540-05:00 [INFO]: SubmitCards.cs :: Adding the card Thieves to the current stage
+2018-02-27T16:27:35.1946360-05:00 [INFO]: SubmitCards.cs :: Adding the current stage to the quest
+2018-02-27T16:27:35.1949170-05:00 [INFO]: SubmitCards.cs :: Checking if stage 1 is eligible for submission
+2018-02-27T16:27:35.1961320-05:00 [INFO]: SubmitCards.cs :: There is a Saxon Knight card
+2018-02-27T16:27:35.1964180-05:00 [INFO]: SubmitCards.cs :: Adding the card Saxon Knight to the current stage
+2018-02-27T16:27:35.1966940-05:00 [INFO]: SubmitCards.cs :: Adding the current stage to the quest
+2018-02-27T16:27:35.1969700-05:00 [INFO]: SubmitCards.cs :: Checking if stage 2 is eligible for submission
+2018-02-27T16:27:35.1981170-05:00 [INFO]: SubmitCards.cs :: There is a Black Knight card
+2018-02-27T16:27:35.1983560-05:00 [INFO]: SubmitCards.cs :: Adding the card Black Knight to the current stage
+2018-02-27T16:27:35.1985840-05:00 [INFO]: SubmitCards.cs :: Adding the current stage to the quest
+2018-02-27T16:27:35.1988130-05:00 [INFO]: SubmitCards.cs :: Calculating battle points for the current stage
+2018-02-27T16:27:35.1990410-05:00 [INFO]: SubmitCards.cs :: the 'Foe' 'Thieves' does not match the bonus foe of the 'Quest'. Using the lower of the two battle points
+2018-02-27T16:27:35.2001330-05:00 [INFO]: SubmitCards.cs :: Calculating battle points for the current stage
+2018-02-27T16:27:35.2004000-05:00 [INFO]: SubmitCards.cs :: the 'Foe' 'Saxon Knight' does not match the bonus foe of the 'Quest'. Using the lower of the two battle points
+2018-02-27T16:27:35.2015640-05:00 [INFO]: SubmitCards.cs :: Calculating battle points for the current stage
+2018-02-27T16:27:35.2018320-05:00 [INFO]: SubmitCards.cs :: the 'Foe' 'Black Knight' does not match the bonus foe of the 'Quest'. Using the lower of the two battle points
+2018-02-27T16:27:38.7313220-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 01 cards
+2018-02-27T16:27:39.1933800-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 01 cards
+2018-02-27T16:27:39.5785120-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 01 cards
+2018-02-27T16:27:39.5959770-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 01 cards
+2018-02-27T16:27:39.5965930-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 11 cards
+2018-02-27T16:27:39.5970700-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 21 cards
+2018-02-27T16:27:39.5975250-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 31 cards
+2018-02-27T16:27:39.5980000-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 41 cards
+2018-02-27T16:27:39.5984640-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 51 cards
+2018-02-27T16:28:14.3709050-05:00 [INFO]: GameManager.cs :: StoryCards :: Player 1 Picks up: CurrentStoryCard(Clone) (UnityEngine.GameObject)
+2018-02-27T16:28:14.3713420-05:00 [TEST]: GameManager.cs :: Quest Name: Slay The Dragon
+-------------------- INITIALIZE LOGGER ---------------------
+2018-02-27T16:41:41.8768770-05:00: Logger initialized
+2018-02-27T16:41:46.3467870-05:00 [INFO]: SubmitCards.cs :: Checking the current submission of cards for a quest
+2018-02-27T16:41:46.3473190-05:00 [INFO]: SubmitCards.cs :: Checking if stage 0 is eligible for submission
+2018-02-27T16:41:46.3539240-05:00 [WARN]: SubmitCards.cs :: This stage does not contain a 'Foe' or 'Test' card. This submission is not elligible
+2018-02-27T16:41:46.7992120-05:00 [INFO]: SubmitCards.cs :: Checking the current submission of cards for a quest
+2018-02-27T16:41:46.7997450-05:00 [INFO]: SubmitCards.cs :: Checking if stage 0 is eligible for submission
+2018-02-27T16:41:46.8058370-05:00 [WARN]: SubmitCards.cs :: This stage does not contain a 'Foe' or 'Test' card. This submission is not elligible
+2018-02-27T16:41:47.2308620-05:00 [INFO]: SubmitCards.cs :: Checking the current submission of cards for a quest
+2018-02-27T16:41:47.2315130-05:00 [INFO]: SubmitCards.cs :: Checking if stage 0 is eligible for submission
+2018-02-27T16:41:47.2378070-05:00 [WARN]: SubmitCards.cs :: This stage does not contain a 'Foe' or 'Test' card. This submission is not elligible
+2018-02-27T16:41:51.4640240-05:00 [INFO]: SubmitCards.cs :: Checking the current submission of cards for a quest
+2018-02-27T16:41:51.4645540-05:00 [INFO]: SubmitCards.cs :: Checking if stage 0 is eligible for submission
+2018-02-27T16:41:51.4647950-05:00 [WARN]: SubmitCards.cs :: This stage does not contain a 'Foe' or 'Test' card. This submission is not elligible
+-------------------- INITIALIZE LOGGER ---------------------
+2018-03-01T19:49:11.8829030-05:00: Logger initialized
+-------------------- INITIALIZE LOGGER ---------------------
+2018-03-01T19:49:11.9097530-05:00: Logger initialized

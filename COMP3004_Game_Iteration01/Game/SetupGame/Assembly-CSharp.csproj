@@ -94,7 +94,7 @@
      <Compile Include="Assets\Scripts\Users.cs" />
      <Compile Include="Assets\Scripts\UserTest.cs" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>/Users/AlfrancisStudent/Documents/Everything Grad School/COMP3004_Game_Iteration01/SetupGame/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>/Users/AlfrancisStudent/Desktop/Backup/QuestOfTheRoundTable/COMP3004_Game_Iteration01/Game/SetupGame/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

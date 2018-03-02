@@ -32,7 +32,7 @@ public class User : MonoBehaviour {
 	public void Initialize(string user_name,bool ai){
 		logger = new QuestGame.Logger ();
 		this.user_name = user_name;
-		this.shields = 3;
+		this.shields = 0;
 		this.baseAttack = 5;
 		this.rank = RANK_NAME [0];
 		this.ai = ai;
@@ -80,7 +80,7 @@ public class User : MonoBehaviour {
 		else if (this.shields >= 22) {
 			logger.info ("User.cs :: Ranking Up: " + this.user_name);
 			this.rank = "Knight Of the Round Table";
-		}	
+		}
 		this.gameObject.transform.GetChild(4).GetComponent<Text>().text =  ("Rank: " + this.rank);
 		return this.rank;
 	}

@@ -65,40 +65,40 @@ public class StoryDeck : MonoBehaviour {
 		logger.info ("StoryDeck.cs :: Populating Deck with cards.");
 
 		List<string> RList1 = new List<string> {
-//			"Search for the Holy Grail",
-//			"Rescue the Fair Maiden",
-//			"Slay The Dragon",
+			"Search for the Holy Grail",
+			"Rescue the Fair Maiden",
+			"Slay The Dragon",
 			"King's Recognition",
 			"King's Call to Arms",
-//			"Tournament at Camelot"
+			"Tournament at Camelot"
 		};
 		List<string> RList2 = new List<string> {
-//			"Test of the Green Knight",
+			"Test of the Green Knight",
 			"Queen's Favor",
-//			"Journey Through the Enchanted Forest",
-//			"Boar Hunt",
+			"Journey Through the Enchanted Forest",
+			"Boar Hunt",
 			"Queen's Favor",
 			"Court Called to Camelot",
-//			"Tournament at Tintagel"
+			"Tournament at Tintagel"
 		};
 
 		List<string> RList3 = new List<string> {
-//			"Defend the Queen's Honor",
-//			"Tournament at York",
-//			"Vanquish King Arthur's Enemies",
-//			"Boar Hunt",
-//			"King's Recognition",
+			"Defend the Queen's Honor",
+			"Tournament at York",
+			"Vanquish King Arthur's Enemies",
+			"Boar Hunt",
+			"King's Recognition",
 			"Pox",
 			"Plague",
 			"Chivalrous Deed",
-//			"Tournament at Orkney"
+			"Tournament at Orkney"
 		};
 		List<string> RList4 = new List<string> {
-//			"Search for the Questing Beast",
-//			"Vanquish King Arthur's Enemies",
-//			"Repel the Saxon Raiders",
+			"Search for the Questing Beast",
+			"Vanquish King Arthur's Enemies",
+			"Repel the Saxon Raiders",
 			"Court Called to Camelot",
-//			"Prosperity Throughout the Realm"
+			"Prosperity Throughout the Realm"
 		};
 
 		int ranStart = 0;

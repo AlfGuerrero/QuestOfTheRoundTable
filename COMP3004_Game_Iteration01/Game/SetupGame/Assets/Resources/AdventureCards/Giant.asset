@@ -16,7 +16,7 @@ MonoBehaviour:
   bidPoints: 0
   bonusBidPoints: 0
   battlePoints: 40
-  bonusBattlePoints: 0
+  bonusBattlePoints: 40
   value: 0
   merlin: 0
   mordred: 0

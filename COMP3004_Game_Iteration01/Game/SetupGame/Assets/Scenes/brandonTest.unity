@@ -797,7 +797,7 @@ Prefab:
     - target: {fileID: 224767064214930538, guid: 4452980a3efe9d942b46229f81a7b197,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -43.7
       objectReference: {fileID: 0}
     - target: {fileID: 224374883387128900, guid: 4452980a3efe9d942b46229f81a7b197,
         type: 2}
@@ -944,7 +944,7 @@ Prefab:
     - target: {fileID: 224767064214930538, guid: 4452980a3efe9d942b46229f81a7b197,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -37.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4452980a3efe9d942b46229f81a7b197, type: 2}
@@ -1166,16 +1166,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5ebfd6f48fc489428600c828b599f1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerTurn: 0
   advDeck: {fileID: 1332328301}
   storyDeck: {fileID: 1871393827}
   Tournaments: {fileID: 309920348}
   Events: {fileID: 1537523767}
-  Quests: {fileID: 0}
+  Quests: {fileID: 900336054}
   StoryCard: {fileID: 0}
   currentUser: {fileID: 0}
+  logger: {fileID: 0}
   statsToggle: 1
   startEvents: 0
   KingsCalltoArms: 0
+  questInProgress: 0
+  questInPlay: 0
+  questPlaying: 0
+  allDead: 0
+  playersPlaying: 0
+  stageInt: 0
+  keepPlaying: 1
+  temp2: 0
+  passed: 
 --- !u!4 &1693280961
 Transform:
   m_ObjectHideFlags: 0

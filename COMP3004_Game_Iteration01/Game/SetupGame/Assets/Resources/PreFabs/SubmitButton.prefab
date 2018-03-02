@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 222726177219236250}
   - component: {fileID: 114182899500997880}
   - component: {fileID: 114590457944195720}
-  - component: {fileID: 114974515528007884}
+  - component: {fileID: 114866075249772568}
   m_Layer: 5
   m_Name: SubmitButton
   m_TagString: Untagged
@@ -113,7 +113,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114974515528007884}
+      - m_Target: {fileID: 114866075249772568}
         m_MethodName: submitCardsQuest
         m_Mode: 1
         m_Arguments:
@@ -159,7 +159,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Submit Cards
---- !u!114 &114974515528007884
+--- !u!114 &114866075249772568
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -167,9 +167,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1640335438322542}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3426d2ceb15ed22428867390b59e18a7, type: 3}
+  m_Script: {fileID: 11500000, guid: 82f8ddbc3f7304053b00da1f603e68d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stage2: 0
+  submitHasBeenPressed: 0
 --- !u!222 &222726177219236250
 CanvasRenderer:
   m_ObjectHideFlags: 1
