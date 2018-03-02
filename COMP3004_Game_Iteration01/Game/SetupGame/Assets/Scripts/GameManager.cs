@@ -167,6 +167,8 @@ public class GameManager : EventsManager {
 	if(questInPlay){
 		if (counter < 4) {
 			if (Input.GetKeyDown (KeyCode.UpArrow)) {
+				logger.info ("GameManager.cs :: Up Arrow Key has been pressed..." );
+				logger.info ("GameManager.cs :: Quest :: Player Sponsoring Quest: player" + playerTurn);
 				Debug.Log (playerTurn + "Sponsoring");
 				Quests.Setup (gameUsers.findByUserName ("Player" + playerTurn).gameObject);
 				passed [playerTurn] = false;
@@ -175,6 +177,9 @@ public class GameManager : EventsManager {
 				questInPlay = false;
 				counter = 0;
 			} else if (Input.GetKeyDown (KeyCode.DownArrow)) {
+				logger.info ("GameManager.cs :: Down Arrow Key has been pressed..." );
+				logger.info ("GameManager.cs :: Quest :: Player NOT Sponsoring Quest: player" + playerTurn);
+
 				Debug.Log (playerTurn + "Not Sponsoring");
 				playerTurn++;
 				if(playerTurn > 3){
@@ -184,6 +189,7 @@ public class GameManager : EventsManager {
 				counter++;
 			}
 		} else {
+			logger.info ("GameManager.cs :: Quest :: No one has sponsored." );
 			Debug.Log("no one sponsored so continue to next story card");
 			questInProgress = false;
 			questInPlay = false;
@@ -200,6 +206,8 @@ public class GameManager : EventsManager {
 		//Debug.Log (counter);
 		if (counter < 3) {
 			if (Input.GetKeyDown (KeyCode.UpArrow)) {
+				logger.info ("GameManager.cs :: Up Arrow Key has been pressed..." );
+				logger.info ("GameManager.cs :: Quest :: Player Joining Quest: player" + playerTurn);
 				Debug.Log (playerTurn + "Joining");
 				passed [playerTurn] = true;
 				PickUpAdventureCards (playerTurn,1);
@@ -210,6 +218,8 @@ public class GameManager : EventsManager {
 				togglePlayerCanvas (playerTurn);
 				counter++;
 			} else if (Input.GetKeyDown (KeyCode.DownArrow)) {
+				logger.info ("GameManager.cs :: Down Arrow Key has been pressed..." );
+				logger.info ("GameManager.cs :: Quest :: Player NOT Joining Quest: player" + playerTurn);
 				Debug.Log (playerTurn + "Not Joining");
 				passed [playerTurn] = false;
 				playerTurn++;
@@ -220,6 +230,8 @@ public class GameManager : EventsManager {
 				counter++;
 			}
 		} else {
+			logger.info ("GameManager.cs :: Quest :: Starting runthrough of stages..." );
+
 			Debug.Log ("Starting runthrouhg of stages");
 			questInProgress = false;
 			questPlaying = true;
@@ -242,6 +254,7 @@ public class GameManager : EventsManager {
 			if (counter < 4) {
 				Debug.Log ("Counter = "+counter);
 				Debug.Log ("Player turn passed: " + playerTurn+ " passed = " + passed [playerTurn]);
+				logger.test ("GameManager.cs :: Quest :: player" + playerTurn + " has passed to the next stage.");
 
 				if (passed [playerTurn] == true) {//then playthrough with that player
 					if (stageInt != 6) {//then quest not over yet
@@ -251,6 +264,10 @@ public class GameManager : EventsManager {
 						counter++;
 
 					} else {//the quest is done
+						logger.info ("GameManager.cs :: Quest :: The Quest has finished.");
+
+						logger.info ("GameManager.cs :: Quest :: The sponsor: player" + sponsorturn + " Picks up cards");
+
 						Debug.Log ("THE QUEST IS DONE NINJA!!");
 						Debug.Log ("Sponsor is drawing cards");
 						PickUpAdventureCards (sponsorturn,6);
@@ -259,9 +276,12 @@ public class GameManager : EventsManager {
 								Debug.Log ("Player: " + j + " is a winner");
 								User temp = gameUsers.findByUserName ("Player" + j).GetComponent<User> ();
 									if(KingsRecognition){
+										logger.info ("GameManager.cs :: Quest :: Kings Recognition is active.");
 										temp.setShields (temp.getShields () + StoryCard.GetComponent<Quest> ().getStages () +2);
+
 										KingsRecognition = false;
 									}else{
+										
 										temp.setShields (temp.getShields () + StoryCard.GetComponent<Quest> ().getStages ());
 									}
 								
@@ -289,10 +309,12 @@ public class GameManager : EventsManager {
 					}
 					counter++;
 				} else {
-					Debug.Log ("Everyone died before the end of the quest");
+					logger.info ("GameManager.cs :: Quest :: Everyone died before the end of the quest.");
 					questPlaying = false;
 					Debug.Log ("Sponsor is drawing cards");
-					PickUpAdventureCards (sponsorturn,6);
+						logger.info ("GameManager.cs :: Quest :: The sponsor: player" + sponsorturn + " Picks up cards");
+
+					PickUpAdventureCards (sponsorturn, 6);
 					playerTurn = sponsorturn+1;
 					if (playerTurn > 3) {
 						playerTurn = 0;
@@ -303,9 +325,12 @@ public class GameManager : EventsManager {
 				for(int j = 0; j < passed.Length; j++){
 					if(passed[j] == true){
 						playersPlaying++;
+						logger.info ("GameManager.cs :: Quest :: There is " + playersPlaying +" in quest.");
+
 					}
 				}
 				if(playersPlaying < 1){
+					logger.info ("GameManager.cs :: Quest :: All Players did not pass.");
 					allDead = true;
 				}
 			} else {
@@ -314,8 +339,10 @@ public class GameManager : EventsManager {
 					counter = 0;
 					stageInt++;
 					Debug.Log ("Increasing the stage to: "+stageInt);
+					logger.info ("GameManager.cs :: Quest :: Moving on to next stage: " + stageInt);
 					for(int m = 0; m < passed.Length; m++) {
 						if(passed[m] == true){
+							logger.info ("GameManager.cs :: Quest :: player" + m + " has passed. Drawing one card.");
 							Debug.Log ("Player: " + m + " is drawing a card");
 							PickUpAdventureCards (m,1);
 						}

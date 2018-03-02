@@ -50,9 +50,14 @@ public class EventsManager : MonoBehaviour {
 	// - This next player(s) to complete a Quest will receive 2 extra shields.
 	public void Kings_Recoginition(User player, Users players){
 		logger.test ("EventsManager.cs :: Event :: Running King's Recoginition.");
+		int shields = player.getShields () + 2;
+
 		GameObject.Find ("GameManager").GetComponent<GameManager> ().KingsRecognition = true;
-//		int shields = player.getShields () + 2;
-//		player.setShields (shields);
+		logger.info ("EventsManager.cs :: "  + player.getName() + " number of shields: " + shields);
+		player.setShields (shields);
+		logger.info ("EventsManager.cs :: "  + player.getName() + " number of shields: " + shields);
+
+
 	}
 
 	// 2. Queen's Favor

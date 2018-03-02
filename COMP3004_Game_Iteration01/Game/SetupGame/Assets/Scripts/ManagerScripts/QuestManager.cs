@@ -12,7 +12,7 @@ public class QuestManager : MonoBehaviour {
 	int cardsPlayed = 0;
 	bool questOver = false;
 	int numStages;
-
+	public QuestGame.Logger logger;
 	int currentBid;
 	int playerBid;
 	GameObject[] stages;
@@ -24,6 +24,8 @@ public class QuestManager : MonoBehaviour {
 	void Start(){
 		QuestStage = Resources.Load("PreFabs/QuestStage") as GameObject;
 		SubmitButton = Resources.Load("PreFabs/SubmitButton") as GameObject;
+		logger = new QuestGame.Logger();
+
 //		stageDisplay = Resources.Load ("PreFabs/StageDisplay") as GameObject;
 		//bool banana = true;
 		//Instantiate (QuestStage);
@@ -44,6 +46,7 @@ public class QuestManager : MonoBehaviour {
 		//string currentCard = GameObject.Find ("CurrentStoryCard").GetComponent<StoryDeckManager> ().getCurrentCard ();
 		numStages = GameObject.FindGameObjectWithTag("StoryCard").GetComponent<Quest>().getStages();
 		cardsPlayed = 0;
+		logger.test ("QuestManager.cs :: Starting Setup for Quest with Sponsor " + sponsor.GetComponent<User>().getName());
 		spawnStages (numStages, sponsor);
 		//while stages are not elligible for submission wait here
 		//hide stages to players
@@ -57,7 +60,7 @@ public class QuestManager : MonoBehaviour {
 		bool foeStage = false;
 		bool testStage = false;
 		AdventureCard testCard = null;
-
+		logger.info ("QuestManager.cs :: Playthrough :: Starting Playthrough at beginning stage: " + stage);
 			Debug.Log("Starting PLAYTHROUGH");
 		Debug.Log ("The stage beginning is: "+stage);
 			//GameObject tempDisplay = null;
@@ -73,16 +76,22 @@ public class QuestManager : MonoBehaviour {
 			foreach(AdventureCard c in tempList){
 					if (c.getType() == "Foe") {
 						foeStage = true;
+						logger.info ("QuestManager.cs :: Playthrough :: Card is of type: " + c.getType());
+
 						Debug.Log("foeStage is true");
 					} else if(c.getType() == "Test"){
 						testStage = true;
 						testCard = c;
+						logger.info ("QuestManager.cs :: Playthrough :: Card is of type: " + c.getType());
+
 						Debug.Log("testStage is true");
 					}
 				}
 			if(foeStage){
 					//display a foe background image
 				Debug.Log("starting the foe stage");
+				logger.info ("QuestManager.cs :: Playthrough :: Initialzing Foe Stage");
+
 				//tempDisplay = DisplayStage(testCard);
 				runThroughFoeStage (participant, currentQuest[stage]);
 					//StartCoroutine (runThroughFoeStage (stage));
@@ -92,6 +101,7 @@ public class QuestManager : MonoBehaviour {
 					//display the test image and the current bid score
 				Debug.Log("starting the test stage");
 				//tempDisplay = DisplayStage(testCard);
+				logger.info ("QuestManager.cs :: Playthrough :: Initialzing Test Stage.");
 
 					//participants = biddingWar(participants, testCard);
 			}
@@ -103,13 +113,15 @@ public class QuestManager : MonoBehaviour {
 	}
 
 	GameObject[] biddingWar(GameObject[] participants, AdventureCard test){
+		logger.info ("QuestManager.cs :: Bidding War :: Initialzing...");
 
 		bool biddingOver = false;
 		bool playerSubmitSomething = false;
 		int playerBidding = 0;
 
 		currentBid = test.getBidPoints ();
-
+		logger.info ("QuestManager.cs :: Bidding War :: Getting Bid Points: " + test.getBidPoints() );
+	
 		//Bid to remove cards
 		//knock out other contestants
 		//take into account free bids
@@ -118,6 +130,7 @@ public class QuestManager : MonoBehaviour {
 		while (!biddingOver) {
 			playerSubmitSomething = false;
 			// spawn input field for the current player
+
 			Instantiate(Resources.Load("PreFabs/inputfield") as GameObject, participants[playerBidding].transform);
 
 			while(!playerSubmitSomething){
@@ -145,6 +158,9 @@ public class QuestManager : MonoBehaviour {
 				}
 			}
 		}
+		for (int x = 0; x < participants.Length; x++) {
+			logger.info ("QuestManager.cs :: Bidding War :: Participants left:  " + participants[x]);
+		}
 		return participants;
 		//continue play with the last contestant in quest
 	}
@@ -156,11 +172,13 @@ public class QuestManager : MonoBehaviour {
 		//int playerPlaying = 0;
 
 		Debug.Log (participant.GetComponent<User> ().getName () + "is participating and sending weapons");
+		logger.info ("QuestManager.cs :: Running Through Foe Stage: " + participant.GetComponent<User> ().getName () +  "is participating and sending weapons.");
 		//buttonToggle = false;
 		GameObject wepZone = Instantiate (weaponZone, participant.transform);
 		GameObject butZone = Instantiate (button, participant.transform);
 		Debug.Log ("Zones created");
 	    butZone.GetComponent<SubmitCards>().setStage (stage);
+		logger.test ("QuestManager.cs :: Running Through Foe Stage: Drop Zones have been successfully created.");
 		return;
 	}
 
@@ -178,6 +196,7 @@ public class QuestManager : MonoBehaviour {
 
 	void spawnStages(int numStages, GameObject sponsor){
 		//int counter = 1;
+		logger.info("QuestManager.cs :: Spawning Stages with " + numStages + " stages for " + sponsor.GetComponent<User>().getName());
 		stages = new GameObject[numStages];
 		for(int i = 0; i < numStages; i++){
 			stages[i] = Instantiate (QuestStage, sponsor.transform);
@@ -227,7 +246,9 @@ public class QuestManager : MonoBehaviour {
 	}
 
 	void drawCards(GameObject[] participants){
+		
 		AdventureDeck advDeck = GameObject.Find ("advdeck").GetComponent<AdventureDeck> ();
+
 		foreach(GameObject i in participants){
 			advDeck.Draw ().transform.SetParent (i.transform.GetChild (0));
 		}
