@@ -113,6 +113,22 @@ public class User : MonoBehaviour {
 		logger.info ("User.cs :: addAlly function has been called for Player:  " + this.user_name + " Ally Battle Points: " + Ally.getBonusBattlePoints());
 
 	}
+
+	public void removeAlly(string ally){
+		foreach(AdventureCard a in hand_ally){
+			if (a.getName() == ally) {
+				hand_ally.Remove (a);
+				this.setBaseAttack (this.getbaseAttack () - a.getBattlePoints ());
+			}
+		}
+
+	}
+
+	public List<AdventureCard> getAllies(){
+		return hand_ally;
+	}
+
+
 	public int getAllyBattlePoints(int bonus){
 		int totalBattlePoints = 0;
 		foreach (AdventureCard i in this.hand_ally) {
