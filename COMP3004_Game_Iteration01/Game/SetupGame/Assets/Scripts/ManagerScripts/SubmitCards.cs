@@ -141,6 +141,11 @@ public class SubmitCards : MonoBehaviour {
 		}
 
 		Debug.Log ("adding stages");
+		foreach(List<AdventureCard> s in listOfStages){
+			foreach(AdventureCard a in s){
+				GameObject.FindGameObjectWithTag ("GameController").GetComponent<GameManager> ().advDeck.GetComponent<AdventureDeck> ().adventureDeck.Add (a.getName ());
+			}
+		}
 		GameObject.Find ("QuestManager").GetComponent<QuestManager> ().setStages (listOfStages);
 		foreach(GameObject k in stages){
 			Destroy (k);

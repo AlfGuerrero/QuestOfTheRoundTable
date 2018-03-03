@@ -26,11 +26,14 @@ public class TournamentSubmit : MonoBehaviour {
 				return;
 			}
 		}
-
-		GameObject.FindGameObjectWithTag ("GameController").GetComponent<GameManager>().Tournaments.setCardsSubmitted (true);
+		GameObject game_manager = GameObject.FindGameObjectWithTag ("GameController");
+		game_manager.GetComponent<GameManager>().Tournaments.setCardsSubmitted (true);
 		logger.test ("TournamentSubmit.cs :: Setting Cards Submitted to: " + GameObject.FindGameObjectWithTag ("GameController").GetComponent<GameManager>().Tournaments.getCardsSubmitted());
-		GameObject.FindGameObjectWithTag ("GameController").GetComponent<GameManager> ().Tournaments.addDictionary (cards, GameObject.FindGameObjectWithTag ("Stage").GetComponentInParent<User> ().getName ());
-
+		game_manager.GetComponent<GameManager> ().Tournaments.addDictionary (cards, GameObject.FindGameObjectWithTag ("Stage").GetComponentInParent<User> ().getName ());
+		//game_manager.GetComponent<GameManager>().advDeck.GetComponent<AdventureDeck>().adventureDeck.Add(
+		foreach (AdventureCard i in cards) {
+			game_manager.GetComponent<GameManager> ().advDeck.GetComponent<AdventureDeck> ().adventureDeck.Add (i.getName ());
+		}
 	}
 
 	bool sameName(string name, List<AdventureCard> cards){
