@@ -1,0 +1,232 @@
+2018-03-02T19:03:38.7067105-05:00 [INFO]: GameManager.cs :: Initializing Game...
+2018-03-02T19:03:38.7297713-05:00 [INFO]: User.cs :: Initializing Player... Player0
+2018-03-02T19:03:38.7347844-05:00 [INFO]: User.cs :: Initializing Player... Player1
+2018-03-02T19:03:38.7397979-05:00 [INFO]: User.cs :: Initializing Player... Player2
+2018-03-02T19:03:38.7438082-05:00 [INFO]: User.cs :: Initializing Player... Player3
+2018-03-02T19:03:38.7453129-05:00 [INFO]: GameManager.cs :: Calling AdventureDeck...
+2018-03-02T19:03:38.7483203-05:00 [INFO]: AdventureDeck.cs :: Populating Deck with cards.
+2018-03-02T19:03:38.7498246-05:00 [TEST]: AdventureDeck.cs :: Adventure advDeck has been created. with sizes of 74
+2018-03-02T19:03:38.7513281-05:00 [INFO]: GameManager.cs :: Calling StoryDeck...
+2018-03-02T19:03:38.7528324-05:00 [INFO]: StoryDeck.cs :: Populating Deck with cards.
+2018-03-02T19:03:38.7543367-05:00 [INFO]: StoryDeck.cs :: StoryDeck storyDeck has been created. with sizes of 18
+2018-03-02T19:03:38.7573445-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-03-02T19:03:38.7613555-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-03-02T19:03:38.7628591-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T19:03:38.7648644-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-03-02T19:03:38.7663683-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T19:03:38.7683740-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Test of Morgan Le Fey
+2018-03-02T19:03:38.7698779-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Boar
+2018-03-02T19:03:38.7718832-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T19:03:38.7738896-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-03-02T19:03:38.7753928-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Lance
+2018-03-02T19:03:38.7773985-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Green Knight
+2018-03-02T19:03:38.7789021-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Green Knight
+2018-03-02T19:03:38.7804060-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 12 adventure cards.
+2018-03-02T19:03:38.7819099-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-03-02T19:03:38.7839156-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T19:03:38.7854192-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T19:03:38.7869234-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxons
+2018-03-02T19:03:38.7889298-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-03-02T19:03:38.7904334-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Dagger
+2018-03-02T19:03:38.7924384-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-03-02T19:03:38.7939426-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Boar
+2018-03-02T19:03:38.7959480-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T19:03:38.7974512-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxons
+2018-03-02T19:03:38.7994565-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Black Knight
+2018-03-02T19:03:38.8009608-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Dragon
+2018-03-02T19:03:38.8024654-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 12 adventure cards.
+2018-03-02T19:03:38.8039686-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sir Galahad
+2018-03-02T19:03:38.8054728-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxons
+2018-03-02T19:03:38.8074785-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxons
+2018-03-02T19:03:38.8099846-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T19:03:38.8119959-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Giant
+2018-03-02T19:03:38.8134949-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-03-02T19:03:38.8154999-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-03-02T19:03:38.8175052-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Dagger
+2018-03-02T19:03:38.8195098-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T19:03:38.8210137-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T19:03:38.8230191-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Boar
+2018-03-02T19:03:38.8245247-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-03-02T19:03:38.8260276-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 12 adventure cards.
+2018-03-02T19:03:38.8275319-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T19:03:38.8295368-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T19:03:38.8310453-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Merlin
+2018-03-02T19:03:38.8325447-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T19:03:38.8345500-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T19:03:38.8360539-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Battle-ax
+2018-03-02T19:03:38.8380592-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T19:03:38.8395635-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Amour
+2018-03-02T19:03:38.8410674-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T19:03:38.8430727-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sir Gawain
+2018-03-02T19:03:38.8445770-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-03-02T19:03:38.8460809-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Dagger
+2018-03-02T19:03:38.8475852-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 3 Picked up: 12 adventure cards.
+2018-03-02T19:03:38.8485877-05:00 [INFO]: GameManager.cs :: Game has been created with 4 players.
+2018-03-02T19:03:38.8546033-05:00 [INFO]: HandManager.cs :: Initialzing HandManager.
+2018-03-02T19:03:40.3717546-05:00 [INFO]: Toggling Middle Screen. Please click before moving on
+2018-03-02T19:03:40.3737607-05:00 [INFO]: StoryDeck.cs :: Story Deck is drawing...
+2018-03-02T19:03:40.3792756-05:00 [INFO]: StoryDeck.cs :: Story Deck has drawn Card: Court Called to Camelot
+2018-03-02T19:03:40.3802827-05:00 [INFO]: GameManager.cs :: Next turn: Player0
+2018-03-02T19:03:40.3817820-05:00 [TRACE]: GameManager.cs :: Calling EventManager...
+2018-03-02T19:03:40.3832862-05:00 [TEST]: EventsManager.cs :: Event :: Running Court Called To Camelot.
+2018-03-02T19:03:40.3847895-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-03-02T19:03:40.3862937-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player0 Base Attack: 5
+2018-03-02T19:03:40.3877973-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player0 New Base Attack: 5
+2018-03-02T19:03:40.3888005-05:00 [INFO]: EventsManager.cs :: Player0 Attack: 5
+2018-03-02T19:03:40.3898026-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-03-02T19:03:40.3913079-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player1 Base Attack: 5
+2018-03-02T19:03:40.3923101-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player1 New Base Attack: 5
+2018-03-02T19:03:40.3933133-05:00 [INFO]: EventsManager.cs :: Player1 Attack: 5
+2018-03-02T19:03:40.4068485-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-03-02T19:03:40.4078513-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player2 Base Attack: 5
+2018-03-02T19:03:40.4093552-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player2 New Base Attack: 5
+2018-03-02T19:03:40.4103577-05:00 [INFO]: EventsManager.cs :: Player2 Attack: 5
+2018-03-02T19:03:40.4113602-05:00 [INFO]: EventsManager.cs :: Player3 Attack: 5
+2018-03-02T19:03:40.4128641-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player3 Base Attack: 5
+2018-03-02T19:03:40.4138673-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player3 New Base Attack: 5
+2018-03-02T19:03:40.4153723-05:00 [INFO]: EventsManager.cs :: Player3 Attack: 5
+2018-03-02T19:03:42.5365974-05:00 [INFO]: Toggling Middle Screen. Please click before moving on
+2018-03-02T19:03:42.5380636-05:00 [INFO]: StoryDeck.cs :: Story Deck is drawing...
+2018-03-02T19:03:42.5426540-05:00 [INFO]: StoryDeck.cs :: Story Deck has drawn Card: Boar Hunt
+2018-03-02T19:03:42.5440870-05:00 [INFO]: GameManager.cs :: Next turn: Player0
+2018-03-02T19:03:42.5450814-05:00 [TEST]: GameManager.cs :: Quest Name: Boar Hunt
+2018-03-02T19:03:42.5461294-05:00 [TEST]: GameManager.cs :: Calling QuestManager... 
+2018-03-02T19:03:45.1708535-05:00 [INFO]: GameManager.cs :: Up Arrow Key has been pressed...
+2018-03-02T19:03:45.1723582-05:00 [INFO]: GameManager.cs :: Quest :: Player Sponsoring Quest: player1
+2018-03-02T19:03:45.1766375-05:00 [TEST]: QuestManager.cs :: Starting Setup for Quest with Sponsor Player1
+2018-03-02T19:03:45.1781421-05:00 [INFO]: QuestManager.cs :: Spawning Stages with 2 stages for Player1
+2018-03-02T19:03:59.9060893-05:00 [INFO]: SubmitCards.cs :: Checking the current submission of cards for a quest
+2018-03-02T19:03:59.9075985-05:00 [INFO]: SubmitCards.cs :: Checking if stage 0 is eligible for submission
+2018-03-02T19:03:59.9121053-05:00 [INFO]: SubmitCards.cs :: There is a Thieves card
+2018-03-02T19:03:59.9136099-05:00 [INFO]: SubmitCards.cs :: Adding the card Thieves to the current stage
+2018-03-02T19:03:59.9146117-05:00 [INFO]: SubmitCards.cs :: Adding the current stage to the quest
+2018-03-02T19:03:59.9161160-05:00 [INFO]: SubmitCards.cs :: Checking if stage 1 is eligible for submission
+2018-03-02T19:03:59.9181216-05:00 [INFO]: SubmitCards.cs :: There is a Boar card
+2018-03-02T19:03:59.9196255-05:00 [INFO]: SubmitCards.cs :: Adding the card Boar to the current stage
+2018-03-02T19:03:59.9206273-05:00 [INFO]: SubmitCards.cs :: Adding the current stage to the quest
+2018-03-02T19:03:59.9216291-05:00 [INFO]: SubmitCards.cs :: Calculating battle points for the current stage
+2018-03-02T19:03:59.9231362-05:00 [INFO]: SubmitCards.cs :: the 'Foe' 'Thieves' does not match the bonus foe of the 'Quest'. Using the lower of the two battle points
+2018-03-02T19:03:59.9256391-05:00 [INFO]: SubmitCards.cs :: Calculating battle points for the current stage
+2018-03-02T19:03:59.9266419-05:00 [INFO]: SubmitCards.cs :: the 'Foe' name and bonus foe of the 'Quest' match. Using the higher of the two battle points
+2018-03-02T19:03:59.9311917-05:00 [INFO]: HandManager.cs :: Initialzing HandManager.
+2018-03-02T19:04:01.0387244-05:00 [INFO]: GameManager.cs :: Up Arrow Key has been pressed...
+2018-03-02T19:04:01.0402259-05:00 [INFO]: GameManager.cs :: Quest :: Player Joining Quest: player2
+2018-03-02T19:04:01.0442358-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Saxon Knight
+2018-03-02T19:04:01.0457397-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 1 adventure cards.
+2018-03-02T19:04:01.0482486-05:00 [INFO]: HandManager.cs :: Initialzing HandManager.
+2018-03-02T19:04:01.5555957-05:00 [INFO]: GameManager.cs :: Down Arrow Key has been pressed...
+2018-03-02T19:04:01.5570996-05:00 [INFO]: GameManager.cs :: Quest :: Player NOT Joining Quest: player3
+2018-03-02T19:04:02.0253514-05:00 [INFO]: GameManager.cs :: Up Arrow Key has been pressed...
+2018-03-02T19:04:02.0278522-05:00 [INFO]: GameManager.cs :: Quest :: Player Joining Quest: player0
+2018-03-02T19:04:02.0303589-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Dagger
+2018-03-02T19:04:02.0318628-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 1 adventure cards.
+2018-03-02T19:04:02.0348728-05:00 [INFO]: HandManager.cs :: Initialzing HandManager.
+2018-03-02T19:04:02.0619464-05:00 [INFO]: GameManager.cs :: Quest :: Starting runthrough of stages...
+2018-03-02T19:04:02.0674571-05:00 [TEST]: GameManager.cs :: Quest :: player1 has passed to the next stage.
+2018-03-02T19:04:02.0684603-05:00 [INFO]: GameManager.cs :: Quest :: There is 1 in quest.
+2018-03-02T19:04:02.0699652-05:00 [INFO]: GameManager.cs :: Quest :: There is 2 in quest.
+2018-03-02T19:04:02.0855065-05:00 [TEST]: GameManager.cs :: Quest :: player2 has passed to the next stage.
+2018-03-02T19:04:02.0905189-05:00 [INFO]: QuestManager.cs :: Playthrough :: Starting Playthrough at beginning stage: 0
+2018-03-02T19:04:02.0995420-05:00 [INFO]: QuestManager.cs :: Playthrough :: Card is of type: Foe
+2018-03-02T19:04:02.1025506-05:00 [INFO]: QuestManager.cs :: Playthrough :: Initialzing Foe Stage
+2018-03-02T19:04:02.1090676-05:00 [INFO]: QuestManager.cs :: Running Through Foe Stage: Player2is participating and sending weapons.
+2018-03-02T19:04:02.1135836-05:00 [TEST]: QuestManager.cs :: Running Through Foe Stage: Drop Zones have been successfully created.
+2018-03-02T19:04:02.1150840-05:00 [INFO]: GameManager.cs :: Quest :: There is 1 in quest.
+2018-03-02T19:04:02.1160868-05:00 [INFO]: GameManager.cs :: Quest :: There is 2 in quest.
+2018-03-02T19:04:13.7125865-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player2 Base Attack: 5
+2018-03-02T19:04:13.7135248-05:00 [INFO]: User.cs :: setBaseAttack function has been called for Player:  Player2 New Base Attack: 20
+2018-03-02T19:04:13.7145276-05:00 [INFO]: User.cs :: addAlly function has been called for Player:  Player2 Adding Ally: Sir Galahad
+2018-03-02T19:04:13.7155326-05:00 [INFO]: User.cs :: addAlly function has been called for Player:  Player2 Ally Battle Points: 0
+2018-03-02T19:04:14.9998632-05:00 [TEST]: GameManager.cs :: Quest :: player3 has passed to the next stage.
+2018-03-02T19:04:15.0008657-05:00 [INFO]: GameManager.cs :: Quest :: There is 1 in quest.
+2018-03-02T19:04:15.0023329-05:00 [INFO]: GameManager.cs :: Quest :: There is 2 in quest.
+2018-03-02T19:04:15.0103553-05:00 [TEST]: GameManager.cs :: Quest :: player0 has passed to the next stage.
+2018-03-02T19:04:15.0309072-05:00 [INFO]: QuestManager.cs :: Playthrough :: Starting Playthrough at beginning stage: 0
+2018-03-02T19:04:15.0354193-05:00 [INFO]: QuestManager.cs :: Playthrough :: Card is of type: Foe
+2018-03-02T19:04:15.0384279-05:00 [INFO]: QuestManager.cs :: Playthrough :: Initialzing Foe Stage
+2018-03-02T19:04:15.0404335-05:00 [INFO]: QuestManager.cs :: Running Through Foe Stage: Player0is participating and sending weapons.
+2018-03-02T19:04:15.0449456-05:00 [TEST]: QuestManager.cs :: Running Through Foe Stage: Drop Zones have been successfully created.
+2018-03-02T19:04:15.0464492-05:00 [INFO]: GameManager.cs :: Quest :: There is 1 in quest.
+2018-03-02T19:04:15.0479535-05:00 [INFO]: GameManager.cs :: Quest :: There is 2 in quest.
+2018-03-02T19:04:21.0188604-05:00 [INFO]: GameManager.cs :: Quest :: Moving on to next stage: 1
+2018-03-02T19:04:21.0198615-05:00 [INFO]: GameManager.cs :: Quest :: player0 has passed. Drawing one card.
+2018-03-02T19:04:21.0224092-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Evil Knight
+2018-03-02T19:04:21.0238729-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 1 adventure cards.
+2018-03-02T19:04:21.0248750-05:00 [INFO]: GameManager.cs :: Quest :: player2 has passed. Drawing one card.
+2018-03-02T19:04:21.0269206-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Giant
+2018-03-02T19:04:21.0283882-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 1 adventure cards.
+2018-03-02T19:04:21.0394134-05:00 [TEST]: GameManager.cs :: Quest :: player1 has passed to the next stage.
+2018-03-02T19:04:21.0429237-05:00 [INFO]: GameManager.cs :: Quest :: There is 1 in quest.
+2018-03-02T19:04:21.0444276-05:00 [INFO]: GameManager.cs :: Quest :: There is 2 in quest.
+2018-03-02T19:04:21.0554561-05:00 [TEST]: GameManager.cs :: Quest :: player2 has passed to the next stage.
+2018-03-02T19:04:21.0584646-05:00 [INFO]: QuestManager.cs :: Playthrough :: Starting Playthrough at beginning stage: 1
+2018-03-02T19:04:21.0644796-05:00 [INFO]: QuestManager.cs :: Playthrough :: Card is of type: Foe
+2018-03-02T19:04:21.0669860-05:00 [INFO]: QuestManager.cs :: Playthrough :: Initialzing Foe Stage
+2018-03-02T19:04:21.0714981-05:00 [INFO]: QuestManager.cs :: Running Through Foe Stage: Player2is participating and sending weapons.
+2018-03-02T19:04:21.0755091-05:00 [TEST]: QuestManager.cs :: Running Through Foe Stage: Drop Zones have been successfully created.
+2018-03-02T19:04:21.0810244-05:00 [INFO]: GameManager.cs :: Quest :: There is 1 in quest.
+2018-03-02T19:04:21.0820261-05:00 [INFO]: GameManager.cs :: Quest :: There is 2 in quest.
+2018-03-02T19:04:25.9528156-05:00 [TEST]: GameManager.cs :: Quest :: player3 has passed to the next stage.
+2018-03-02T19:04:25.9538181-05:00 [INFO]: GameManager.cs :: Quest :: There is 1 in quest.
+2018-03-02T19:04:25.9553224-05:00 [INFO]: GameManager.cs :: Quest :: There is 2 in quest.
+2018-03-02T19:04:25.9649266-05:00 [TEST]: GameManager.cs :: Quest :: player0 has passed to the next stage.
+2018-03-02T19:04:25.9669316-05:00 [INFO]: QuestManager.cs :: Playthrough :: Starting Playthrough at beginning stage: 1
+2018-03-02T19:04:25.9704408-05:00 [INFO]: QuestManager.cs :: Playthrough :: Card is of type: Foe
+2018-03-02T19:04:25.9729476-05:00 [INFO]: QuestManager.cs :: Playthrough :: Initialzing Foe Stage
+2018-03-02T19:04:25.9754554-05:00 [INFO]: QuestManager.cs :: Running Through Foe Stage: Player0is participating and sending weapons.
+2018-03-02T19:04:25.9804686-05:00 [TEST]: QuestManager.cs :: Running Through Foe Stage: Drop Zones have been successfully created.
+2018-03-02T19:04:25.9819714-05:00 [INFO]: GameManager.cs :: Quest :: There is 1 in quest.
+2018-03-02T19:04:25.9839831-05:00 [INFO]: GameManager.cs :: Quest :: There is 2 in quest.
+2018-03-02T19:04:31.3881679-05:00 [INFO]: GameManager.cs :: Quest :: Moving on to next stage: 2
+2018-03-02T19:04:31.3891704-05:00 [INFO]: GameManager.cs :: Quest :: player0 has passed. Drawing one card.
+2018-03-02T19:04:31.3916789-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Horse
+2018-03-02T19:04:31.3926803-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 0 Picked up: 1 adventure cards.
+2018-03-02T19:04:31.3936825-05:00 [INFO]: GameManager.cs :: Quest :: player2 has passed. Drawing one card.
+2018-03-02T19:04:31.3956888-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Amour
+2018-03-02T19:04:31.3971917-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 2 Picked up: 1 adventure cards.
+2018-03-02T19:04:31.4057279-05:00 [TEST]: GameManager.cs :: Quest :: player1 has passed to the next stage.
+2018-03-02T19:04:31.4072191-05:00 [INFO]: GameManager.cs :: Quest :: There is 1 in quest.
+2018-03-02T19:04:31.4082212-05:00 [INFO]: GameManager.cs :: Quest :: There is 2 in quest.
+2018-03-02T19:04:31.4207546-05:00 [TEST]: GameManager.cs :: Quest :: player2 has passed to the next stage.
+2018-03-02T19:04:31.4222596-05:00 [INFO]: GameManager.cs :: Quest :: The Quest has finished.
+2018-03-02T19:04:31.4247706-05:00 [INFO]: GameManager.cs :: Quest :: The sponsor: player1 Picks up cards
+2018-03-02T19:04:31.4302802-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Evil Knight
+2018-03-02T19:04:31.4357952-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sword
+2018-03-02T19:04:31.4378054-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Thieves
+2018-03-02T19:04:31.4393044-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Sir Lancelot
+2018-03-02T19:04:31.4413097-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Robber Knight
+2018-03-02T19:04:31.4433154-05:00 [INFO]: AdventureDeck.cs :: Adventure Deck has drawn Card: Test of Morgan Le Fey
+2018-03-02T19:04:31.4448193-05:00 [INFO]: GameManager.cs :: AdventureCards :: Player 1 Picked up: 6 adventure cards.
+2018-03-02T19:04:31.4473278-05:00 [INFO]: GameManager.cs :: Quest :: All Players did not pass.
+2018-03-02T19:04:34.5092111-05:00 [INFO]: GameManager.cs ::Players: Player0
+Player1
+Player2
+Player3
+
+2018-03-02T19:04:34.5112400-05:00 [INFO]: GameManager.cs ::Rank: Squire
+Squire
+Squire
+Squire
+
+2018-03-02T19:04:34.5147278-05:00 [INFO]: GameManager.cs ::Shields: 2
+0
+2
+0
+
+2018-03-02T19:04:34.5162303-05:00 [INFO]: GameManager.cs ::Base Points: 5
+5
+20
+5
+
+2018-03-02T19:04:34.5177441-05:00 [INFO]: GameManager.cs ::Cards In Hand: 8
+18
+10
+12
+
+2018-03-02T19:04:37.2526596-05:00 [INFO]: GameManager.cs :: 'tab' key has been pressed toggling Player Statistics.
+2018-03-02T19:04:39.3311659-05:00 [INFO]: Toggling Middle Screen. Please click before moving on
+2018-03-02T19:04:39.3331716-05:00 [INFO]: StoryDeck.cs :: Story Deck is drawing...
+2018-03-02T19:04:39.3361791-05:00 [INFO]: StoryDeck.cs :: Story Deck has drawn Card: Rescue the Fair Maiden
+2018-03-02T19:04:39.3371816-05:00 [INFO]: GameManager.cs :: Next turn: Player2
+2018-03-02T19:04:39.3381844-05:00 [TEST]: GameManager.cs :: Quest Name: Rescue the Fair Maiden
+2018-03-02T19:04:39.3514231-05:00 [TEST]: GameManager.cs :: Calling QuestManager... 
