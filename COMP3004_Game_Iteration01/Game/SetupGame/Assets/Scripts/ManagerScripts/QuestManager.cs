@@ -200,7 +200,7 @@ public class QuestManager : MonoBehaviour {
 		stages = new GameObject[numStages];
 		for(int i = 0; i < numStages; i++){
 			stages[i] = Instantiate (QuestStage, sponsor.transform);
-			stages[i].transform.position = new Vector2(stages [i].transform.position.x + 140*i, stages[i].transform.position.y);
+			stages[i].transform.position = new Vector2((stages [i].transform.position.x + 140*i) - 200, stages[i].transform.position.y);
 
 		}
 		Instantiate (SubmitButton, sponsor.transform);

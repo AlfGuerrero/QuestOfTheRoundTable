@@ -142,7 +142,11 @@ public class GameManager : EventsManager {
 	}
 
 	void Update () {
-		Debug.Log ("PlayerTurn: " + playerTurn);
+		if(Input.GetKeyDown(KeyCode.M)){
+			Mordred ();
+		}
+
+
 		if (Input.GetKeyDown("tab")){
 			statsToggle = true;
 			PlayerStats = Resources.Load ("PreFabs/Stats") as GameObject;
@@ -519,7 +523,9 @@ public class GameManager : EventsManager {
 		buttonPushed = true;
 	}
 
-
+	void Mordred(){
+		Instantiate (Resources.Load ("PreFabs/playerScreen") as GameObject);
+	}
 
 	/* AI Functions (Nico)
 		1. AI Tournament Passed(CurrentAIPlayer, List of Users, Shields in Tourny)
